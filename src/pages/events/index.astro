@@ -1,0 +1,16 @@
+---
+import Footer from "../../components/astro/Footer.astro";
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { EventsList } from "../../components/react/List/EventsList";
+export const prerender = true;
+const communities = await getCollection("communities");
+---
+
+<Layout>
+    <EventsList
+        client:only="react"
+        communities={communities}
+    />
+    <Footer />
+</Layout>
