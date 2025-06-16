@@ -1,0 +1,335 @@
+[
+  {
+    "city": "Paris",
+    "communities": [
+      {
+        "id": "dbd20af2-ad01-4733-91b1-99f14d4dce29",
+        "image": "https://secure.meetupstatic.com/photos/event/1/f/8/clean_499980504.webp",
+        "name": "Paris JS",
+        "description": "Paris.JS est une communauté se réunissant à Paris les derniers Mercredi de chaque mois pour échanger sur JavaScript, le web, mais aussi le travail dans le software.\n\nLe meetup permet de présenter des talks courts (5 minutes) et des longs (20 minutes + 5 minutes de question optionnelles).",
+        "link": "https://parisjs.org/",
+        "tags": [
+          {
+            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
+            "name": "Tech"
+          }
+        ],
+        "events": [
+          {
+            "id": "95607a6d-f0eb-4c86-8601-70b7dd37f605",
+            "title": "Révolutionnez votre UX avec les PWA",
+            "date": "mer., 25 juin 2025, 19:00",
+            "dateTime": "2025-06-25T19:00:00+02:00",
+            "description": "Découvrez comment les Progressive Web Apps peuvent transformer l'expérience utilisateur de vos applications web.",
+            "link": "https://www.meetup.com/paris-js/"
+          }
+        ]
+      },
+      {
+        "id": "f8e3c456-1234-4567-8901-23456789abcd",
+        "image": "https://secure.meetupstatic.com/photos/event/2/a/9/clean_512345678.webp",
+        "name": "Paris Data Science",
+        "description": "Communauté parisienne dédiée à la data science, au machine learning et à l'intelligence artificielle. Nous organisons des talks, des workshops et des networking events pour les passionnés de données.",
+        "link": "https://www.meetup.com/paris-data-science/",
+        "tags": [
+          {
+            "id": "b8d5996b-7d54-5e7f-a325-6700912f0999",
+            "name": "Data Science"
+          },
+          {
+            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
+            "name": "Tech"
+          }
+        ],
+        "events": [
+          {
+            "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+            "title": "IA Générative : Défis et Opportunités",
+            "date": "mar., 15 juil. 2025, 18:30",
+            "dateTime": "2025-07-15T18:30:00+02:00",
+            "description": "Table ronde sur les enjeux actuels de l'IA générative dans l'industrie.",
+            "link": "https://www.meetup.com/paris-data-science/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Lyon",
+    "communities": [
+      {
+        "id": "e7f2b456-9876-5432-1098-76543210fedc",
+        "image": "https://secure.meetupstatic.com/photos/event/3/b/c/clean_523456789.webp",
+        "name": "Lyon Tech Hub",
+        "description": "Hub technologique lyonnais réunissant développeurs, entrepreneurs et innovateurs. Nous organisons des meetups mensuels sur les dernières tendances tech et l'écosystème startup local.",
+        "link": "https://lyontechhub.org/",
+        "tags": [
+          {
+            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
+            "name": "Tech"
+          },
+          {
+            "id": "c9e6997c-8e65-6f8f-b436-7811023g1aaa",
+            "name": "Startup"
+          }
+        ],
+        "events": [
+          {
+            "id": "b2c3d4e5-f6g7-8901-2345-678901bcdefg",
+            "title": "L'écosystème FinTech à Lyon",
+            "date": "jeu., 10 juil. 2025, 19:00",
+            "dateTime": "2025-07-10T19:00:00+02:00",
+            "description": "Présentation des startups FinTech lyonnaises et opportunités du marché local.",
+            "link": "https://www.meetup.com/lyon-tech-hub/"
+          }
+        ]
+      },
+      {
+        "id": "d6e1a345-8765-4321-0987-65432109edcb",
+        "image": "https://secure.meetupstatic.com/photos/event/4/c/d/clean_534567890.webp",
+        "name": "Lyon Creative",
+        "description": "Communauté créative lyonnaise rassemblant designers, artistes, photographes et créateurs de contenu. Ateliers, expositions et networking dans une ambiance conviviale.",
+        "link": "https://lyoncreative.fr/",
+        "tags": [
+          {
+            "id": "d0f7998d-9f76-7g9g-c547-8922134h2bbb",
+            "name": "Design"
+          },
+          {
+            "id": "e1g8999e-a087-8h0h-d658-9033245i3ccc",
+            "name": "Art"
+          }
+        ],
+        "events": [
+          {
+            "id": "c3d4e5f6-g7h8-9012-3456-789012cdefgh",
+            "title": "Workshop Design Thinking",
+            "date": "sam., 5 juil. 2025, 14:00",
+            "dateTime": "2025-07-05T14:00:00+02:00",
+            "description": "Atelier pratique sur les méthodes de design thinking appliquées aux projets créatifs.",
+            "link": "https://www.eventbrite.fr/e/lyon-creative-workshop"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Marseille",
+    "communities": [
+      {
+        "id": "c5d0934-7654-3210-9876-54321098dcba",
+        "image": "https://secure.meetupstatic.com/photos/event/5/d/e/clean_545678901.webp",
+        "name": "Marseille Digital",
+        "description": "La communauté numérique marseillaise qui réunit les acteurs du digital de la région PACA. Marketing digital, e-commerce, développement web et transformation digitale au programme.",
+        "link": "https://marseilledigital.com/",
+        "tags": [
+          {
+            "id": "f2h9000f-b198-9i1i-e769-0144356j4ddd",
+            "name": "Digital"
+          },
+          {
+            "id": "g3i0111g-c209-0j2j-f87a-1255467k5eee",
+            "name": "Marketing"
+          }
+        ],
+        "events": [
+          {
+            "id": "d4e5f6g7-h8i9-0123-4567-890123defghi",
+            "title": "SEO et nouvelles tendances 2025",
+            "date": "dim., 20 juil. 2025, 10:00",
+            "dateTime": "2025-07-20T10:00:00+02:00",
+            "description": "Conférence sur les dernières évolutions du référencement naturel et l'impact de l'IA.",
+            "link": "https://www.meetup.com/marseille-digital/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Toulouse",
+    "communities": [
+      {
+        "id": "b4c9823-6543-2109-8765-43210987cba9",
+        "image": "https://secure.meetupstatic.com/photos/event/6/e/f/clean_556789012.webp",
+        "name": "Toulouse Space Tech",
+        "description": "Communauté toulousaine centrée sur les technologies spatiales et aéronautiques. Rencontres avec les acteurs de l'industrie spatiale française et européenne.",
+        "link": "https://toulousespacetech.fr/",
+        "tags": [
+          {
+            "id": "h4j1222h-d31a-1k3k-g98b-2366578l6fff",
+            "name": "Aérospatial"
+          },
+          {
+            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
+            "name": "Tech"
+          }
+        ],
+        "events": [
+          {
+            "id": "e5f6g7h8-i9j0-1234-5678-901234efghij",
+            "title": "New Space et satellites privés",
+            "date": "sam., 2 août 2025, 15:30",
+            "dateTime": "2025-08-02T15:30:00+02:00",
+            "description": "Panorama du New Space et des opportunités dans le secteur des satellites privés.",
+            "link": "https://www.meetup.com/toulouse-space-tech/"
+          }
+        ]
+      },
+      {
+        "id": "a3b8712-5432-1098-7654-32109876ba98",
+        "image": "https://secure.meetupstatic.com/photos/event/7/f/g/clean_567890123.webp",
+        "name": "Toulouse Python",
+        "description": "Groupe d'utilisateurs Python de Toulouse. Talks techniques, retours d'expérience et discussions autour de l'écosystème Python et ses frameworks.",
+        "link": "https://toulouse-python.org/",
+        "tags": [
+          {
+            "id": "i5k2333i-e42b-2l4l-h09c-3477689m7ggg",
+            "name": "Python"
+          },
+          {
+            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
+            "name": "Tech"
+          }
+        ],
+        "events": [
+          {
+            "id": "f6g7h8i9-j0k1-2345-6789-012345fghijk",
+            "title": "FastAPI vs Django : Quel framework choisir ?",
+            "date": "ven., 25 juil. 2025, 18:00",
+            "dateTime": "2025-07-25T18:00:00+02:00",
+            "description": "Comparaison technique entre FastAPI et Django pour les projets web modernes.",
+            "link": "https://www.meetup.com/toulouse-python/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Nantes",
+    "communities": [
+      {
+        "id": "92a7601-4321-0987-6543-21098765a987",
+        "image": "https://secure.meetupstatic.com/photos/event/8/g/h/clean_578901234.webp",
+        "name": "Nantes DevOps",
+        "description": "Communauté nantaise dédiée aux pratiques DevOps, à l'automatisation et à la culture collaborative entre développement et opérations.",
+        "link": "https://nantesdevops.fr/",
+        "tags": [
+          {
+            "id": "j6l3444j-f53c-3m5m-i10d-4588790n8hhh",
+            "name": "DevOps"
+          },
+          {
+            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
+            "name": "Tech"
+          }
+        ],
+        "events": [
+          {
+            "id": "g7h8i9j0-k1l2-3456-7890-123456ghijkl",
+            "title": "Kubernetes en production : REX",
+            "date": "ven., 18 juil. 2025, 19:30",
+            "dateTime": "2025-07-18T19:30:00+02:00",
+            "description": "Retours d'expérience sur le déploiement et la gestion de clusters Kubernetes en production.",
+            "link": "https://www.meetup.com/nantes-devops/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Bordeaux",
+    "communities": [
+      {
+        "id": "81967490-3210-9876-5432-10987654987",
+        "image": "https://secure.meetupstatic.com/photos/event/9/h/i/clean_589012345.webp",
+        "name": "Bordeaux Entrepreneurs",
+        "description": "Réseau d'entrepreneurs bordelais favorisant les échanges, le networking et l'entraide entre créateurs d'entreprise de la région Nouvelle-Aquitaine.",
+        "link": "https://bordeaux-entrepreneurs.com/",
+        "tags": [
+          {
+            "id": "c9e6997c-8e65-6f8f-b436-7811023g1aaa",
+            "name": "Startup"
+          },
+          {
+            "id": "k7m4555k-g64d-4n6n-j21e-5699801o9iii",
+            "name": "Business"
+          }
+        ],
+        "events": [
+          {
+            "id": "h8i9j0k1-l2m3-4567-8901-234567hijklm",
+            "title": "Pitch Night : 10 startups, 5 minutes",
+            "date": "mar., 5 août 2025, 18:30",
+            "dateTime": "2025-08-05T18:30:00+02:00",
+            "description": "Soirée de pitchs avec 10 startups bordelaises qui présentent leur projet en 5 minutes.",
+            "link": "https://www.eventbrite.fr/e/bordeaux-entrepreneurs-pitch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Lille",
+    "communities": [
+      {
+        "id": "70856389-2109-8765-4321-09876543876",
+        "image": "https://secure.meetupstatic.com/photos/event/a/i/j/clean_590123456.webp",
+        "name": "Lille Web",
+        "description": "Communauté lilloise des développeurs et designers web. Discussions sur les frameworks front-end, les bonnes pratiques et l'évolution du web moderne.",
+        "link": "https://lille-web.fr/",
+        "tags": [
+          {
+            "id": "l8n5666l-h75e-5o7o-k32f-6700912p0jjj",
+            "name": "Web"
+          },
+          {
+            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
+            "name": "Tech"
+          }
+        ],
+        "events": [
+          {
+            "id": "i9j0k1l2-m3n4-5678-9012-345678ijklmn",
+            "title": "React vs Vue.js : Battle royale",
+            "date": "mer., 30 juil. 2025, 19:00",
+            "dateTime": "2025-07-30T19:00:00+02:00",
+            "description": "Débat technique entre développeurs React et Vue.js avec démonstrations en live.",
+            "link": "https://www.meetup.com/lille-web/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Strasbourg",
+    "communities": [
+      {
+        "id": "69745278-1098-7654-3210-98765432765",
+        "image": "https://secure.meetupstatic.com/photos/event/b/j/k/clean_601234567.webp",
+        "name": "Alsace Innovation",
+        "description": "Hub d'innovation alsacien connectant startups, grandes entreprises et institutions. Focus sur l'innovation ouverte et la transformation digitale transfrontalière.",
+        "link": "https://alsace-innovation.eu/",
+        "tags": [
+          {
+            "id": "m9o6777m-i86f-6p8p-l43g-7811023q1kkk",
+            "name": "Innovation"
+          },
+          {
+            "id": "c9e6997c-8e65-6f8f-b436-7811023g1aaa",
+            "name": "Startup"
+          }
+        ],
+        "events": [
+          {
+            "id": "j0k1l2m3-n4o5-6789-0123-456789jklmno",
+            "title": "Innovation transfrontalière France-Allemagne",
+            "date": "lun., 12 août 2025, 16:00",
+            "dateTime": "2025-08-12T16:00:00+02:00",
+            "description": "Conférence sur les collaborations innovantes entre la France et l'Allemagne dans le Rhin supérieur.",
+            "link": "https://www.meetup.com/alsace-innovation/"
+          }
+        ]
+      }
+    ]
+  }
+]
