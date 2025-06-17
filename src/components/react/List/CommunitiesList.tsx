@@ -1,4 +1,3 @@
-import { coordinatesCities } from "../../../datas/citiesCoordinates.ts";
 import React, { useMemo, useState } from "react";
 import type { CollectionEntry } from "astro:content";
 import { Pagination } from "../Pagination.tsx";
@@ -8,61 +7,38 @@ import { LuCalendar } from "react-icons/lu";
 interface ICommunityListComponent {
     communities: CollectionEntry<"communities">[];
 }
-const getInitialState = () => {
-    if (typeof window === 'undefined') return { page: 1, city: "Toutes les villes" };
-
-    const params = new URLSearchParams(window.location.search);
-    const savedCity = localStorage.getItem("selectedCity");
-    const urlCity = params.get("city");
-
-    if (savedCity && !urlCity) {
-        updateURL(1, savedCity);
-        return { page: 1, city: savedCity };
-    }
-
-    return {
-        page: Math.max(1, parseInt(params.get("page") || "1")),
-        city: params.get("city") || savedCity || "Toutes les villes"
-    };
-};
-
-const updateURL = (page: number, city: string) => {
-    if (typeof window === 'undefined') return;
-
-    const params = new URLSearchParams(window.location.search);
-
-    if (page > 1) params.set("page", page.toString());
-    else params.delete("page");
-
-    if (city !== "Toutes les villes") params.set("city", city);
-    else params.delete("city");
-
-    const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-    window.history.pushState({}, "", newUrl);
-};
 
 export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
-    const initialState = getInitialState();
-    const [selectedCity, setSelectedCity] = useState(initialState.city);
-    const [currentPage, setCurrentPage] = useState(initialState.page);
+    const [selectedCity, setSelectedCity] = useState("Toutes les villes");
+    const [currentPage, setCurrentPage] = useState(1);
     const [searchValue, setSearchValue] = useState("");
     const communitiesPerPage = 4;
 
-    const filteredEvents = useMemo(() => {
+    console.log(communities);
+
+    const allCities = useMemo(() => {
+        return communities.map(cityData => cityData.data?.city).filter(Boolean) || [];
+    }, [communities]);
+
+    const filteredCities = useMemo(() => {
         return selectedCity === "Toutes les villes"
             ? communities
-            : communities.filter(community => community.data.city === selectedCity);
+            : communities.filter(cityData => cityData.data?.city === selectedCity);
     }, [communities, selectedCity]);
 
     const allCommunities = useMemo(() => {
-        return filteredEvents.flatMap(event =>
-            event.data.communities.map(community => ({
+        return filteredCities.flatMap(cityData => {
+            // Vérifier que cityData.data et cityData.data.communities existent
+            if (!cityData.data || !cityData.data.communities) {
+                return [];
+            }
+
+            return cityData.data.communities.map(community => ({
                 ...community,
-                eventId: event.id,
-                city: event.data.city
-            }))
-        );
-    }, [filteredEvents]);
+                city: cityData.data.city
+            }));
+        });
+    }, [filteredCities]);
 
     const filteredCommunities = useMemo(() => {
         if (!searchValue) return allCommunities;
@@ -83,13 +59,10 @@ export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
         const newCity = e.target.value;
         setSelectedCity(newCity);
         setCurrentPage(1);
-        localStorage.setItem("selectedCity", newCity);
-        updateURL(1, newCity);
     };
 
     const handlePageChange = (newPage: number) => {
         setCurrentPage(newPage);
-        updateURL(newPage, selectedCity);
     };
 
     const handleSearchCommunity = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -98,9 +71,12 @@ export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
         setCurrentPage(1);
     };
 
-    if (currentPage > totalPages && totalPages > 0) {
-        handlePageChange(totalPages);
-    }
+    // Correction de la logique de pagination
+    React.useEffect(() => {
+        if (currentPage > totalPages && totalPages > 0) {
+            setCurrentPage(totalPages);
+        }
+    }, [currentPage, totalPages]);
 
     return (
         <section role="list" className="flex flex-col">
@@ -113,9 +89,9 @@ export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
                         value={selectedCity}
                     >
                         <option>Toutes les villes</option>
-                        {coordinatesCities.map((cityObj, index) => (
-                            <option key={index} value={cityObj.city}>
-                                {cityObj.city}
+                        {allCities.map((city, index) => (
+                            <option key={index} value={city}>
+                                {city}
                             </option>
                         ))}
                     </select>
@@ -125,6 +101,7 @@ export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
                         placeholder="Rechercher une communauté"
                         className="border border-[#DEDEDE] placeholder-[#6D6D6D] rounded-lg h-12 p-2.5 text-sm outline-none w-full md:w-56"
                         onChange={handleSearchCommunity}
+                        value={searchValue}
                     />
                 </form>
 
@@ -145,9 +122,8 @@ export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
                     <ul className="mx-8 grid grid-cols-1 gap-2">
                         {paginatedCommunities.map(community => (
                             <CommunityCard
-                                key={`${community.eventId}-${community.id}`}
+                                key={community.id}
                                 community={community}
-                                city={community.city}
                             />
                         ))}
                     </ul>

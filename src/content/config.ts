@@ -1,20 +1,27 @@
 import { defineCollection, z } from "astro:content";
 import { file } from "astro/loaders";
 
+const tagSchema = z.object({
+    id: z.string(),
+    name: z.string()
+});
+
 const eventSchema = z.object({
     id: z.string(),
-    date: z.string(),
     title: z.string(),
-    link: z.string().url(),
-    organizationName: z.string(),
-    latitude: z.number(),
-    longitude: z.number()
+    date: z.string(),
+    dateTime: z.string(),
+    description: z.string(),
+    link: z.string().url()
 });
 
 const communitySchema = z.object({
     id: z.string(),
+    image: z.string().url(),
     name: z.string(),
-    platform: z.string(),
+    description: z.string(),
+    link: z.string().url(),
+    tags: z.array(tagSchema),
     events: z.array(eventSchema)
 });
 
@@ -25,7 +32,7 @@ const citySchema = z.object({
 });
 
 const communities = defineCollection({
-    loader: file("public/communities/communities-events.json"),
+    loader: file("./public/communities/events.json"),
     schema: citySchema
 });
 

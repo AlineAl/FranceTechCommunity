@@ -1,332 +1,392 @@
 [
   {
+    "id": "paris",
     "city": "Paris",
     "communities": [
       {
-        "id": "dbd20af2-ad01-4733-91b1-99f14d4dce29",
-        "image": "https://secure.meetupstatic.com/photos/event/1/f/8/clean_499980504.webp",
+        "id": "parisjs",
+        "image": "https://pbs.twimg.com/profile_images/1456197700936994817/7fh4Uu1w_400x400.jpg",
         "name": "Paris JS",
-        "description": "Paris.JS est une communauté se réunissant à Paris les derniers Mercredi de chaque mois pour échanger sur JavaScript, le web, mais aussi le travail dans le software.\n\nLe meetup permet de présenter des talks courts (5 minutes) et des longs (20 minutes + 5 minutes de question optionnelles).",
+        "description": "Paris.JS est une communauté se réunissant à Paris les derniers Mercredi de chaque mois pour échanger sur JavaScript, le web, mais aussi le travail dans le software. Le meetup permet de présenter des talks courts (5 minutes) et des longs (20 minutes + 5 minutes de question optionnelles).",
         "link": "https://parisjs.org/",
         "tags": [
           {
-            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
-            "name": "Tech"
+            "id": "javascript",
+            "name": "JavaScript"
+          },
+          {
+            "id": "web",
+            "name": "Web"
           }
         ],
         "events": [
           {
-            "id": "95607a6d-f0eb-4c86-8601-70b7dd37f605",
-            "title": "Révolutionnez votre UX avec les PWA",
+            "id": "parisjs-upcoming",
+            "title": "Paris.JS #99",
             "date": "mer., 25 juin 2025, 19:00",
             "dateTime": "2025-06-25T19:00:00+02:00",
-            "description": "Découvrez comment les Progressive Web Apps peuvent transformer l'expérience utilisateur de vos applications web.",
-            "link": "https://www.meetup.com/paris-js/"
+            "description": "Meetup mensuel avec des talks courts et longs sur JavaScript et les technologies web.",
+            "link": "https://www.meetup.com/fr-FR/paris-js/"
           }
         ]
       },
       {
-        "id": "f8e3c456-1234-4567-8901-23456789abcd",
-        "image": "https://secure.meetupstatic.com/photos/event/2/a/9/clean_512345678.webp",
-        "name": "Paris Data Science",
-        "description": "Communauté parisienne dédiée à la data science, au machine learning et à l'intelligence artificielle. Nous organisons des talks, des workshops et des networking events pour les passionnés de données.",
-        "link": "https://www.meetup.com/paris-data-science/",
+        "id": "parisjug",
+        "image": "https://www.parisjug.org/img/logo.png",
+        "name": "Paris JUG",
+        "description": "Le Paris JUG est un groupe d'utilisateurs Java ayant pour but de réunir les acteurs du langage (professionnels, communautés open source, institutions, étudiants, enseignants…) afin d'échanger des idées et de discuter des avancées technologiques de la plateforme Java.",
+        "link": "https://www.parisjug.org/",
         "tags": [
           {
-            "id": "b8d5996b-7d54-5e7f-a325-6700912f0999",
-            "name": "Data Science"
+            "id": "java",
+            "name": "Java"
           },
           {
-            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
-            "name": "Tech"
+            "id": "jvm",
+            "name": "JVM"
           }
         ],
         "events": [
           {
-            "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
-            "title": "IA Générative : Défis et Opportunités",
-            "date": "mar., 15 juil. 2025, 18:30",
-            "dateTime": "2025-07-15T18:30:00+02:00",
-            "description": "Table ronde sur les enjeux actuels de l'IA générative dans l'industrie.",
-            "link": "https://www.meetup.com/paris-data-science/"
+            "id": "parisjug-monthly",
+            "title": "Soirée Java mensuelle",
+            "date": "mar., 8 juillet 2025, 19:00",
+            "dateTime": "2025-07-08T19:00:00+02:00",
+            "description": "Réunions gratuites avec présentation technique, démonstration de produit, ou table ronde.",
+            "link": "https://www.parisjug.org/"
           }
         ]
-      }
-    ]
-  },
-  {
-    "city": "Lyon",
-    "communities": [
+      },
       {
-        "id": "e7f2b456-9876-5432-1098-76543210fedc",
-        "image": "https://secure.meetupstatic.com/photos/event/3/b/c/clean_523456789.webp",
-        "name": "Lyon Tech Hub",
-        "description": "Hub technologique lyonnais réunissant développeurs, entrepreneurs et innovateurs. Nous organisons des meetups mensuels sur les dernières tendances tech et l'écosystème startup local.",
-        "link": "https://lyontechhub.org/",
+        "id": "rust-paris",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*5HNwmpWd467m4YTw.png",
+        "name": "Rust Paris",
+        "description": "Mozilla et la communauté Rust sont fiers de vous inviter à découvrir Rust ! Les Rustaceans de tous niveaux sont les bienvenus, ou même si vous êtes juste curieux à propos du langage.",
+        "link": "https://www.meetup.com/rust-paris/",
         "tags": [
           {
-            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
-            "name": "Tech"
+            "id": "rust",
+            "name": "Rust"
           },
           {
-            "id": "c9e6997c-8e65-6f8f-b436-7811023g1aaa",
-            "name": "Startup"
+            "id": "systeme",
+            "name": "Programmation système"
           }
         ],
         "events": [
           {
-            "id": "b2c3d4e5-f6g7-8901-2345-678901bcdefg",
-            "title": "L'écosystème FinTech à Lyon",
-            "date": "jeu., 10 juil. 2025, 19:00",
+            "id": "rust-paris-meetup",
+            "title": "Rust Meetup mensuel",
+            "date": "jeu., 10 juillet 2025, 19:00",
             "dateTime": "2025-07-10T19:00:00+02:00",
-            "description": "Présentation des startups FinTech lyonnaises et opportunités du marché local.",
-            "link": "https://www.meetup.com/lyon-tech-hub/"
+            "description": "Partage de connaissances, apprentissage de Rust et contribution à des projets existants.",
+            "link": "https://www.meetup.com/rust-paris/"
           }
         ]
       },
       {
-        "id": "d6e1a345-8765-4321-0987-65432109edcb",
-        "image": "https://secure.meetupstatic.com/photos/event/4/c/d/clean_534567890.webp",
-        "name": "Lyon Creative",
-        "description": "Communauté créative lyonnaise rassemblant designers, artistes, photographes et créateurs de contenu. Ateliers, expositions et networking dans une ambiance conviviale.",
-        "link": "https://lyoncreative.fr/",
+        "id": "afpy-paris",
+        "image": "https://discuss.afpy.org/uploads/default/original/1X/f760108200b642569fc24b59ea24a2ddb469f029.png",
+        "name": "AFPy Paris",
+        "description": "L'Association Francophone Python organise des meetups mensuels, des ateliers de traduction de la documentation Python et promeut le langage Python auprès du public francophone.",
+        "link": "https://www.afpy.org/",
         "tags": [
           {
-            "id": "d0f7998d-9f76-7g9g-c547-8922134h2bbb",
-            "name": "Design"
-          },
-          {
-            "id": "e1g8999e-a087-8h0h-d658-9033245i3ccc",
-            "name": "Art"
-          }
-        ],
-        "events": [
-          {
-            "id": "c3d4e5f6-g7h8-9012-3456-789012cdefgh",
-            "title": "Workshop Design Thinking",
-            "date": "sam., 5 juil. 2025, 14:00",
-            "dateTime": "2025-07-05T14:00:00+02:00",
-            "description": "Atelier pratique sur les méthodes de design thinking appliquées aux projets créatifs.",
-            "link": "https://www.eventbrite.fr/e/lyon-creative-workshop"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "city": "Marseille",
-    "communities": [
-      {
-        "id": "c5d0934-7654-3210-9876-54321098dcba",
-        "image": "https://secure.meetupstatic.com/photos/event/5/d/e/clean_545678901.webp",
-        "name": "Marseille Digital",
-        "description": "La communauté numérique marseillaise qui réunit les acteurs du digital de la région PACA. Marketing digital, e-commerce, développement web et transformation digitale au programme.",
-        "link": "https://marseilledigital.com/",
-        "tags": [
-          {
-            "id": "f2h9000f-b198-9i1i-e769-0144356j4ddd",
-            "name": "Digital"
-          },
-          {
-            "id": "g3i0111g-c209-0j2j-f87a-1255467k5eee",
-            "name": "Marketing"
-          }
-        ],
-        "events": [
-          {
-            "id": "d4e5f6g7-h8i9-0123-4567-890123defghi",
-            "title": "SEO et nouvelles tendances 2025",
-            "date": "dim., 20 juil. 2025, 10:00",
-            "dateTime": "2025-07-20T10:00:00+02:00",
-            "description": "Conférence sur les dernières évolutions du référencement naturel et l'impact de l'IA.",
-            "link": "https://www.meetup.com/marseille-digital/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "city": "Toulouse",
-    "communities": [
-      {
-        "id": "b4c9823-6543-2109-8765-43210987cba9",
-        "image": "https://secure.meetupstatic.com/photos/event/6/e/f/clean_556789012.webp",
-        "name": "Toulouse Space Tech",
-        "description": "Communauté toulousaine centrée sur les technologies spatiales et aéronautiques. Rencontres avec les acteurs de l'industrie spatiale française et européenne.",
-        "link": "https://toulousespacetech.fr/",
-        "tags": [
-          {
-            "id": "h4j1222h-d31a-1k3k-g98b-2366578l6fff",
-            "name": "Aérospatial"
-          },
-          {
-            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
-            "name": "Tech"
-          }
-        ],
-        "events": [
-          {
-            "id": "e5f6g7h8-i9j0-1234-5678-901234efghij",
-            "title": "New Space et satellites privés",
-            "date": "sam., 2 août 2025, 15:30",
-            "dateTime": "2025-08-02T15:30:00+02:00",
-            "description": "Panorama du New Space et des opportunités dans le secteur des satellites privés.",
-            "link": "https://www.meetup.com/toulouse-space-tech/"
-          }
-        ]
-      },
-      {
-        "id": "a3b8712-5432-1098-7654-32109876ba98",
-        "image": "https://secure.meetupstatic.com/photos/event/7/f/g/clean_567890123.webp",
-        "name": "Toulouse Python",
-        "description": "Groupe d'utilisateurs Python de Toulouse. Talks techniques, retours d'expérience et discussions autour de l'écosystème Python et ses frameworks.",
-        "link": "https://toulouse-python.org/",
-        "tags": [
-          {
-            "id": "i5k2333i-e42b-2l4l-h09c-3477689m7ggg",
+            "id": "python",
             "name": "Python"
           },
           {
-            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
-            "name": "Tech"
+            "id": "data",
+            "name": "Data Science"
           }
         ],
         "events": [
           {
-            "id": "f6g7h8i9-j0k1-2345-6789-012345fghijk",
-            "title": "FastAPI vs Django : Quel framework choisir ?",
-            "date": "ven., 25 juil. 2025, 18:00",
-            "dateTime": "2025-07-25T18:00:00+02:00",
-            "description": "Comparaison technique entre FastAPI et Django pour les projets web modernes.",
-            "link": "https://www.meetup.com/toulouse-python/"
+            "id": "afpy-meetup",
+            "title": "Meetup Python AFPy",
+            "date": "mer., 16 juillet 2025, 19:00",
+            "dateTime": "2025-07-16T19:00:00+02:00",
+            "description": "Soirées de présentations techniques et ateliers autour de Python.",
+            "link": "https://www.meetup.com/python-afpy-paris/"
           }
         ]
-      }
-    ]
-  },
-  {
-    "city": "Nantes",
-    "communities": [
+      },
       {
-        "id": "92a7601-4321-0987-6543-21098765a987",
-        "image": "https://secure.meetupstatic.com/photos/event/8/g/h/clean_578901234.webp",
-        "name": "Nantes DevOps",
-        "description": "Communauté nantaise dédiée aux pratiques DevOps, à l'automatisation et à la culture collaborative entre développement et opérations.",
-        "link": "https://nantesdevops.fr/",
+        "id": "humantalks-paris",
+        "image": "https://secure.meetupstatic.com/photos/event/4/5/6/7/global_498765234.webp",
+        "name": "Human Talks Paris",
+        "description": "Des talks de 10 minutes pour les développeurs ! Chaque mois, des développeurs se succèdent pour présenter un sujet de leur choix : langage, méthode de programmation, projet perso, design...",
+        "link": "https://humantalks.com/",
         "tags": [
           {
-            "id": "j6l3444j-f53c-3m5m-i10d-4588790n8hhh",
-            "name": "DevOps"
+            "id": "developpement",
+            "name": "Développement"
           },
           {
-            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
+            "id": "tech",
             "name": "Tech"
           }
         ],
         "events": [
           {
-            "id": "g7h8i9j0-k1l2-3456-7890-123456ghijkl",
-            "title": "Kubernetes en production : REX",
-            "date": "ven., 18 juil. 2025, 19:30",
-            "dateTime": "2025-07-18T19:30:00+02:00",
-            "description": "Retours d'expérience sur le déploiement et la gestion de clusters Kubernetes en production.",
-            "link": "https://www.meetup.com/nantes-devops/"
+            "id": "humantalks-monthly",
+            "title": "Human Talks Paris",
+            "date": "mar., 8 juillet 2025, 19:00",
+            "dateTime": "2025-07-08T19:00:00+02:00",
+            "description": "4 talks de 10 minutes sur des sujets techniques variés.",
+            "link": "https://humantalks.com/cities/paris"
           }
         ]
       }
     ]
   },
   {
+    "id": "lyon",
+    "city": "Lyon",
+    "communities": [
+      {
+        "id": "humantalks-lyon",
+        "image": "https://secure.meetupstatic.com/photos/event/7/8/9/0/global_501234567.webp",
+        "name": "Human Talks Lyon",
+        "description": "Human Talks, c'est un événement mensuel pour les développeurs. Chaque mois, des développeurs se succèdent pour présenter en 10 minutes un sujet de leur choix (langage, méthode de programmation, projet perso, design...)",
+        "link": "https://humantalks.com/cities/lyon",
+        "tags": [
+          {
+            "id": "developpement",
+            "name": "Développement"
+          },
+          {
+            "id": "tech",
+            "name": "Tech"
+          }
+        ],
+        "events": [
+          {
+            "id": "humantalks-lyon-monthly",
+            "title": "Human Talks Lyon",
+            "date": "mar., 15 juillet 2025, 19:00",
+            "dateTime": "2025-07-15T19:00:00+02:00",
+            "description": "4 conférences de 10 minutes chacune sur des sujets tech variés.",
+            "link": "https://www.meetup.com/fr-FR/humantalks-lyon/"
+          }
+        ]
+      },
+      {
+        "id": "afpy-lyon",
+        "image": "https://secure.meetupstatic.com/photos/event/3/2/1/0/global_487654321.webp",
+        "name": "AFPy Lyon",
+        "description": "L'AFPy organise des meetups Python à Lyon avec des présentations techniques et des échanges autour du langage Python et de son écosystème.",
+        "link": "https://www.afpy.org/",
+        "tags": [
+          {
+            "id": "python",
+            "name": "Python"
+          },
+          {
+            "id": "data",
+            "name": "Data Science"
+          }
+        ],
+        "events": [
+          {
+            "id": "afpy-lyon-meetup",
+            "title": "Meetup Python Lyon",
+            "date": "jeu., 17 juillet 2025, 19:00",
+            "dateTime": "2025-07-17T19:00:00+02:00",
+            "description": "Meetups Python avec talks techniques et networking.",
+            "link": "https://www.afpy.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bordeaux",
     "city": "Bordeaux",
     "communities": [
       {
-        "id": "81967490-3210-9876-5432-10987654987",
-        "image": "https://secure.meetupstatic.com/photos/event/9/h/i/clean_589012345.webp",
-        "name": "Bordeaux Entrepreneurs",
-        "description": "Réseau d'entrepreneurs bordelais favorisant les échanges, le networking et l'entraide entre créateurs d'entreprise de la région Nouvelle-Aquitaine.",
-        "link": "https://bordeaux-entrepreneurs.com/",
+        "id": "humantalks-bordeaux",
+        "image": "https://secure.meetupstatic.com/photos/event/5/6/7/8/global_502468135.webp",
+        "name": "Human Talks Bordeaux",
+        "description": "Human Talks Bordeaux est une communauté de pratique dynamique où l'apprentissage, le partage d'expérience et le développement personnel se conjuguent. Le contenu s'adresse aux professionnels de l'industrie Tech.",
+        "link": "https://humantalks.com/cities/bordeaux",
         "tags": [
           {
-            "id": "c9e6997c-8e65-6f8f-b436-7811023g1aaa",
-            "name": "Startup"
+            "id": "developpement",
+            "name": "Développement"
           },
           {
-            "id": "k7m4555k-g64d-4n6n-j21e-5699801o9iii",
-            "name": "Business"
-          }
-        ],
-        "events": [
-          {
-            "id": "h8i9j0k1-l2m3-4567-8901-234567hijklm",
-            "title": "Pitch Night : 10 startups, 5 minutes",
-            "date": "mar., 5 août 2025, 18:30",
-            "dateTime": "2025-08-05T18:30:00+02:00",
-            "description": "Soirée de pitchs avec 10 startups bordelaises qui présentent leur projet en 5 minutes.",
-            "link": "https://www.eventbrite.fr/e/bordeaux-entrepreneurs-pitch"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "city": "Lille",
-    "communities": [
-      {
-        "id": "70856389-2109-8765-4321-09876543876",
-        "image": "https://secure.meetupstatic.com/photos/event/a/i/j/clean_590123456.webp",
-        "name": "Lille Web",
-        "description": "Communauté lilloise des développeurs et designers web. Discussions sur les frameworks front-end, les bonnes pratiques et l'évolution du web moderne.",
-        "link": "https://lille-web.fr/",
-        "tags": [
-          {
-            "id": "l8n5666l-h75e-5o7o-k32f-6700912p0jjj",
-            "name": "Web"
-          },
-          {
-            "id": "a7c4995a-6c43-4d6f-9214-5699801e9888",
+            "id": "tech",
             "name": "Tech"
           }
         ],
         "events": [
           {
-            "id": "i9j0k1l2-m3n4-5678-9012-345678ijklmn",
-            "title": "React vs Vue.js : Battle royale",
-            "date": "mer., 30 juil. 2025, 19:00",
-            "dateTime": "2025-07-30T19:00:00+02:00",
-            "description": "Débat technique entre développeurs React et Vue.js avec démonstrations en live.",
-            "link": "https://www.meetup.com/lille-web/"
+            "id": "humantalks-bordeaux-monthly",
+            "title": "Human Talks Bordeaux",
+            "date": "jeu., 24 juillet 2025, 19:00",
+            "dateTime": "2025-07-24T19:00:00+02:00",
+            "description": "Talks tech et networking pour les professionnels de l'industrie Tech.",
+            "link": "https://www.meetup.com/human-talks-bordeaux/"
+          }
+        ]
+      },
+      {
+        "id": "afpy-bordeaux",
+        "image": "https://secure.meetupstatic.com/photos/event/9/1/2/3/global_489123456.webp",
+        "name": "AFPy Bordeaux",
+        "description": "Communauté Python bordelaise organisée par l'AFPy avec des meetups réguliers et l'organisation de la PyConFr (conférence nationale Python).",
+        "link": "https://www.afpy.org/",
+        "tags": [
+          {
+            "id": "python",
+            "name": "Python"
+          },
+          {
+            "id": "conference",
+            "name": "PyConFr"
+          }
+        ],
+        "events": [
+          {
+            "id": "pyconfr-2025",
+            "title": "PyConFr 2025",
+            "date": "jeu., 30 octobre 2025, 09:00",
+            "dateTime": "2025-10-30T09:00:00+02:00",
+            "description": "Conférence nationale Python organisée par l'AFPy à Lyon.",
+            "link": "https://www.pycon.fr/"
           }
         ]
       }
     ]
   },
   {
-    "city": "Strasbourg",
+    "id": "nantes",
+    "city": "Nantes",
     "communities": [
       {
-        "id": "69745278-1098-7654-3210-98765432765",
-        "image": "https://secure.meetupstatic.com/photos/event/b/j/k/clean_601234567.webp",
-        "name": "Alsace Innovation",
-        "description": "Hub d'innovation alsacien connectant startups, grandes entreprises et institutions. Focus sur l'innovation ouverte et la transformation digitale transfrontalière.",
-        "link": "https://alsace-innovation.eu/",
+        "id": "humantalks-nantes",
+        "image": "https://secure.meetupstatic.com/photos/event/8/7/6/5/global_503876543.webp",
+        "name": "Human Talks Nantes",
+        "description": "Les Human Talks sont un parfait endroit pour faire sa veille technique tout en rencontrant des gens sympa. Des talks de 10 min suivis d'échanges autour d'un verre.",
+        "link": "https://humantalks.com/cities/nantes",
         "tags": [
           {
-            "id": "m9o6777m-i86f-6p8p-l43g-7811023q1kkk",
-            "name": "Innovation"
+            "id": "developpement",
+            "name": "Développement"
           },
           {
-            "id": "c9e6997c-8e65-6f8f-b436-7811023g1aaa",
-            "name": "Startup"
+            "id": "tech",
+            "name": "Tech"
           }
         ],
         "events": [
           {
-            "id": "j0k1l2m3-n4o5-6789-0123-456789jklmno",
-            "title": "Innovation transfrontalière France-Allemagne",
-            "date": "lun., 12 août 2025, 16:00",
-            "dateTime": "2025-08-12T16:00:00+02:00",
-            "description": "Conférence sur les collaborations innovantes entre la France et l'Allemagne dans le Rhin supérieur.",
-            "link": "https://www.meetup.com/alsace-innovation/"
+            "id": "humantalks-nantes-monthly",
+            "title": "Human Talks Nantes",
+            "date": "mar., 8 juillet 2025, 19:00",
+            "dateTime": "2025-07-08T19:00:00+02:00",
+            "description": "4 talks de 10 minutes sur des sujets tech variés.",
+            "link": "https://www.meetup.com/fr-FR/humantalks-nantes/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "grenoble",
+    "city": "Grenoble",
+    "communities": [
+      {
+        "id": "humantalks-grenoble",
+        "image": "https://secure.meetupstatic.com/photos/event/1/2/3/4/global_504123456.webp",
+        "name": "Human Talks Grenoble",
+        "description": "Human Talks, c'est un événement mensuel pour les développeuses et développeurs. Chaque deuxième mardi du mois, quatre dévs ou non dévs se succèdent pour présenter en 10 minutes un sujet de leur choix.",
+        "link": "https://humantalks.com/cities/grenoble",
+        "tags": [
+          {
+            "id": "developpement",
+            "name": "Développement"
+          },
+          {
+            "id": "tech",
+            "name": "Tech"
+          }
+        ],
+        "events": [
+          {
+            "id": "humantalks-grenoble-monthly",
+            "title": "Human Talks Grenoble",
+            "date": "mar., 8 juillet 2025, 19:00",
+            "dateTime": "2025-07-08T19:00:00+02:00",
+            "description": "4 conférences de 10 minutes chacune suivies d'un apéritif.",
+            "link": "https://www.meetup.com/fr-fr/humantalks-grenoble/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toulouse",
+    "city": "Toulouse",
+    "communities": [
+      {
+        "id": "toulouse-jug",
+        "image": "https://secure.meetupstatic.com/photos/event/2/4/6/8/global_505246810.webp",
+        "name": "Toulouse JUG",
+        "description": "Java User Group de Toulouse réunissant les développeurs Java et JVM de la région. Talks techniques, retours d'expérience et discussions autour de l'écosystème Java.",
+        "link": "https://www.meetup.com/toulouse-jug/",
+        "tags": [
+          {
+            "id": "java",
+            "name": "Java"
+          },
+          {
+            "id": "jvm",
+            "name": "JVM"
+          }
+        ],
+        "events": [
+          {
+            "id": "toulouse-jug-meetup",
+            "title": "Soirée Java Toulouse",
+            "date": "jeu., 17 juillet 2025, 19:00",
+            "dateTime": "2025-07-17T19:00:00+02:00",
+            "description": "Talks techniques sur Java et l'écosystème JVM.",
+            "link": "https://www.meetup.com/toulouse-jug/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lille",
+    "city": "Lille",
+    "communities": [
+      {
+        "id": "ch-ti-jug",
+        "image": "https://chtijug.org/assets/images/chti_jug.png",
+        "name": "Ch'ti JUG",
+        "description": "Java User Group de Lille et sa région. Une communauté de développeurs passionnés par Java et les technologies de la JVM qui se retrouvent régulièrement pour des talks et du networking.",
+        "link": "https://www.meetup.com/chtijug/",
+        "tags": [
+          {
+            "id": "java",
+            "name": "Java"
+          },
+          {
+            "id": "jvm",
+            "name": "JVM"
+          }
+        ],
+        "events": [
+          {
+            "id": "chtijug-meetup",
+            "title": "Ch'ti JUG Lille",
+            "date": "mer., 23 juillet 2025, 19:00",
+            "dateTime": "2025-07-23T19:00:00+02:00",
+            "description": "Soirée Java avec talks techniques et échanges entre développeurs.",
+            "link": "https://www.meetup.com/chtijug/"
           }
         ]
       }
