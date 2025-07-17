@@ -3,11 +3,15 @@ import Footer from "../../components/astro/Footer.astro";
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import { EventsList } from "../../components/react/List/EventsList";
+import Header from "../../components/astro/Header.astro";
 export const prerender = true;
 const communities = await getCollection("communities");
+
+const titleHtml = `Les événements <span class="text-[#766CE2]">Tech</span>`;
 ---
 
 <Layout>
+    <Header title={titleHtml} description="Retrouvez toutes les communautés tech de France et les événements qu’elles organisent !" />
     <EventsList
         client:only="react"
         communities={communities}
