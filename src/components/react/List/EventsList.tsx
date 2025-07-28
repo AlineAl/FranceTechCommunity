@@ -35,6 +35,13 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
         window.location.href = "/";
     };
 
+    const events = [
+        {
+            title: 'Meeting',
+            start: new Date()
+        }
+    ]
+
     return (
         <>
             <SearchBar
@@ -48,13 +55,33 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                 onEventsClick={handleBackToCommunities}
                 eventsButtonText="Voir les communautés"
             />
-            <FullCalendar
-                plugins={[dayGridPlugin]}
-                initialView="dayGridMonth"
-                locale={frLocale}
-                dayHeaderFormat={{ weekday: 'long' }}
-                firstDay={1}
-            />
+            <div className="m-8 mt-0">
+                <style>
+                    {`
+                        .fc-day-today {
+                            background-color: #e9e8fd !important;
+                        }
+                        .fc-event {
+                            border-radius: 8px !important;
+                        }
+                        .fc-event-title {
+                            border-radius: 6px !important;
+                            padding: 2px 6px !important;
+                        }
+                    `}
+                </style>
+                <FullCalendar
+                    plugins={[dayGridPlugin]}
+                    initialView="dayGridMonth"
+                    locale={frLocale}
+                    dayHeaderFormat={{ weekday: 'long' }}
+                    firstDay={1}
+                    events={events}
+                    eventBackgroundColor="#e9e8fd"
+                    eventTextColor="#6c62d9"
+                    eventBorderColor="#6c62d9"
+                />
+            </div>
         </>
     );
 };
