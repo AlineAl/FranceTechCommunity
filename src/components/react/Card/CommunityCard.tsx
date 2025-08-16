@@ -29,6 +29,8 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
         return [...community.events].sort((a, b) => new Date(a.dateTime).getTime() - new Date(b.dateTime).getTime());
     }, [community.events]);
 
+    console.log("Sorted Events:", community);
+
     const futureEvents = useMemo(() => {
         return sortedEvents.filter(event => new Date(event.dateTime) > new Date());
     }, [sortedEvents]);

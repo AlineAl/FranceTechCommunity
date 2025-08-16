@@ -1,5 +1,5 @@
 import { defineCollection, z } from "astro:content";
-import { file } from "astro/loaders";
+import { communityLoader } from "../loaders/communityLoader";
 
 const tagSchema = z.object({
     id: z.string(),
@@ -32,7 +32,7 @@ const citySchema = z.object({
 });
 
 const communities = defineCollection({
-    loader: file("./public/communities/events.json"),
+    loader: communityLoader(),
     schema: citySchema
 });
 

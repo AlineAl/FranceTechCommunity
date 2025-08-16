@@ -1,5 +1,5 @@
 import React from "react";
-import { LuCalendar } from "react-icons/lu";
+import {LuCalendar, LuList} from "react-icons/lu";
 
 interface ISearchBar {
     cities: string[];
@@ -78,8 +78,12 @@ export const SearchBar = ({
                     className="flex items-center justify-center cursor-pointer mt-0 md:mt-8 m-8 p-2.5 h-12 text-sm bg-[#4C40CF] text-white rounded-lg whitespace-nowrap"
                     onClick={handleEventsClick}
                 >
-                    <LuCalendar size={20} className="mr-2" />
-                    <span className="mt-1">{eventsButtonText}</span>
+                    {eventsButtonText === "Voir les événements" ?
+                        <LuCalendar size={20} className="mr-2" />
+                            :
+                        <LuList size={20} className="mr-2" />
+                    }
+                    <span>{eventsButtonText}</span>
                 </button>
             )}
         </section>
