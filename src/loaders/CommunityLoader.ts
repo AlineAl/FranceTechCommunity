@@ -53,7 +53,7 @@ interface CityData {
 export function communityLoader(): Loader {
     return {
         name: 'community-loader',
-        load: async ({ store, logger }) => {
+        load: async ({ store }) => {
             try {
                 const filePath = join(process.cwd(), 'public/communities-events.json');
                 const rawData = readFileSync(filePath, 'utf-8');

@@ -1,5 +1,5 @@
 import { defineCollection, z } from "astro:content";
-import { communityLoader } from "../loaders/communityLoader";
+import { communityLoader } from "../loaders/CommunityLoader.ts";
 
 const tagSchema = z.object({
     id: z.string(),
