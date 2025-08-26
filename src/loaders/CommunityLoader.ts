@@ -85,8 +85,8 @@ export function communityLoader(): Loader {
                         events: community.events.map(event => ({
                             id: event.id,
                             title: event.title,
-                            date: event.date || new Date().toISOString().split('T')[0],
-                            dateTime: event.date || new Date().toISOString(),
+                            date: event.date,
+                            dateTime: event.date,
                             description: '',
                             link: event.link
                         }))
@@ -103,11 +103,7 @@ export function communityLoader(): Loader {
                         data: city
                     });
                 }
-
-                logger.info(`Loaded ${cities.length} cities with ${communities.length} communities total`);
-
             } catch (error) {
-                logger.error(`Failed to load communities: ${error}`);
                 throw error;
             }
         }

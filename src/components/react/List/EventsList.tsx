@@ -200,14 +200,12 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                         dayMaxEvents={3}
                         moreLinkClick="popover"
                         eventClick={(info) => {
-                            // Ouvrir le lien de l'événement dans un nouvel onglet
                             if (info.event.url) {
                                 window.open(info.event.url, '_blank');
-                                info.jsEvent.preventDefault(); // Empêcher la navigation par défaut
+                                info.jsEvent.preventDefault();
                             }
                         }}
                         eventDidMount={(info) => {
-                            // Ajouter un tooltip avec plus d'informations
                             info.el.title = `${info.event.extendedProps.eventTitle}\n${info.event.extendedProps.communityName}\n${info.event.extendedProps.city}\n${info.event.extendedProps.dateFormatted}`;
                         }}
                     />
