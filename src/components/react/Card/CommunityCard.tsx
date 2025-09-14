@@ -51,7 +51,7 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
     return (
         <li
             role="listitem"
-            className="md:flex justify-between items-start border-b p-6 gap-6"
+            className="md:flex justify-between items-start border-b border-b-[#F0F0F0] p-6 gap-6"
         >
             <div className="mb-6 md:mb-0 flex-1">
                 <div className="flex items-start gap-4 mb-4">
@@ -81,9 +81,9 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
                             href={community.link}
                             target="_blank"
                             rel="noreferrer"
-                            className="inline-flex items-center text-sm text-[#4C40CF] hover:underline"
+                            className="inline-flex items-center text-sm text-[#4C40CF] underline"
                         >
-                            <span>Visiter la communauté</span>
+                            <span>En savoir plus sur la communauté</span>
                             <LuExternalLink size={14} className="ml-1" />
                         </a>
                     </div>

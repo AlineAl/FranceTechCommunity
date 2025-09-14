@@ -1,1 +1,802 @@
-[{"id":"human-talks-angers","image":"","name":"Human Talks Angers","description":"","link":"","city":"Angers","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[{"date":null,"title":"Human Talks du 9 septembre 2025","link":"https://www.meetup.com/human-talks-angers/events/310727296/","id":"00f200f9-7ab7-4785-8a68-d185e13f4cea","organizationName":"Human Talks Angers"}]},{"id":"bordeauxjs","image":"","name":"Bordeaux JS","description":"","link":"","city":"Bordeaux","platform":"Meetup","tags":[],"events":[{"date":null,"title":"La clean architecture et les tests unitaires : et si c'était simple ?","link":"https://www.meetup.com/bordeauxjs/events/310609693/","id":"ae4bd24a-b7b4-4a81-9abe-9321ee643f82","organizationName":"BordeauxJS"}]},{"id":"bordeauxjug","image":"","name":"BordeauxJUG","description":"","link":"","city":"Bordeaux","platform":"Meetup","tags":[],"events":[]},{"id":"human-talks-bordeaux","image":"","name":"Human Talks Bordeaux","description":"","link":"","city":"Bordeaux","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[]},{"id":"women-in-tech-bordeaux","image":"","name":"Women In Tech Bordeaux","description":"","link":"","city":"Bordeaux","platform":"Meetup","tags":[],"events":[]},{"id":"finistdevs","image":"","name":"Finistdevs","description":"","link":"","city":"Brest","platform":"Meetup","tags":[],"events":[]},{"id":"humantalks-grenoble","image":"","name":"Human Talks Grenoble","description":"","link":"","city":"Grenoble","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/309012412/","id":"e1773e58-8681-4ee6-9784-706f3d6753db","organizationName":"HumanTalks Grenoble"},{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/309014631/","id":"e41f0fcd-cf14-493d-9b86-1004702de110","organizationName":"HumanTalks Grenoble"},{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/310387558/","id":"bd6d4d3e-837d-4805-9d0d-fadaeaebcf26","organizationName":"HumanTalks Grenoble"},{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyhcqbmb/","id":"7c4aa484-bef6-465d-92e0-e94b7c9968d1","organizationName":"HumanTalks Grenoble"},{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjccbrb/","id":"5fbfaa7a-b2d0-4e2a-b73d-f070e98b7d95","organizationName":"HumanTalks Grenoble"},{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcdbnb/","id":"4c5e80bc-5a7c-4c26-852f-3901849db633","organizationName":"HumanTalks Grenoble"},{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcfbnb/","id":"2669ef34-2261-4f01-8400-5473e7ad6461","organizationName":"HumanTalks Grenoble"},{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcgbsb/","id":"9e2f3fb2-e206-4bb5-b39e-c0cf7d81a338","organizationName":"HumanTalks Grenoble"},{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjchbqb/","id":"6949b761-b6d5-4a14-a31b-5a188af5049c","organizationName":"HumanTalks Grenoble"},{"date":null,"title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcjbmb/","id":"90f79466-61a5-4060-a7be-0046013afa29","organizationName":"HumanTalks Grenoble"}]},{"id":"humantalks-nantes","image":"","name":"Humantalks Nantes","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[{"date":null,"title":"Human Talks - Septembre 2025","link":"https://www.meetup.com/humantalks-nantes/events/310501795/","id":"c06f0ffb-661c-48fc-acac-b04a5dafd57a","organizationName":"Human Talks Nantes"}]},{"id":"nantes-java-user-group","image":"","name":"Nantes Java User Group","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"agile-nantes-sessions-mensuelles","image":"","name":"Agile Nantes Sessions Mensuelles","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":null,"title":"\uD83D\uDE80 L’agilité pour les curieux : initiation sans prise de tête !","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238350/","id":"120459df-7066-424f-a478-bbe05488b70d","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":null,"title":"Session mensuelle de Octobre - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/276664104/","id":"ff16086e-b9d4-408f-b6e6-140e843e6690","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":null,"title":"Session mensuelle de Novembre - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238085/","id":"3b498a48-e5b0-459e-b375-7296eaaa82fb","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":null,"title":"Session mensuelle de Décembre - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238135/","id":"224bb77d-bf09-4748-9cb9-2102037d61ca","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":null,"title":"Session mensuelle de Février - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238149/","id":"10b36b45-f2a0-46c5-9b75-74776b1cef9b","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":null,"title":"Session mensuelle de Mars - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238168/","id":"d3509aa9-364e-4a28-b69a-351b2f89773a","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":null,"title":"Session mensuelle d'Avril - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238188/","id":"1ee25f70-fc03-49df-b2e1-0423c3272009","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":null,"title":"Session mensuelle de mai - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238212/","id":"a90d249b-718b-4500-a9b0-1e687f151a67","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":null,"title":"Session mensuelle de juin - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238223/","id":"fc655141-97d4-4dfe-956b-09cf63f6a47b","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":null,"title":"Session mensuelle de juillet - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238239/","id":"6f62cc40-46f3-4556-aa53-f0044c6416f3","organizationName":"Agile Nantes - Sessions mensuelles"}]},{"id":"blockchain-societe","image":"","name":"Blockchain Societe","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"cocoaheads-nantes","image":"","name":"Cocoaheads Nantes","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"nantes-devops","image":"","name":"Nantes Devops","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"nantes-machine-learning-meetup","image":"","name":"Nantes Machine Learning Meetup","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"nantes-python-meetup","image":"","name":"Nantes Python Meetup","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"gdg-nantes","image":"","name":"Gdg Nantes","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"gdg-cloud-nantes","image":"","name":"Gdg Cloud Nantes","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":null,"title":"☁️ \"The Clouds Club\" : 3 talks pour 3 Communautés Cloud","link":"https://www.meetup.com/gdg-cloud-nantes/events/310808956/","id":"631d9303-2d22-4a95-ae2f-dfcf020635d6","organizationName":"GDG Cloud Nantes"}]},{"id":"frenchproduit-nantesbretagne","image":"","name":"Frenchproduit Nantesbretagne","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"flutter-nantes","image":"","name":"Flutter Nantes","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"mtg-nantes","image":"","name":"Mtg Nantes","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":null,"title":"\"The Clouds Club\" : 3 talks pour 3 Communautés Cloud","link":"https://www.meetup.com/mtg-nantes/events/310810770/","id":"17d4b1a3-f6a0-44f8-af1d-ab4ef2cd2a86","organizationName":"MTG Nantes"}]},{"id":"nantes-rb","image":"","name":"Nantes Rb","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":null,"title":"\uD83D\uDE80 C'est la rentrée pour les fans de Ruby ! \uD83D\uDE80","link":"https://www.meetup.com/nantes-rb/events/310813838/","id":"b23bc7fe-2770-4d2f-b0bc-d44f8e6ee768","organizationName":"Nantes.rb"}]},{"id":"nantes-software-crafters-nantes","image":"","name":"Nantes Software Crafters Nantes","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"generative-ai-nantes","image":"","name":"Generative Ai Nantes","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":null,"title":"S4E01 - Conf' CEA - Biais politiques dans les LLMs","link":"https://www.meetup.com/generative-ai-nantes/events/310137252/","id":"cadb609b-98aa-4b8a-bc5b-381812d130fa","organizationName":"Generative AI Nantes"}]},{"id":"gdg-nantes-android","image":"","name":"Gdg Nantes Android","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"aws-nantes","image":"","name":"Aws Nantes","description":"","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":null,"title":"AWS Community pre:Invent Warmup","link":"https://www.meetup.com/aws-nantes/events/310578946/","id":"82d21d6b-667d-474d-ba3f-a8bf5fe81687","organizationName":"AWS User Group France - Nantes"},{"date":null,"title":"☁️ \"The Clouds Club\" : 3 talks pour 3 Communautés Cloud","link":"https://www.meetup.com/aws-nantes/events/310808817/","id":"115fef7f-15e5-4e65-9e60-93278768cd34","organizationName":"AWS User Group France - Nantes"}]},{"id":"alpescraft-coding-dojos","image":"","name":"Alpescraft Coding Dojos","description":"","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[]},{"id":"software-craftsmanship-grenoble","image":"","name":"Software Craftsmanship Grenoble","description":"","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[]},{"id":"alpesjug","image":"","name":"Alpesjug","description":"","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[{"date":null,"title":"SpringBoot 2025 : NullSafety et Optimisations","link":"https://www.meetup.com/alpesjug/events/310709483/","id":"0a88cb26-d9cd-4832-81d7-1b46165abb94","organizationName":"AlpesJUG"}]},{"id":"grenoble-web-development-meetup-group","image":"","name":"Grenoble Web Development Meetup Group","description":"","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[]}]
+[
+  {
+    "id": "human-talks-angers",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+    "name": "Human Talks Angers",
+    "description": "Communauté de développeurs et passionnés de tech qui se retrouvent chaque mois pour partager leurs connaissances à travers des talks de 10 minutes dans une ambiance conviviale.",
+    "link": "https://humantalks.com/cities/angers",
+    "city": "Angers",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "humantalks", "name": "Human Talks"},
+      {"id": "tech", "name": "Technology"},
+      {"id": "programming", "name": "Programming"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-09T19:00:00Z",
+        "title": "Human Talks du 9 septembre 2025",
+        "link": "https://www.meetup.com/human-talks-angers/events/310727296/",
+        "id": "00f200f9-7ab7-4785-8a68-d185e13f4cea",
+        "organizationName": "Human Talks Angers"
+      }
+    ]
+  },
+  {
+    "id": "bordeauxjs",
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400",
+    "name": "Bordeaux JS",
+    "description": "Le meetup JavaScript de Bordeaux. Nous nous retrouvons régulièrement pour discuter de JavaScript, des frameworks modernes, et des dernières tendances du développement web.",
+    "link": "https://bordeauxjs.org",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "javascript", "name": "JavaScript"},
+      {"id": "frontend", "name": "Frontend"},
+      {"id": "nodejs", "name": "Node.js"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-18T19:30:00Z",
+        "title": "La clean architecture et les tests unitaires : et si c'était simple ?",
+        "link": "https://www.meetup.com/bordeauxjs/events/310609693/",
+        "id": "ae4bd24a-b7b4-4a81-9abe-9321ee643f82",
+        "organizationName": "BordeauxJS"
+      }
+    ]
+  },
+  {
+    "id": "bordeauxjug",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400",
+    "name": "BordeauxJUG",
+    "description": "Java User Group de Bordeaux. Nous organisons des conférences, des ateliers et des événements autour de l'écosystème Java et JVM.",
+    "link": "https://bordeauxjug.org",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "java", "name": "Java"},
+      {"id": "jvm", "name": "JVM"},
+      {"id": "spring", "name": "Spring"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-15T19:00:00Z",
+        "title": "Java 21 : Les nouveautés qui changent tout",
+        "link": "https://www.meetup.com/bordeauxjug/events/311234567/",
+        "id": "jug-java21-bordeaux",
+        "organizationName": "BordeauxJUG"
+      }
+    ]
+  },
+  {
+    "id": "human-talks-bordeaux",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+    "name": "Human Talks Bordeaux",
+    "description": "Chapter bordelais des Human Talks. Des présentations courtes et variées sur tous les aspects de la tech, dans un format accessible à tous.",
+    "link": "https://humantalks.com/cities/bordeaux",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "humantalks", "name": "Human Talks"},
+      {"id": "tech", "name": "Technology"},
+      {"id": "innovation", "name": "Innovation"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-08T19:00:00Z",
+        "title": "Human Talks Bordeaux - Octobre 2025",
+        "link": "https://www.meetup.com/human-talks-bordeaux/events/311123456/",
+        "id": "ht-bordeaux-oct-2025",
+        "organizationName": "Human Talks Bordeaux"
+      }
+    ]
+  },
+  {
+    "id": "women-in-tech-bordeaux",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400",
+    "name": "Women In Tech Bordeaux",
+    "description": "Communauté dédiée aux femmes dans la tech à Bordeaux. Nous organisons des événements de networking, des conférences et des ateliers pour encourager la diversité dans le secteur technologique.",
+    "link": "https://womenintech-bordeaux.fr",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "diversity", "name": "Diversity"},
+      {"id": "women", "name": "Women in Tech"},
+      {"id": "networking", "name": "Networking"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-25T18:30:00Z",
+        "title": "Panel : Leadership féminin dans la tech",
+        "link": "https://www.meetup.com/women-in-tech-bordeaux/events/310987654/",
+        "id": "wit-leadership-panel",
+        "organizationName": "Women In Tech Bordeaux"
+      }
+    ]
+  },
+  {
+    "id": "finistdevs",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400",
+    "name": "Finistdevs",
+    "description": "La communauté des développeurs du Finistère. Nous nous retrouvons régulièrement pour échanger sur nos pratiques, découvrir de nouvelles technologies et partager notre passion pour le code.",
+    "link": "https://finistdevs.org",
+    "city": "Brest",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "dev", "name": "Development"},
+      {"id": "finistere", "name": "Finistère"},
+      {"id": "coding", "name": "Coding"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-20T19:00:00Z",
+        "title": "Soirée Rust : Performance et sécurité",
+        "link": "https://www.meetup.com/finistdevs/events/310876543/",
+        "id": "finistdevs-rust-evening",
+        "organizationName": "Finistdevs"
+      }
+    ]
+  },
+  {
+    "id": "humantalks-grenoble",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+    "name": "Human Talks Grenoble",
+    "description": "Le chapter grenoblois des Human Talks. Chaque mois, 4 speakers partagent leur passion en 10 minutes chrono dans une ambiance décontractée avec bières et pizzas.",
+    "link": "https://humantalks.com/cities/grenoble",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "humantalks", "name": "Human Talks"},
+      {"id": "tech", "name": "Technology"},
+      {"id": "grenoble", "name": "Grenoble"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-10T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/309012412/",
+        "id": "e1773e58-8681-4ee6-9784-706f3d6753db",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "2025-10-08T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/309014631/",
+        "id": "e41f0fcd-cf14-493d-9b86-1004702de110",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "2025-11-12T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/310387558/",
+        "id": "bd6d4d3e-837d-4805-9d0d-fadaeaebcf26",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "2025-12-10T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyhcqbmb/",
+        "id": "7c4aa484-bef6-465d-92e0-e94b7c9968d1",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "2026-01-14T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjccbrb/",
+        "id": "5fbfaa7a-b2d0-4e2a-b73d-f070e98b7d95",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "2026-02-11T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcdbnb/",
+        "id": "4c5e80bc-5a7c-4c26-852f-3901849db633",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "2026-03-11T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcfbnb/",
+        "id": "2669ef34-2261-4f01-8400-5473e7ad6461",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "2026-04-08T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcgbsb/",
+        "id": "9e2f3fb2-e206-4bb5-b39e-c0cf7d81a338",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "2026-05-13T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjchbqb/",
+        "id": "6949b761-b6d5-4a14-a31b-5a188af5049c",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "2026-06-10T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcjbmb/",
+        "id": "90f79466-61a5-4060-a7be-0046013afa29",
+        "organizationName": "HumanTalks Grenoble"
+      }
+    ]
+  },
+  {
+    "id": "humantalks-nantes",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+    "name": "Humantalks Nantes",
+    "description": "Le meetup tech de référence à Nantes ! Chaque mois, 4 talks de 10 minutes pour découvrir les dernières tendances technologiques dans une ambiance conviviale.",
+    "link": "https://humantalks.com/cities/nantes",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "humantalks", "name": "Human Talks"},
+      {"id": "tech", "name": "Technology"},
+      {"id": "nantes", "name": "Nantes"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-10T19:00:00Z",
+        "title": "Human Talks - Septembre 2025",
+        "link": "https://www.meetup.com/humantalks-nantes/events/310501795/",
+        "id": "c06f0ffb-661c-48fc-acac-b04a5dafd57a",
+        "organizationName": "Human Talks Nantes"
+      }
+    ]
+  },
+  {
+    "id": "nantes-java-user-group",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400",
+    "name": "Nantes Java User Group",
+    "description": "Communauté Java de Nantes et sa région. Nous organisons des meetups, conférences et ateliers pour tous les niveaux autour de l'écosystème Java.",
+    "link": "https://nantesjug.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "java", "name": "Java"},
+      {"id": "jug", "name": "JUG"},
+      {"id": "enterprise", "name": "Enterprise"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-26T19:00:00Z",
+        "title": "Microservices avec Quarkus : Performance native",
+        "link": "https://www.meetup.com/nantes-java-user-group/events/311098765/",
+        "id": "njug-quarkus-microservices",
+        "organizationName": "Nantes Java User Group"
+      }
+    ]
+  },
+  {
+    "id": "agile-nantes-sessions-mensuelles",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400",
+    "name": "Agile Nantes Sessions Mensuelles",
+    "description": "Communauté Agile de Nantes. Nous explorons les méthodes agiles, le management moderne et les pratiques qui transforment les organisations.",
+    "link": "https://agile-nantes.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "agile", "name": "Agile"},
+      {"id": "scrum", "name": "Scrum"},
+      {"id": "management", "name": "Management"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-17T19:00:00Z",
+        "title": "🚀 L'agilité pour les curieux : initiation sans prise de tête !",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238350/",
+        "id": "120459df-7066-424f-a478-bbe05488b70d",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "2025-10-15T19:00:00Z",
+        "title": "Session mensuelle de Octobre - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/276664104/",
+        "id": "ff16086e-b9d4-408f-b6e6-140e843e6690",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "2025-11-19T19:00:00Z",
+        "title": "Session mensuelle de Novembre - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238085/",
+        "id": "3b498a48-e5b0-459e-b375-7296eaaa82fb",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "2025-12-17T19:00:00Z",
+        "title": "Session mensuelle de Décembre - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238135/",
+        "id": "224bb77d-bf09-4748-9cb9-2102037d61ca",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "2026-02-18T19:00:00Z",
+        "title": "Session mensuelle de Février - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238149/",
+        "id": "10b36b45-f2a0-46c5-9b75-74776b1cef9b",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "2026-03-17T19:00:00Z",
+        "title": "Session mensuelle de Mars - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238168/",
+        "id": "d3509aa9-364e-4a28-b69a-351b2f89773a",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "2026-04-21T19:00:00Z",
+        "title": "Session mensuelle d'Avril - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238188/",
+        "id": "1ee25f70-fc03-49df-b2e1-0423c3272009",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "2026-05-19T19:00:00Z",
+        "title": "Session mensuelle de mai - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238212/",
+        "id": "a90d249b-718b-4500-a9b0-1e687f151a67",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "2026-06-16T19:00:00Z",
+        "title": "Session mensuelle de juin - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238223/",
+        "id": "fc655141-97d4-4dfe-956b-09cf63f6a47b",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "2026-07-21T19:00:00Z",
+        "title": "Session mensuelle de juillet - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238239/",
+        "id": "6f62cc40-46f3-4556-aa53-f0044c6416f3",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      }
+    ]
+  },
+  {
+    "id": "blockchain-societe",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400",
+    "name": "Blockchain Societe",
+    "description": "Communauté blockchain et crypto de Nantes. Nous explorons les technologies décentralisées, les cryptomonnaies et leurs impacts sur la société.",
+    "link": "https://blockchain-societe-nantes.fr",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "blockchain", "name": "Blockchain"},
+      {"id": "crypto", "name": "Cryptocurrency"},
+      {"id": "web3", "name": "Web3"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-28T18:00:00Z",
+        "title": "DeFi 2.0 : L'évolution de la finance décentralisée",
+        "link": "https://www.meetup.com/blockchain-societe/events/311076543/",
+        "id": "blockchain-defi-evolution",
+        "organizationName": "Blockchain Societe"
+      }
+    ]
+  },
+  {
+    "id": "cocoaheads-nantes",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400",
+    "name": "Cocoaheads Nantes",
+    "description": "Communauté des développeurs iOS et macOS de Nantes. Nous partageons nos expériences sur le développement Apple, Swift et les dernières nouveautés de l'écosystème.",
+    "link": "https://cocoaheads-nantes.fr",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "ios", "name": "iOS"},
+      {"id": "swift", "name": "Swift"},
+      {"id": "apple", "name": "Apple"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-24T19:00:00Z",
+        "title": "SwiftUI 6.0 : Les nouveautés qui révolutionnent le développement",
+        "link": "https://www.meetup.com/cocoaheads-nantes/events/311054321/",
+        "id": "cocoaheads-swiftui6",
+        "organizationName": "Cocoaheads Nantes"
+      }
+    ]
+  },
+  {
+    "id": "nantes-devops",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400",
+    "name": "Nantes Devops",
+    "description": "Communauté DevOps de Nantes. Nous explorons les pratiques d'automatisation, de déploiement continu et de culture DevOps.",
+    "link": "https://nantes-devops.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "devops", "name": "DevOps"},
+      {"id": "ci-cd", "name": "CI/CD"},
+      {"id": "automation", "name": "Automation"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-03T19:00:00Z",
+        "title": "Kubernetes en production : REX et bonnes pratiques",
+        "link": "https://www.meetup.com/nantes-devops/events/311134567/",
+        "id": "devops-k8s-production",
+        "organizationName": "Nantes Devops"
+      }
+    ]
+  },
+  {
+    "id": "nantes-machine-learning-meetup",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
+    "name": "Nantes Machine Learning Meetup",
+    "description": "Communauté ML/IA de Nantes. Nous explorons l'intelligence artificielle, le machine learning et leurs applications concrètes.",
+    "link": "https://nantes-ml.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "ml", "name": "Machine Learning"},
+      {"id": "ai", "name": "Artificial Intelligence"},
+      {"id": "data-science", "name": "Data Science"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-30T19:00:00Z",
+        "title": "LLMs en entreprise : Déploiement et fine-tuning",
+        "link": "https://www.meetup.com/nantes-machine-learning-meetup/events/311087654/",
+        "id": "ml-llms-enterprise",
+        "organizationName": "Nantes Machine Learning Meetup"
+      }
+    ]
+  },
+  {
+    "id": "nantes-python-meetup",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400",
+    "name": "Nantes Python Meetup",
+    "description": "Communauté Python de Nantes. Nous partageons nos connaissances sur Python, ses frameworks et ses applications dans tous les domaines.",
+    "link": "https://nantes-python.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "python", "name": "Python"},
+      {"id": "django", "name": "Django"},
+      {"id": "flask", "name": "Flask"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-01T19:00:00Z",
+        "title": "Python 3.13 : Nouvelles fonctionnalités et performance",
+        "link": "https://www.meetup.com/nantes-python-meetup/events/311112345/",
+        "id": "python-313-features",
+        "organizationName": "Nantes Python Meetup"
+      }
+    ]
+  },
+  {
+    "id": "gdg-nantes",
+    "image": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=400",
+    "name": "Gdg Nantes",
+    "description": "Google Developer Group de Nantes. Nous explorons les technologies Google : Android, Web, Cloud, et toutes les innovations du géant américain.",
+    "link": "https://gdg.community.dev/gdg-nantes/",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "google", "name": "Google"},
+      {"id": "android", "name": "Android"},
+      {"id": "gdg", "name": "GDG"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-10T19:00:00Z",
+        "title": "Android 15 : Nouveautés et migration",
+        "link": "https://www.meetup.com/gdg-nantes/events/311156789/",
+        "id": "gdg-android15",
+        "organizationName": "Gdg Nantes"
+      }
+    ]
+  },
+  {
+    "id": "gdg-cloud-nantes",
+    "image": "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?w=400",
+    "name": "Gdg Cloud Nantes",
+    "description": "Google Developer Group spécialisé Cloud de Nantes. Focus sur Google Cloud Platform, architecture cloud et solutions d'entreprise.",
+    "link": "https://gdg.community.dev/gdg-cloud-nantes/",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "gcp", "name": "Google Cloud"},
+      {"id": "cloud", "name": "Cloud"},
+      {"id": "gdg", "name": "GDG"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-19T18:30:00Z",
+        "title": "☁️ \"The Clouds Club\" : 3 talks pour 3 Communautés Cloud",
+        "link": "https://www.meetup.com/gdg-cloud-nantes/events/310808956/",
+        "id": "631d9303-2d22-4a95-ae2f-dfcf020635d6",
+        "organizationName": "GDG Cloud Nantes"
+      }
+    ]
+  },
+  {
+    "id": "frenchproduit-nantesbretagne",
+    "image": "https://images.unsplash.com/photo-1553028826-f4804151e04b?w=400",
+    "name": "Frenchproduit Nantesbretagne",
+    "description": "Communauté Product Management de Nantes et Bretagne. Nous échangeons sur la gestion produit, l'UX/UI et l'innovation produit.",
+    "link": "https://frenchproduit.fr/chapters/nantes-bretagne",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "product", "name": "Product Management"},
+      {"id": "ux", "name": "UX/UI"},
+      {"id": "innovation", "name": "Innovation"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-05T18:00:00Z",
+        "title": "Product Discovery : Comment valider ses hypothèses",
+        "link": "https://www.meetup.com/frenchproduit-nantesbretagne/events/311145678/",
+        "id": "product-discovery-validation",
+        "organizationName": "Frenchproduit Nantesbretagne"
+      }
+    ]
+  },
+  {
+    "id": "flutter-nantes",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400",
+    "name": "Flutter Nantes",
+    "description": "Communauté Flutter de Nantes. Nous explorons le framework de Google pour le développement mobile multiplateforme.",
+    "link": "https://flutter-nantes.dev",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "flutter", "name": "Flutter"},
+      {"id": "dart", "name": "Dart"},
+      {"id": "mobile", "name": "Mobile"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-27T19:00:00Z",
+        "title": "Flutter 3.24 : Performance et nouvelles APIs",
+        "link": "https://www.meetup.com/flutter-nantes/events/311065432/",
+        "id": "flutter-324-performance",
+        "organizationName": "Flutter Nantes"
+      }
+    ]
+  },
+  {
+    "id": "mtg-nantes",
+    "image": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=400",
+    "name": "Mtg Nantes",
+    "description": "Microsoft Technology Group de Nantes. Nous explorons l'écosystème Microsoft : .NET, Azure, Office 365 et toutes les technologies Microsoft.",
+    "link": "https://mtg-nantes.fr",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "microsoft", "name": "Microsoft"},
+      {"id": "dotnet", "name": ".NET"},
+      {"id": "azure", "name": "Azure"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-19T18:30:00Z",
+        "title": "\"The Clouds Club\" : 3 talks pour 3 Communautés Cloud",
+        "link": "https://www.meetup.com/mtg-nantes/events/310810770/",
+        "id": "17d4b1a3-f6a0-44f8-af1d-ab4ef2cd2a86",
+        "organizationName": "MTG Nantes"
+      }
+    ]
+  },
+  {
+    "id": "nantes-rb",
+    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400",
+    "name": "Nantes Rb",
+    "description": "Communauté Ruby de Nantes. Nous partageons notre passion pour Ruby, Rails et l'écosystème Ruby dans une ambiance conviviale.",
+    "link": "https://nantes.ruby-france.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "ruby", "name": "Ruby"},
+      {"id": "rails", "name": "Ruby on Rails"},
+      {"id": "web", "name": "Web Development"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-16T19:00:00Z",
+        "title": "🚀 C'est la rentrée pour les fans de Ruby ! 🚀",
+        "link": "https://www.meetup.com/nantes-rb/events/310813838/",
+        "id": "b23bc7fe-2770-4d2f-b0bc-d44f8e6ee768",
+        "organizationName": "Nantes.rb"
+      }
+    ]
+  },
+  {
+    "id": "nantes-software-crafters-nantes",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=400",
+    "name": "Nantes Software Crafters Nantes",
+    "description": "Communauté Software Craftsmanship de Nantes. Nous pratiquons et partageons les bonnes pratiques du développement logiciel : clean code, TDD, refactoring.",
+    "link": "https://software-crafters-nantes.dev",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "craftsmanship", "name": "Software Craftsmanship"},
+      {"id": "tdd", "name": "TDD"},
+      {"id": "clean-code", "name": "Clean Code"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-07T19:00:00Z",
+        "title": "Coding Dojo : Refactoring Legacy Code",
+        "link": "https://www.meetup.com/nantes-software-crafters-nantes/events/311123789/",
+        "id": "crafters-legacy-refactoring",
+        "organizationName": "Nantes Software Crafters Nantes"
+      }
+    ]
+  },
+  {
+    "id": "generative-ai-nantes",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
+    "name": "Generative Ai Nantes",
+    "description": "Communauté IA générative de Nantes. Nous explorons ChatGPT, Midjourney, les LLMs et toutes les innovations en intelligence artificielle générative.",
+    "link": "https://generative-ai-nantes.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "ai", "name": "Artificial Intelligence"},
+      {"id": "llm", "name": "Large Language Models"},
+      {"id": "generative", "name": "Generative AI"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-23T19:00:00Z",
+        "title": "S4E01 - Conf' CEA - Biais politiques dans les LLMs",
+        "link": "https://www.meetup.com/generative-ai-nantes/events/310137252/",
+        "id": "cadb609b-98aa-4b8a-bc5b-381812d130fa",
+        "organizationName": "Generative AI Nantes"
+      }
+    ]
+  },
+  {
+    "id": "gdg-nantes-android",
+    "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=400",
+    "name": "Gdg Nantes Android",
+    "description": "Google Developer Group spécialisé Android de Nantes. Focus sur le développement Android, Kotlin et l'écosystème mobile Google.",
+    "link": "https://gdg.community.dev/gdg-nantes-android/",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "android", "name": "Android"},
+      {"id": "kotlin", "name": "Kotlin"},
+      {"id": "mobile", "name": "Mobile"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-12T19:00:00Z",
+        "title": "Jetpack Compose : Animations avancées",
+        "link": "https://www.meetup.com/gdg-nantes-android/events/311167890/",
+        "id": "gdg-compose-animations",
+        "organizationName": "Gdg Nantes Android"
+      }
+    ]
+  },
+  {
+    "id": "aws-nantes",
+    "image": "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=400",
+    "name": "Aws Nantes",
+    "description": "AWS User Group de Nantes. Nous explorons Amazon Web Services, l'architecture cloud et les solutions AWS pour les entreprises.",
+    "link": "https://aws-nantes.fr",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "aws", "name": "Amazon Web Services"},
+      {"id": "cloud", "name": "Cloud"},
+      {"id": "serverless", "name": "Serverless"}
+    ],
+    "events": [
+      {
+        "date": "2025-11-15T18:00:00Z",
+        "title": "AWS Community pre:Invent Warmup",
+        "link": "https://www.meetup.com/aws-nantes/events/310578946/",
+        "id": "82d21d6b-667d-474d-ba3f-a8bf5fe81687",
+        "organizationName": "AWS User Group France - Nantes"
+      },
+      {
+        "date": "2025-09-19T18:30:00Z",
+        "title": "☁️ \"The Clouds Club\" : 3 talks pour 3 Communautés Cloud",
+        "link": "https://www.meetup.com/aws-nantes/events/310808817/",
+        "id": "115fef7f-15e5-4e65-9e60-93278768cd34",
+        "organizationName": "AWS User Group France - Nantes"
+      }
+    ]
+  },
+  {
+    "id": "alpescraft-coding-dojos",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=400",
+    "name": "Alpescraft Coding Dojos",
+    "description": "Coding dojos et pratiques craft à Grenoble. Nous nous retrouvons pour pratiquer le code, apprendre ensemble et améliorer nos compétences techniques.",
+    "link": "https://alpescraft.fr",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "coding-dojo", "name": "Coding Dojo"},
+      {"id": "craftsmanship", "name": "Software Craftsmanship"},
+      {"id": "practice", "name": "Practice"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-26T18:30:00Z",
+        "title": "Coding Dojo : Kata FizzBuzz en TDD",
+        "link": "https://www.meetup.com/alpescraft-coding-dojos/events/311065789/",
+        "id": "alpescraft-fizzbuzz-tdd",
+        "organizationName": "Alpescraft Coding Dojos"
+      }
+    ]
+  },
+  {
+    "id": "software-craftsmanship-grenoble",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=400",
+    "name": "Software Craftsmanship Grenoble",
+    "description": "Communauté Software Craftsmanship de Grenoble. Nous prônons l'excellence technique, le clean code et les bonnes pratiques de développement.",
+    "link": "https://software-craftsmanship-grenoble.org",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "craftsmanship", "name": "Software Craftsmanship"},
+      {"id": "clean-code", "name": "Clean Code"},
+      {"id": "tdd", "name": "TDD"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-09T19:00:00Z",
+        "title": "Clean Architecture : Principes et mise en pratique",
+        "link": "https://www.meetup.com/software-craftsmanship-grenoble/events/311156432/",
+        "id": "craftsmanship-clean-architecture",
+        "organizationName": "Software Craftsmanship Grenoble"
+      }
+    ]
+  },
+  {
+    "id": "alpesjug",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400",
+    "name": "Alpesjug",
+    "description": "Java User Group des Alpes à Grenoble. Nous explorons l'écosystème Java, JVM et les technologies enterprise dans la région grenobloise.",
+    "link": "https://alpesjug.org",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "java", "name": "Java"},
+      {"id": "jug", "name": "JUG"},
+      {"id": "jvm", "name": "JVM"}
+    ],
+    "events": [
+      {
+        "date": "2025-09-25T19:00:00Z",
+        "title": "SpringBoot 2025 : NullSafety et Optimisations",
+        "link": "https://www.meetup.com/alpesjug/events/310709483/",
+        "id": "0a88cb26-d9cd-4832-81d7-1b46165abb94",
+        "organizationName": "AlpesJUG"
+      }
+    ]
+  },
+  {
+    "id": "grenoble-web-development-meetup-group",
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400",
+    "name": "Grenoble Web Development Meetup Group",
+    "description": "Communauté de développement web de Grenoble. Nous explorons les technologies frontend, backend et full-stack pour créer des applications web modernes.",
+    "link": "https://grenoble-web-dev.org",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      {"id": "web", "name": "Web Development"},
+      {"id": "frontend", "name": "Frontend"},
+      {"id": "backend", "name": "Backend"}
+    ],
+    "events": [
+      {
+        "date": "2025-10-11T19:00:00Z",
+        "title": "React 19 : Server Components et nouveautés",
+        "link": "https://www.meetup.com/grenoble-web-development-meetup-group/events/311178901/",
+        "id": "grenoble-web-react19",
+        "organizationName": "Grenoble Web Development Meetup Group"
+      }
+    ]
+  }
+]

@@ -8,6 +8,6 @@ const { title, description } = Astro.props;
 ---
 
 <header role="banner" class="w-full bg-[#1E2938] py-12 px-28">
-    <h2 class="text-white text-3xl leading-normal" set:html={title}></h2>
-    <p class="text-white text-xl leading-5">{description}</p>
+    <h2 class="text-white font-bold text-3xl leading-normal" set:html={title}></h2>
+    <p class="text-[#EFEFEF] text-lg leading-5">{description}</p>
 </header>

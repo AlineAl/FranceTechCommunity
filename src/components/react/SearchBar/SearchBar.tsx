@@ -51,7 +51,14 @@ export const SearchBar = ({
             <form className="m-8 flex items-center flex-wrap md:flex-nowrap w-full md:w-auto">
                 <select
                     id="city_select"
-                    className="border border-[#DEDEDE] text-[#6D6D6D] rounded-lg text-sm h-12 md:mr-4 p-2.5 outline-none w-full md:w-56 mb-2 md:mb-0"
+                    className="border border-[#DEDEDE] text-[#6D6D6D] rounded-lg text-sm h-12 md:mr-4 p-2.5 pr-12 outline-none w-full md:w-56 mb-2 md:mb-0"
+                    style={{
+                        appearance: 'none',
+                        backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e")`,
+                        backgroundPosition: 'right 10px center',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: '1rem'
+                    }}
                     onChange={handleSelectCity}
                     value={selectedCity}
                 >
@@ -66,7 +73,7 @@ export const SearchBar = ({
                 <input
                     type="text"
                     placeholder={searchPlaceholder}
-                    className="border border-[#DEDEDE] placeholder-[#6D6D6D] rounded-lg h-12 p-2.5 text-sm outline-none w-full md:w-56"
+                    className="border border-[#DEDEDE] placeholder-[#6D6D6D] italic rounded-lg h-12 p-2.5 text-sm outline-none w-full md:w-56"
                     onChange={handleSearchChange}
                     value={searchValue}
                 />

@@ -78,15 +78,17 @@ export function communityLoader(): Loader {
                         name: community.name,
                         description: community.description || '',
                         link: community.link,
-                        tags: community.tags.map(tag => ({
-                            id: tag.toLowerCase().replace(/\s+/g, '-'),
-                            name: tag
-                        })),
-                        events: community.events.map(event => ({
+                        tags: (community.tags || [])
+                            .filter(tag => typeof tag === 'string' && tag.trim() !== '')
+                            .map(tag => ({
+                                id: tag.toLowerCase().replace(/\s+/g, '-'),
+                                name: tag
+                            })),
+                        events: (community.events || []).map(event => ({
                             id: event.id,
                             title: event.title,
-                            date: event.date,
-                            dateTime: event.date,
+                            date: event.date || '',
+                            dateTime: event.date || '',
                             description: '',
                             link: event.link
                         }))
@@ -104,6 +106,7 @@ export function communityLoader(): Loader {
                     });
                 }
             } catch (error) {
+                console.error('Error in community loader:', error);
                 throw error;
             }
         }
