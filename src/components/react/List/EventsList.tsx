@@ -62,7 +62,7 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
             title: event.communityName,
             start: event.dateTime,
             url: event.link,
-            backgroundColor: '#E9E8FD',
+            backgroundColor: 'transparent',
             textColor: '#4C40CF',
             borderColor: '#4C40CF',
             extendedProps: {
@@ -87,10 +87,11 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
         window.location.href = "/";
     };
 
+
     const renderEventContent = (eventInfo: any) => {
         return (
-            <div className="text-xs p-1 leading-tight">
-                <div className="font-medium truncate">
+            <div className="text-xs leading-tight w-full">
+                <div className="font-medium truncate text-center">
                     {eventInfo.event.extendedProps.communityName}
                 </div>
             </div>
@@ -98,7 +99,7 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
     };
 
     return (
-        <>
+        <section role="list" className="mx-28 mt-8">
             <SearchBar
                 cities={allCities}
                 selectedCity={selectedCity}
@@ -111,32 +112,36 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                 eventsButtonText="Passer à une vue liste"
             />
 
-            <div className="mx-8 mb-4">
-                <span className="text-sm text-[#6D6D6D] italic">
-                    {filteredEvents.length} événement{filteredEvents.length > 1 ? 's' : ''} trouvé{filteredEvents.length > 1 ? 's' : ''}
-                </span>
-            </div>
+            <span className="text-sm text-[#6D6D6D] italic mt-8 block">
+                {filteredEvents.length} événement{filteredEvents.length > 1 ? 's' : ''} trouvé{filteredEvents.length > 1 ? 's' : ''}
+            </span>
 
-            <div className="m-8 mt-0">
+            <div className="my-8">
                 <style>
                     {`
                         .fc-day-today {
-                            background-color: #f8fafc !important;
+                            background-color: #E9E8FD !important;
+                        }
+                        .fc-day-today .fc-daygrid-day-number {
+                            color: #4C40CF !important;
+                            font-weight: 600 !important;
                         }
                         .fc-event {
-                            border-radius: 50px !important;
+                            border-radius: 10px !important;
                             cursor: pointer !important;
-                            border: none !important;
-                            font-size: 11px !important;
-                            margin-bottom: 1px !important;
+                            font-size: 12px !important;
+                            padding: 0px 12px !important;
+                            height: 24px !important;
                             transition: all 0.2s ease !important;
                             background-color: #E9E8FD !important;
                             color: #4C40CF !important;
+                            overflow: hidden !important;
                         }
                         .fc-event:hover {
                             transform: translateY(-1px) !important;
                             background-color: #4C40CF !important;
-                            color: #E9E8FD !important;
+                            color: #ffffff !important;
+                            box-shadow: 0 2px 4px rgba(76, 64, 207, 0.2) !important;
                         }
                         .fc-event:active {
                             background-color: #E9E8FD !important;
@@ -144,8 +149,15 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                             transform: translateY(0px) !important;
                         }
                         .fc-event-title {
-                            padding: 1px 4px !important;
+                            padding: 1px 2px !important;
                             font-weight: 500 !important;
+                            white-space: nowrap !important;
+                            overflow: hidden !important;
+                            text-overflow: ellipsis !important;
+                            text-align: center !important;
+                        }
+                        .fc-event-main {
+                            overflow: hidden !important;
                         }
                         .fc-toolbar-title {
                             color: #1f2937 !important;
@@ -161,17 +173,20 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                             background-color: #4f46e5 !important;
                             border-color: #4f46e5 !important;
                         }
+                        .fc-daygrid-day-top {
+                            display: block !important;
+                            padding: 4px !important;
+                        }
                         .fc-daygrid-event {
-                            margin: 0 1px 1px 1px !important;
-                            border-radius: 3px !important;
+                            margin: 2px 4px !important;
+                            border-radius: 8px !important;
                         }
                         .fc-daygrid-day-number {
                             color: #374151 !important;
                             font-weight: 500 !important;
-                            padding: 4px !important;
                         }
                         .fc-col-header-cell {
-                            background-color: #f9fafb !important;
+                            background-color: transparent !important;
                             border-color: #e5e7eb !important;
                         }
                         .fc-daygrid-day {
@@ -183,6 +198,12 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                         .fc-daygrid-more-link {
                             color: #6366f1 !important;
                             font-size: 11px !important;
+                        }
+                        .fc-daygrid-day-frame {
+                            min-height: 100px !important;
+                        }
+                        .fc-daygrid-event-harness {
+                            margin: 1px 0 !important;
                         }
                     `}
                 </style>
@@ -197,7 +218,7 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                         events={events}
                         eventContent={renderEventContent}
                         height="auto"
-                        dayMaxEvents={3}
+                        dayMaxEvents={1}
                         moreLinkClick="popover"
                         eventClick={(info) => {
                             if (info.event.url) {
@@ -221,6 +242,6 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                     </div>
                 )}
             </div>
-        </>
+        </section>
     );
 };

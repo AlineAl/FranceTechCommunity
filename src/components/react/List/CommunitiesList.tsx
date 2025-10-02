@@ -73,7 +73,7 @@ export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
     }, [currentPage, totalPages]);
 
     return (
-        <section role="list" className="flex flex-col">
+        <section role="list" className="mx-28 mt-8">
             <SearchBar
                 cities={allCities}
                 selectedCity={selectedCity}
@@ -85,13 +85,13 @@ export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
                 eventsButtonText="Voir les événements"
             />
 
-            <span className="mx-8 text-sm text-[#6D6D6D] italic">
+            <span className="text-sm text-[#6D6D6D] italic mt-8 block">
                 {filteredCommunities.length} communautés
             </span>
 
             {paginatedCommunities.length > 0 ? (
                 <>
-                    <ul className="mx-8 grid grid-cols-1 gap-2">
+                    <ul className="grid grid-cols-1 gap-2">
                         {paginatedCommunities.map(community => (
                             <CommunityCard
                                 key={community.id}

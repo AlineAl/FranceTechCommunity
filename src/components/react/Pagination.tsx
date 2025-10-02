@@ -37,24 +37,24 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }: IPaginatio
     };
 
     return (
-        <nav aria-label="pagination" className="flex items-center justify-center mt-4">
+        <nav aria-label="pagination" className="flex items-center justify-center my-10">
             <button
                 onClick={() => onPageChange(currentPage - 1)}
                 disabled={currentPage === 1}
-                className="flex items-center justify-center cursor-pointer text-sm h-12 px-3 mr-1 rounded-md leading-tight text-[#4C40CF] bg-white border border-[#4C40CF]"
+                className="flex items-center justify-center cursor-pointer text-sm font-bold h-12 px-5.5 mr-1 rounded-md leading-tight text-[#4C40CF] bg-white border border-[#4C40CF]"
             >
                 <LuArrowLeft />
                 <span className="ml-2">Page précédente</span>
             </button>
 
-            <span className="flex items-center text-sm gap-1">
+            <span className="flex items-center text-sm font-bold gap-1">
                 {renderPageNumbers()}
             </span>
 
             <button
                 onClick={() => onPageChange(currentPage + 1)}
                 disabled={currentPage === totalPages}
-                className="flex items-center text-sm justify-center cursor-pointer h-12 px-3 ml-1 rounded-md leading-tight text-[#4C40CF] bg-white border border-[#4C40CF]"
+                className="flex items-center text-sm font-bold justify-center cursor-pointer h-12 px-5.5 ml-1 rounded-md leading-tight text-[#4C40CF] bg-white border border-[#4C40CF]"
             >
                 <span className="mr-2">Page suivante</span>
                 <LuArrowRight />

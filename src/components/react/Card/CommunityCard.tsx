@@ -29,8 +29,6 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
         return [...community.events].sort((a, b) => new Date(a.dateTime).getTime() - new Date(b.dateTime).getTime());
     }, [community.events]);
 
-    console.log("Sorted Events:", community);
-
     const futureEvents = useMemo(() => {
         return sortedEvents.filter(event => new Date(event.dateTime) > new Date());
     }, [sortedEvents]);
@@ -51,7 +49,7 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
     return (
         <li
             role="listitem"
-            className="md:flex justify-between items-start border-b border-b-[#F0F0F0] p-6 gap-6"
+            className="md:flex justify-between items-start border-b border-b-[#F0F0F0] py-6 gap-6"
         >
             <div className="mb-6 md:mb-0 flex-1">
                 <div className="flex items-start gap-4 mb-4">
@@ -61,21 +59,23 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
                         className="w-16 h-16 object-cover rounded-lg flex-shrink-0"
                     />
                     <div className="flex-1">
-                        <h3 className="font-extrabold text-2xl mb-2">{community.name}</h3>
+                        <h3 className="font-bold text-2xl mb-2">{community.name}</h3>
                         <p className="text-sm text-[#6D6D6D] leading-relaxed mb-3">
                             {community.description}
                         </p>
 
-                        <div className="flex flex-wrap gap-2 mb-3">
-                            {community.tags.map(tag => (
-                                <span
-                                    key={tag.id}
-                                    className="px-2 py-1 bg-[#F0F0F0] text-[#4C40CF] text-xs rounded-full"
-                                >
-                                    {tag.name}
-                                </span>
-                            ))}
-                        </div>
+                        {community.tags.length > 0 &&
+                            <div className="flex flex-wrap gap-2 mb-3">
+                                {community.tags.map(tag => (
+                                    <span
+                                        key={tag.id}
+                                        className="px-2 py-1 bg-[#4C40CF]/10 text-[#4C40CF] text-xs rounded-full"
+                                    >
+                                        # {tag.name}
+                                    </span>
+                                ))}
+                            </div>
+                        }
 
                         <a
                             href={community.link}

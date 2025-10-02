@@ -48,7 +48,7 @@ export const SearchBar = ({
             role="form"
             className={`flex justify-between items-center flex-wrap md:flex-nowrap ${className}`}
         >
-            <form className="m-8 flex items-center flex-wrap md:flex-nowrap w-full md:w-auto">
+            <form className="flex items-center flex-wrap md:flex-nowrap w-full md:w-auto">
                 <select
                     id="city_select"
                     className="border border-[#DEDEDE] text-[#6D6D6D] rounded-lg text-sm h-12 md:mr-4 p-2.5 pr-12 outline-none w-full md:w-56 mb-2 md:mb-0"
@@ -82,7 +82,7 @@ export const SearchBar = ({
             {showEventsButton && (
                 <button
                     type="button"
-                    className="flex items-center justify-center cursor-pointer mt-0 md:mt-8 m-8 p-2.5 h-12 text-sm bg-[#4C40CF] text-white rounded-lg whitespace-nowrap"
+                    className="flex items-center justify-center cursor-pointer py-3.5 px-5.5 h-12 text-sm bg-[#4C40CF] text-white rounded-lg whitespace-nowrap"
                     onClick={handleEventsClick}
                 >
                     {eventsButtonText === "Voir les événements" ?

@@ -10,7 +10,10 @@ interface RawCommunity {
     link: string;
     city: string;
     platform: string;
-    tags: string[];
+    tags: Array<{
+        id: string;
+        name: string;
+    }>;
     events: Array<{
         date: string | null;
         title: string;
@@ -79,10 +82,10 @@ export function communityLoader(): Loader {
                         description: community.description || '',
                         link: community.link,
                         tags: (community.tags || [])
-                            .filter(tag => typeof tag === 'string' && tag.trim() !== '')
+                            .filter(tag => tag && tag.id && tag.name)
                             .map(tag => ({
-                                id: tag.toLowerCase().replace(/\s+/g, '-'),
-                                name: tag
+                                id: tag.id,
+                                name: tag.name
                             })),
                         events: (community.events || []).map(event => ({
                             id: event.id,
