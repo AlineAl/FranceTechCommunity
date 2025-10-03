@@ -2,7 +2,7 @@ import type { CollectionEntry } from "astro:content";
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import frLocale from '@fullcalendar/core/locales/fr';
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { SearchBar } from "../SearchBar/SearchBar.tsx";
 
 interface IEventsListCalendar {
@@ -10,7 +10,12 @@ interface IEventsListCalendar {
 }
 
 export const EventsList = ({ communities }: IEventsListCalendar) => {
-    const [selectedCity, setSelectedCity] = useState("Toutes les villes");
+    const [selectedCity, setSelectedCity] = useState(() => {
+        if (typeof window !== 'undefined') {
+            return localStorage.getItem('selectedCity') || "Toutes les villes";
+        }
+        return "Toutes les villes";
+    });
     const [searchValue, setSearchValue] = useState("");
 
     const allCities = useMemo(() => {
@@ -97,6 +102,12 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
             </div>
         );
     };
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            localStorage.setItem('selectedCity', selectedCity);
+        }
+    }, [selectedCity]);
 
     return (
         <section role="list" className="mx-28 mt-8">

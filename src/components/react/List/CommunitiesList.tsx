@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import type { CollectionEntry } from "astro:content";
 import { Pagination } from "../Pagination.tsx";
 import { CommunityCard } from "../Card/CommunityCard.tsx";
@@ -9,7 +9,12 @@ interface ICommunityListComponent {
 }
 
 export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
-    const [selectedCity, setSelectedCity] = useState("Toutes les villes");
+    const [selectedCity, setSelectedCity] = useState(() => {
+    if (typeof window !== 'undefined') {
+        return localStorage.getItem('selectedCity') || "Toutes les villes";
+    }
+    return "Toutes les villes";
+});
     const [currentPage, setCurrentPage] = useState(1);
     const [searchValue, setSearchValue] = useState("");
     const communitiesPerPage = 4;
@@ -66,11 +71,17 @@ export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
         setCurrentPage(newPage);
     };
 
-    React.useEffect(() => {
+    useEffect(() => {
         if (currentPage > totalPages && totalPages > 0) {
             setCurrentPage(totalPages);
         }
     }, [currentPage, totalPages]);
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            localStorage.setItem('selectedCity', selectedCity);
+        }
+    }, [selectedCity]);
 
     return (
         <section role="list" className="mx-28 mt-8">
