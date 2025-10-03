@@ -163,6 +163,7 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                             color: #1f2937 !important;
                             font-size: 1.25rem !important;
                             font-weight: 600 !important;
+                            text-transform: capitalize !important;
                         }
                         .fc-button-primary {
                             background-color: #6366f1 !important;
@@ -187,7 +188,18 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                         }
                         .fc-col-header-cell {
                             background-color: transparent !important;
-                            border-color: #e5e7eb !important;
+                            border: none !important;
+                            border-bottom: 1px solid #e5e7eb !important;
+                        }
+                        .fc-col-header-cell-cushion {
+                            text-transform: capitalize !important;
+                            font-weight: 600 !important;
+                            font-size: 14px !important;
+                            text-align: left !important;
+                            padding-left: 8px !important;
+                        }
+                        .fc-scrollgrid-sync-inner {
+                            text-align: left !important;
                         }
                         .fc-daygrid-day {
                             border-color: #e5e7eb !important;
@@ -196,8 +208,17 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                             border-color: #e5e7eb !important;
                         }
                         .fc-daygrid-more-link {
-                            color: #6366f1 !important;
-                            font-size: 11px !important;
+                            color: #4C40CF !important;
+                            background-color: #E9E8FD !important;
+                            font-size: 12px !important;
+                            padding: 0px 12px !important;
+                            height: 24px !important;
+                            display: flex !important;
+                            align-items: center !important;
+                            justify-content: center !important;
+                            text-align: center !important;
+                            border-radius: 10px !important;
+                            cursor: pointer !important;
                         }
                         .fc-daygrid-day-frame {
                             min-height: 100px !important;
@@ -213,13 +234,15 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                         plugins={[dayGridPlugin]}
                         initialView="dayGridMonth"
                         locale={frLocale}
+                        titleFormat={{ month: 'long' }}
                         dayHeaderFormat={{ weekday: 'long' }}
                         firstDay={1}
                         events={events}
                         eventContent={renderEventContent}
                         height="auto"
-                        dayMaxEvents={1}
+                        dayMaxEvents={2}
                         moreLinkClick="popover"
+                        moreLinkText={(num) => `+ ${num} événement${num > 1 ? 's' : ''}`}
                         eventClick={(info) => {
                             if (info.event.url) {
                                 window.open(info.event.url, '_blank');
