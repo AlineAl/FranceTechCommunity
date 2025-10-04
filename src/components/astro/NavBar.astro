@@ -27,11 +27,19 @@ import { LuMenu, LuX } from "react-icons/lu";
     role="list"
     class="nav-underline mobile-menu hidden md:flex fixed md:relative top-[70px] md:top-0 left-0 right-0 md:left-auto md:right-auto bg-white md:bg-transparent flex-col md:flex-row items-center h-auto md:h-full text-sm shadow-lg md:shadow-none"
   >
-    <li class="px-4 py-4 md:py-0 w-full md:w-auto md:h-full flex items-center justify-center md:justify-start hover:text-[#766CE2] border-b md:border-b-0">
-      <a href="/" class="w-full md:w-auto text-center md:text-left">Les communautés</a>
+    <li
+      class="px-4 py-4 md:py-0 w-full md:w-auto md:h-full flex items-center justify-center md:justify-start hover:text-[#766CE2] border-b md:border-b-0"
+    >
+      <a href="/" class="w-full md:w-auto text-center md:text-left"
+        >Les communautés</a
+      >
     </li>
-    <li class="px-4 py-4 md:py-0 w-full md:w-auto md:h-full flex items-center justify-center md:justify-start hover:text-[#766CE2]">
-      <a href="/events" class="w-full md:w-auto text-center md:text-left">Les événements</a>
+    <li
+      class="px-4 py-4 md:py-0 w-full md:w-auto md:h-full flex items-center justify-center md:justify-start hover:text-[#766CE2]"
+    >
+      <a href="/events" class="w-full md:w-auto text-center md:text-left"
+        >Les événements</a
+      >
     </li>
   </ul>
 </nav>
@@ -98,27 +106,27 @@ import { LuMenu, LuX } from "react-icons/lu";
 </style>
 
 <script>
-  const menuToggle = document.getElementById('menu-toggle');
-  const navMenu = document.getElementById('nav-menu');
-  const menuIcon = menuToggle?.querySelector('.menu-icon');
-  const closeIcon = menuToggle?.querySelector('.close-icon');
+  const menuToggle = document.getElementById("menu-toggle");
+  const navMenu = document.getElementById("nav-menu");
+  const menuIcon = menuToggle?.querySelector(".menu-icon");
+  const closeIcon = menuToggle?.querySelector(".close-icon");
 
-  menuToggle?.addEventListener('click', () => {
-    const isOpen = navMenu?.classList.toggle('nav-menu-open');
-    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    
-    menuIcon?.classList.toggle('hidden');
-    closeIcon?.classList.toggle('hidden');
+  menuToggle?.addEventListener("click", () => {
+    const isOpen = navMenu?.classList.toggle("nav-menu-open");
+    menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+
+    menuIcon?.classList.toggle("hidden");
+    closeIcon?.classList.toggle("hidden");
   });
 
-  const navLinks = navMenu?.querySelectorAll('a');
-  navLinks?.forEach(link => {
-    link.addEventListener('click', () => {
+  const navLinks = navMenu?.querySelectorAll("a");
+  navLinks?.forEach((link) => {
+    link.addEventListener("click", () => {
       if (window.innerWidth < 768) {
-        navMenu?.classList.remove('nav-menu-open');
-        menuToggle?.setAttribute('aria-expanded', 'false');
-        menuIcon?.classList.remove('hidden');
-        closeIcon?.classList.add('hidden');
+        navMenu?.classList.remove("nav-menu-open");
+        menuToggle?.setAttribute("aria-expanded", "false");
+        menuIcon?.classList.remove("hidden");
+        closeIcon?.classList.add("hidden");
       }
     });
   });
