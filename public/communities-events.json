@@ -8,9 +8,9 @@
     "city": "Angers",
     "platform": "Meetup",
     "tags": [
-      {"id": "humantalks", "name": "Human Talks"},
-      {"id": "tech", "name": "Technology"},
-      {"id": "programming", "name": "Programming"}
+      { "id": "humantalks", "name": "Human Talks" },
+      { "id": "tech", "name": "Technology" },
+      { "id": "programming", "name": "Programming" }
     ],
     "events": [
       {
@@ -31,9 +31,9 @@
     "city": "Bordeaux",
     "platform": "Meetup",
     "tags": [
-      {"id": "javascript", "name": "JavaScript"},
-      {"id": "frontend", "name": "Frontend"},
-      {"id": "nodejs", "name": "Node.js"}
+      { "id": "javascript", "name": "JavaScript" },
+      { "id": "frontend", "name": "Frontend" },
+      { "id": "nodejs", "name": "Node.js" }
     ],
     "events": [
       {
@@ -54,9 +54,9 @@
     "city": "Bordeaux",
     "platform": "Meetup",
     "tags": [
-      {"id": "java", "name": "Java"},
-      {"id": "jvm", "name": "JVM"},
-      {"id": "spring", "name": "Spring"}
+      { "id": "java", "name": "Java" },
+      { "id": "jvm", "name": "JVM" },
+      { "id": "spring", "name": "Spring" }
     ],
     "events": [
       {
@@ -77,9 +77,9 @@
     "city": "Bordeaux",
     "platform": "Meetup",
     "tags": [
-      {"id": "humantalks", "name": "Human Talks"},
-      {"id": "tech", "name": "Technology"},
-      {"id": "innovation", "name": "Innovation"}
+      { "id": "humantalks", "name": "Human Talks" },
+      { "id": "tech", "name": "Technology" },
+      { "id": "innovation", "name": "Innovation" }
     ],
     "events": [
       {
@@ -100,9 +100,9 @@
     "city": "Bordeaux",
     "platform": "Meetup",
     "tags": [
-      {"id": "diversity", "name": "Diversity"},
-      {"id": "women", "name": "Women in Tech"},
-      {"id": "networking", "name": "Networking"}
+      { "id": "diversity", "name": "Diversity" },
+      { "id": "women", "name": "Women in Tech" },
+      { "id": "networking", "name": "Networking" }
     ],
     "events": [
       {
@@ -123,9 +123,9 @@
     "city": "Brest",
     "platform": "Meetup",
     "tags": [
-      {"id": "dev", "name": "Development"},
-      {"id": "finistere", "name": "Finistère"},
-      {"id": "coding", "name": "Coding"}
+      { "id": "dev", "name": "Development" },
+      { "id": "finistere", "name": "Finistère" },
+      { "id": "coding", "name": "Coding" }
     ],
     "events": [
       {
@@ -146,9 +146,9 @@
     "city": "Grenoble",
     "platform": "Meetup",
     "tags": [
-      {"id": "humantalks", "name": "Human Talks"},
-      {"id": "tech", "name": "Technology"},
-      {"id": "grenoble", "name": "Grenoble"}
+      { "id": "humantalks", "name": "Human Talks" },
+      { "id": "tech", "name": "Technology" },
+      { "id": "grenoble", "name": "Grenoble" }
     ],
     "events": [
       {
@@ -232,9 +232,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "humantalks", "name": "Human Talks"},
-      {"id": "tech", "name": "Technology"},
-      {"id": "nantes", "name": "Nantes"}
+      { "id": "humantalks", "name": "Human Talks" },
+      { "id": "tech", "name": "Technology" },
+      { "id": "nantes", "name": "Nantes" }
     ],
     "events": [
       {
@@ -255,9 +255,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "java", "name": "Java"},
-      {"id": "jug", "name": "JUG"},
-      {"id": "enterprise", "name": "Enterprise"}
+      { "id": "java", "name": "Java" },
+      { "id": "jug", "name": "JUG" },
+      { "id": "enterprise", "name": "Enterprise" }
     ],
     "events": [
       {
@@ -278,9 +278,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "agile", "name": "Agile"},
-      {"id": "scrum", "name": "Scrum"},
-      {"id": "management", "name": "Management"}
+      { "id": "agile", "name": "Agile" },
+      { "id": "scrum", "name": "Scrum" },
+      { "id": "management", "name": "Management" }
     ],
     "events": [
       {
@@ -364,9 +364,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "blockchain", "name": "Blockchain"},
-      {"id": "crypto", "name": "Cryptocurrency"},
-      {"id": "web3", "name": "Web3"}
+      { "id": "blockchain", "name": "Blockchain" },
+      { "id": "crypto", "name": "Cryptocurrency" },
+      { "id": "web3", "name": "Web3" }
     ],
     "events": [
       {
@@ -387,9 +387,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "ios", "name": "iOS"},
-      {"id": "swift", "name": "Swift"},
-      {"id": "apple", "name": "Apple"}
+      { "id": "ios", "name": "iOS" },
+      { "id": "swift", "name": "Swift" },
+      { "id": "apple", "name": "Apple" }
     ],
     "events": [
       {
@@ -410,9 +410,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "devops", "name": "DevOps"},
-      {"id": "ci-cd", "name": "CI/CD"},
-      {"id": "automation", "name": "Automation"}
+      { "id": "devops", "name": "DevOps" },
+      { "id": "ci-cd", "name": "CI/CD" },
+      { "id": "automation", "name": "Automation" }
     ],
     "events": [
       {
@@ -433,9 +433,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "ml", "name": "Machine Learning"},
-      {"id": "ai", "name": "Artificial Intelligence"},
-      {"id": "data-science", "name": "Data Science"}
+      { "id": "ml", "name": "Machine Learning" },
+      { "id": "ai", "name": "Artificial Intelligence" },
+      { "id": "data-science", "name": "Data Science" }
     ],
     "events": [
       {
@@ -456,9 +456,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "python", "name": "Python"},
-      {"id": "django", "name": "Django"},
-      {"id": "flask", "name": "Flask"}
+      { "id": "python", "name": "Python" },
+      { "id": "django", "name": "Django" },
+      { "id": "flask", "name": "Flask" }
     ],
     "events": [
       {
@@ -479,9 +479,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "google", "name": "Google"},
-      {"id": "android", "name": "Android"},
-      {"id": "gdg", "name": "GDG"}
+      { "id": "google", "name": "Google" },
+      { "id": "android", "name": "Android" },
+      { "id": "gdg", "name": "GDG" }
     ],
     "events": [
       {
@@ -502,9 +502,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "gcp", "name": "Google Cloud"},
-      {"id": "cloud", "name": "Cloud"},
-      {"id": "gdg", "name": "GDG"}
+      { "id": "gcp", "name": "Google Cloud" },
+      { "id": "cloud", "name": "Cloud" },
+      { "id": "gdg", "name": "GDG" }
     ],
     "events": [
       {
@@ -525,9 +525,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "product", "name": "Product Management"},
-      {"id": "ux", "name": "UX/UI"},
-      {"id": "innovation", "name": "Innovation"}
+      { "id": "product", "name": "Product Management" },
+      { "id": "ux", "name": "UX/UI" },
+      { "id": "innovation", "name": "Innovation" }
     ],
     "events": [
       {
@@ -548,9 +548,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "flutter", "name": "Flutter"},
-      {"id": "dart", "name": "Dart"},
-      {"id": "mobile", "name": "Mobile"}
+      { "id": "flutter", "name": "Flutter" },
+      { "id": "dart", "name": "Dart" },
+      { "id": "mobile", "name": "Mobile" }
     ],
     "events": [
       {
@@ -571,9 +571,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "microsoft", "name": "Microsoft"},
-      {"id": "dotnet", "name": ".NET"},
-      {"id": "azure", "name": "Azure"}
+      { "id": "microsoft", "name": "Microsoft" },
+      { "id": "dotnet", "name": ".NET" },
+      { "id": "azure", "name": "Azure" }
     ],
     "events": [
       {
@@ -594,9 +594,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "ruby", "name": "Ruby"},
-      {"id": "rails", "name": "Ruby on Rails"},
-      {"id": "web", "name": "Web Development"}
+      { "id": "ruby", "name": "Ruby" },
+      { "id": "rails", "name": "Ruby on Rails" },
+      { "id": "web", "name": "Web Development" }
     ],
     "events": [
       {
@@ -617,9 +617,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "craftsmanship", "name": "Software Craftsmanship"},
-      {"id": "tdd", "name": "TDD"},
-      {"id": "clean-code", "name": "Clean Code"}
+      { "id": "craftsmanship", "name": "Software Craftsmanship" },
+      { "id": "tdd", "name": "TDD" },
+      { "id": "clean-code", "name": "Clean Code" }
     ],
     "events": [
       {
@@ -659,9 +659,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "android", "name": "Android"},
-      {"id": "kotlin", "name": "Kotlin"},
-      {"id": "mobile", "name": "Mobile"}
+      { "id": "android", "name": "Android" },
+      { "id": "kotlin", "name": "Kotlin" },
+      { "id": "mobile", "name": "Mobile" }
     ],
     "events": [
       {
@@ -682,9 +682,9 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [
-      {"id": "aws", "name": "Amazon Web Services"},
-      {"id": "cloud", "name": "Cloud"},
-      {"id": "serverless", "name": "Serverless"}
+      { "id": "aws", "name": "Amazon Web Services" },
+      { "id": "cloud", "name": "Cloud" },
+      { "id": "serverless", "name": "Serverless" }
     ],
     "events": [
       {
@@ -712,9 +712,9 @@
     "city": "Grenoble",
     "platform": "Meetup",
     "tags": [
-      {"id": "coding-dojo", "name": "Coding Dojo"},
-      {"id": "craftsmanship", "name": "Software Craftsmanship"},
-      {"id": "practice", "name": "Practice"}
+      { "id": "coding-dojo", "name": "Coding Dojo" },
+      { "id": "craftsmanship", "name": "Software Craftsmanship" },
+      { "id": "practice", "name": "Practice" }
     ],
     "events": [
       {
@@ -735,9 +735,9 @@
     "city": "Grenoble",
     "platform": "Meetup",
     "tags": [
-      {"id": "craftsmanship", "name": "Software Craftsmanship"},
-      {"id": "clean-code", "name": "Clean Code"},
-      {"id": "tdd", "name": "TDD"}
+      { "id": "craftsmanship", "name": "Software Craftsmanship" },
+      { "id": "clean-code", "name": "Clean Code" },
+      { "id": "tdd", "name": "TDD" }
     ],
     "events": [
       {
@@ -758,9 +758,9 @@
     "city": "Grenoble",
     "platform": "Meetup",
     "tags": [
-      {"id": "java", "name": "Java"},
-      {"id": "jug", "name": "JUG"},
-      {"id": "jvm", "name": "JVM"}
+      { "id": "java", "name": "Java" },
+      { "id": "jug", "name": "JUG" },
+      { "id": "jvm", "name": "JVM" }
     ],
     "events": [
       {
@@ -781,9 +781,9 @@
     "city": "Grenoble",
     "platform": "Meetup",
     "tags": [
-      {"id": "web", "name": "Web Development"},
-      {"id": "frontend", "name": "Frontend"},
-      {"id": "backend", "name": "Backend"}
+      { "id": "web", "name": "Web Development" },
+      { "id": "frontend", "name": "Frontend" },
+      { "id": "backend", "name": "Backend" }
     ],
     "events": [
       {

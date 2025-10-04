@@ -11,10 +11,10 @@ const titleHtml = `Les événements <span class="text-[#766CE2]">Tech</span>`;
 ---
 
 <Layout>
-    <Header title={titleHtml} description="Retrouvez toutes les communautés tech de France et les événements qu’elles organisent !" />
-    <EventsList
-        client:only="react"
-        communities={communities}
-    />
-    <Footer />
+  <Header
+    title={titleHtml}
+    description="Retrouvez toutes les communautés tech de France et les événements qu’elles organisent !"
+  />
+  <EventsList client:only="react" communities={communities} />
+  <Footer />
 </Layout>

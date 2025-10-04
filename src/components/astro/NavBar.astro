@@ -1,60 +1,64 @@
-<nav role="navigation" class="nav flex items-center justify-between h-[70px] mx-28">
-    <a href="/">
-        <h1 class="text-2xl font-bold leading-normal py-2">
-            France <span class="text-[#766CE2]">Tech</span> Community
-        </h1>
-    </a>
-    
-    <ul role="list" class="nav-underline flex items-center h-full text-sm">
-        <li class="px-4 h-full flex items-center hover:text-[#766CE2]">
-            <a href="/">Les communautés</a>
-        </li>
-        <li class="px-4 h-full flex items-center hover:text-[#766CE2]">
-            <a href="/events">Les événements</a>
-        </li>
-    </ul>
+<nav
+  role="navigation"
+  class="nav flex items-center justify-between h-[70px] mx-28"
+>
+  <a href="/">
+    <h1 class="text-2xl font-bold leading-normal py-2">
+      France <span class="text-[#766CE2]">Tech</span> Community
+    </h1>
+  </a>
+
+  <ul role="list" class="nav-underline flex items-center h-full text-sm">
+    <li class="px-4 h-full flex items-center hover:text-[#766CE2]">
+      <a href="/">Les communautés</a>
+    </li>
+    <li class="px-4 h-full flex items-center hover:text-[#766CE2]">
+      <a href="/events">Les événements</a>
+    </li>
+  </ul>
 </nav>
 
 <style>
-    .nav {
-        @apply transition-transform duration-500;
-    }
-    
-    .nav ul {
-        --_gap: 1rem;
-    }
-    
-    .nav-underline li:not(ul li ul li) {
-        @apply relative overflow-visible;
-        min-inline-size: 1.3rem;
-    }
-    
-    .nav-underline li:not(ul li ul li)::after {
-        @apply absolute bg-[#4C40CF];
-        content: "";
-        inset-inline: 0;
-        bottom: 0;
-        block-size: 5px;
-        translate: var(--_translate, 0);
-        scale: var(--_scale, 0) 1;
-        transition: scale 100ms var(--_scale-delay, 0ms),
-        translate 200ms,
-        color 200ms;
-    }
-    
-    .nav-underline li:hover ~ li {
-        --_translate: -100%;
-        --_scale-delay: 200ms;
-    }
-    
-    .nav:hover li {
-        --_translate: 100%;
-        --_scale-delay: 200ms;
-    }
-    
-    .nav li:hover {
-        --_scale: 1;
-        --_translate: 0;
-        --_scale-delay: 0ms;
-    }
+  .nav {
+    @apply transition-transform duration-500;
+  }
+
+  .nav ul {
+    --_gap: 1rem;
+  }
+
+  .nav-underline li:not(ul li ul li) {
+    @apply relative overflow-visible;
+    min-inline-size: 1.3rem;
+  }
+
+  .nav-underline li:not(ul li ul li)::after {
+    @apply absolute bg-[#4C40CF];
+    content: "";
+    inset-inline: 0;
+    bottom: 0;
+    block-size: 5px;
+    translate: var(--_translate, 0);
+    scale: var(--_scale, 0) 1;
+    transition:
+      scale 100ms var(--_scale-delay, 0ms),
+      translate 200ms,
+      color 200ms;
+  }
+
+  .nav-underline li:hover ~ li {
+    --_translate: -100%;
+    --_scale-delay: 200ms;
+  }
+
+  .nav:hover li {
+    --_translate: 100%;
+    --_scale-delay: 200ms;
+  }
+
+  .nav li:hover {
+    --_scale: 1;
+    --_translate: 0;
+    --_scale-delay: 0ms;
+  }
 </style>

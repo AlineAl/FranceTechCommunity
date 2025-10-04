@@ -1,135 +1,143 @@
 import type { CollectionEntry } from "astro:content";
-import FullCalendar from '@fullcalendar/react';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import frLocale from '@fullcalendar/core/locales/fr';
+import FullCalendar from "@fullcalendar/react";
+import dayGridPlugin from "@fullcalendar/daygrid";
+import frLocale from "@fullcalendar/core/locales/fr";
 import { useEffect, useMemo, useState } from "react";
 import { SearchBar } from "../SearchBar/SearchBar.tsx";
 
 interface IEventsListCalendar {
-    communities: CollectionEntry<"communities">[];
+  communities: CollectionEntry<"communities">[];
 }
 
 export const EventsList = ({ communities }: IEventsListCalendar) => {
-    const [selectedCity, setSelectedCity] = useState(() => {
-        if (typeof window !== 'undefined') {
-            return localStorage.getItem('selectedCity') || "Toutes les villes";
-        }
-        return "Toutes les villes";
-    });
-    const [searchValue, setSearchValue] = useState("");
+  const [selectedCity, setSelectedCity] = useState(() => {
+    if (typeof window !== "undefined") {
+      return localStorage.getItem("selectedCity") || "Toutes les villes";
+    }
+    return "Toutes les villes";
+  });
+  const [searchValue, setSearchValue] = useState("");
 
-    const allCities = useMemo(() => {
-        return communities.map(cityData => cityData.data?.city).filter(Boolean) || [];
-    }, [communities]);
-
-    const filteredCities = useMemo(() => {
-        return selectedCity === "Toutes les villes"
-            ? communities
-            : communities.filter(cityData => cityData.data?.city === selectedCity);
-    }, [communities, selectedCity]);
-
-    const allEvents = useMemo(() => {
-        return filteredCities.flatMap(cityData => {
-            if (!cityData.data || !cityData.data.communities) {
-                return [];
-            }
-
-            return cityData.data.communities.flatMap(community => {
-                if (!community.events || community.events.length === 0) {
-                    return [];
-                }
-
-                return community.events
-                    .filter(event => event.dateTime && event.dateTime !== null && event.dateTime !== '')
-                    .map(event => ({
-                        ...event,
-                        city: cityData.data.city,
-                        communityName: community.name,
-                        communityId: community.id
-                    }));
-            });
-        });
-    }, [filteredCities]);
-
-    const filteredEvents = useMemo(() => {
-        if (!searchValue) return allEvents;
-
-        return allEvents.filter(event =>
-            event.title.toLowerCase().includes(searchValue.toLowerCase()) ||
-            event.communityName.toLowerCase().includes(searchValue.toLowerCase()) ||
-            event.city.toLowerCase().includes(searchValue.toLowerCase())
-        );
-    }, [allEvents, searchValue]);
-
-    const events = useMemo(() => {
-        return filteredEvents.map(event => ({
-            id: event.id,
-            title: event.communityName,
-            start: event.dateTime,
-            url: event.link,
-            backgroundColor: 'transparent',
-            textColor: '#4C40CF',
-            borderColor: '#4C40CF',
-            extendedProps: {
-                communityName: event.communityName,
-                communityId: event.communityId,
-                city: event.city,
-                dateFormatted: event.date,
-                eventTitle: event.title
-            }
-        }));
-    }, [filteredEvents]);
-
-    const handleCityChange = (newCity: string) => {
-        setSelectedCity(newCity);
-    };
-
-    const handleSearchChange = (newSearch: string) => {
-        setSearchValue(newSearch);
-    };
-
-    const handleBackToCommunities = () => {
-        window.location.href = "/";
-    };
-
-
-    const renderEventContent = (eventInfo: any) => {
-        return (
-            <div className="text-xs leading-tight w-full">
-                <div className="font-medium truncate text-center">
-                    {eventInfo.event.extendedProps.communityName}
-                </div>
-            </div>
-        );
-    };
-
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            localStorage.setItem('selectedCity', selectedCity);
-        }
-    }, [selectedCity]);
-
+  const allCities = useMemo(() => {
     return (
-        <section role="list" className="mx-28 mt-8">
-            <SearchBar
-                cities={allCities}
-                selectedCity={selectedCity}
-                onCityChange={handleCityChange}
-                searchValue={searchValue}
-                onSearchChange={handleSearchChange}
-                searchPlaceholder="Rechercher un événement"
-                showEventsButton={true}
-                onEventsClick={handleBackToCommunities}
-                eventsButtonText="Passer à une vue liste"
-            />
+      communities.map((cityData) => cityData.data?.city).filter(Boolean) || []
+    );
+  }, [communities]);
 
-            <span className="text-sm text-[#6D6D6D] italic mt-8 block">
-                {filteredEvents.length} événement{filteredEvents.length > 1 ? 's' : ''} trouvé{filteredEvents.length > 1 ? 's' : ''}
-            </span>
+  const filteredCities = useMemo(() => {
+    return selectedCity === "Toutes les villes"
+      ? communities
+      : communities.filter((cityData) => cityData.data?.city === selectedCity);
+  }, [communities, selectedCity]);
 
-            <div className="my-8">
-                <style>
-                    {`
+  const allEvents = useMemo(() => {
+    return filteredCities.flatMap((cityData) => {
+      if (!cityData.data || !cityData.data.communities) {
+        return [];
+      }
+
+      return cityData.data.communities.flatMap((community) => {
+        if (!community.events || community.events.length === 0) {
+          return [];
+        }
+
+        return community.events
+          .filter(
+            (event) =>
+              event.dateTime &&
+              event.dateTime !== null &&
+              event.dateTime !== "",
+          )
+          .map((event) => ({
+            ...event,
+            city: cityData.data.city,
+            communityName: community.name,
+            communityId: community.id,
+          }));
+      });
+    });
+  }, [filteredCities]);
+
+  const filteredEvents = useMemo(() => {
+    if (!searchValue) return allEvents;
+
+    return allEvents.filter(
+      (event) =>
+        event.title.toLowerCase().includes(searchValue.toLowerCase()) ||
+        event.communityName.toLowerCase().includes(searchValue.toLowerCase()) ||
+        event.city.toLowerCase().includes(searchValue.toLowerCase()),
+    );
+  }, [allEvents, searchValue]);
+
+  const events = useMemo(() => {
+    return filteredEvents.map((event) => ({
+      id: event.id,
+      title: event.communityName,
+      start: event.dateTime,
+      url: event.link,
+      backgroundColor: "transparent",
+      textColor: "#4C40CF",
+      borderColor: "#4C40CF",
+      extendedProps: {
+        communityName: event.communityName,
+        communityId: event.communityId,
+        city: event.city,
+        dateFormatted: event.date,
+        eventTitle: event.title,
+      },
+    }));
+  }, [filteredEvents]);
+
+  const handleCityChange = (newCity: string) => {
+    setSelectedCity(newCity);
+  };
+
+  const handleSearchChange = (newSearch: string) => {
+    setSearchValue(newSearch);
+  };
+
+  const handleBackToCommunities = () => {
+    window.location.href = "/";
+  };
+
+  const renderEventContent = (eventInfo: any) => {
+    return (
+      <div className="text-xs leading-tight w-full">
+        <div className="font-medium truncate text-center">
+          {eventInfo.event.extendedProps.communityName}
+        </div>
+      </div>
+    );
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      localStorage.setItem("selectedCity", selectedCity);
+    }
+  }, [selectedCity]);
+
+  return (
+    <section role="list" className="mx-28 mt-8">
+      <SearchBar
+        cities={allCities}
+        selectedCity={selectedCity}
+        onCityChange={handleCityChange}
+        searchValue={searchValue}
+        onSearchChange={handleSearchChange}
+        searchPlaceholder="Rechercher un événement"
+        showEventsButton={true}
+        onEventsClick={handleBackToCommunities}
+        eventsButtonText="Passer à une vue liste"
+      />
+
+      <span className="text-sm text-[#6D6D6D] italic mt-8 block">
+        {filteredEvents.length} événement{filteredEvents.length > 1 ? "s" : ""}{" "}
+        trouvé{filteredEvents.length > 1 ? "s" : ""}
+      </span>
+
+      <div className="my-8">
+        <style>
+          {`
                         .fc-day-today {
                             background-color: #E9E8FD !important;
                         }
@@ -238,44 +246,42 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                             margin: 1px 0 !important;
                         }
                     `}
-                </style>
+        </style>
 
-                {filteredEvents.length > 0 ? (
-                    <FullCalendar
-                        plugins={[dayGridPlugin]}
-                        initialView="dayGridMonth"
-                        locale={frLocale}
-                        titleFormat={{ month: 'long' }}
-                        dayHeaderFormat={{ weekday: 'long' }}
-                        firstDay={1}
-                        events={events}
-                        eventContent={renderEventContent}
-                        height="auto"
-                        dayMaxEvents={2}
-                        moreLinkClick="popover"
-                        moreLinkText={(num) => `+ ${num} événement${num > 1 ? 's' : ''}`}
-                        eventClick={(info) => {
-                            if (info.event.url) {
-                                window.open(info.event.url, '_blank');
-                                info.jsEvent.preventDefault();
-                            }
-                        }}
-                        eventDidMount={(info) => {
-                            info.el.title = `${info.event.extendedProps.eventTitle}\n${info.event.extendedProps.communityName}\n${info.event.extendedProps.city}\n${info.event.extendedProps.dateFormatted}`;
-                        }}
-                    />
-                ) : (
-                    <div className="text-center py-12">
-                        <div className="text-gray-500 text-lg">
-                            Aucun événement trouvé
-                        </div>
-                        <div className="text-gray-400 text-sm mt-2">
-                            {selectedCity !== "Toutes les villes" && `pour ${selectedCity}`}
-                            {searchValue && ` avec la recherche "${searchValue}"`}
-                        </div>
-                    </div>
-                )}
+        {filteredEvents.length > 0 ? (
+          <FullCalendar
+            plugins={[dayGridPlugin]}
+            initialView="dayGridMonth"
+            locale={frLocale}
+            titleFormat={{ month: "long" }}
+            dayHeaderFormat={{ weekday: "long" }}
+            firstDay={1}
+            events={events}
+            eventContent={renderEventContent}
+            height="auto"
+            dayMaxEvents={2}
+            moreLinkClick="popover"
+            moreLinkText={(num) => `+ ${num} événement${num > 1 ? "s" : ""}`}
+            eventClick={(info) => {
+              if (info.event.url) {
+                window.open(info.event.url, "_blank");
+                info.jsEvent.preventDefault();
+              }
+            }}
+            eventDidMount={(info) => {
+              info.el.title = `${info.event.extendedProps.eventTitle}\n${info.event.extendedProps.communityName}\n${info.event.extendedProps.city}\n${info.event.extendedProps.dateFormatted}`;
+            }}
+          />
+        ) : (
+          <div className="text-center py-12">
+            <div className="text-gray-500 text-lg">Aucun événement trouvé</div>
+            <div className="text-gray-400 text-sm mt-2">
+              {selectedCity !== "Toutes les villes" && `pour ${selectedCity}`}
+              {searchValue && ` avec la recherche "${searchValue}"`}
             </div>
-        </section>
-    );
+          </div>
+        )}
+      </div>
+    </section>
+  );
 };
