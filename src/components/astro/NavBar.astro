@@ -1,19 +1,37 @@
+---
+import { LuMenu, LuX } from "react-icons/lu";
+---
+
 <nav
   role="navigation"
-  class="nav flex items-center justify-between h-[70px] mx-28"
+  class="nav flex items-center justify-between h-[70px] mx-4 md:mx-28"
 >
   <a href="/">
-    <h1 class="text-2xl font-bold leading-normal py-2">
+    <h1 class="text-xl md:text-2xl font-bold leading-normal py-2">
       France <span class="text-[#766CE2]">Tech</span> Community
     </h1>
   </a>
 
-  <ul role="list" class="nav-underline flex items-center h-full text-sm">
-    <li class="px-4 h-full flex items-center hover:text-[#766CE2]">
-      <a href="/">Les communautés</a>
+  <button
+    id="menu-toggle"
+    class="md:hidden z-50 p-2 hover:text-[#766CE2] transition-colors"
+    aria-label="Toggle menu"
+    aria-expanded="false"
+  >
+    <LuMenu className="menu-icon w-6 h-6" />
+    <LuX className="close-icon w-6 h-6 hidden" />
+  </button>
+
+  <ul
+    id="nav-menu"
+    role="list"
+    class="nav-underline mobile-menu hidden md:flex fixed md:relative top-[70px] md:top-0 left-0 right-0 md:left-auto md:right-auto bg-white md:bg-transparent flex-col md:flex-row items-center h-auto md:h-full text-sm shadow-lg md:shadow-none"
+  >
+    <li class="px-4 py-4 md:py-0 w-full md:w-auto md:h-full flex items-center justify-center md:justify-start hover:text-[#766CE2] border-b md:border-b-0">
+      <a href="/" class="w-full md:w-auto text-center md:text-left">Les communautés</a>
     </li>
-    <li class="px-4 h-full flex items-center hover:text-[#766CE2]">
-      <a href="/events">Les événements</a>
+    <li class="px-4 py-4 md:py-0 w-full md:w-auto md:h-full flex items-center justify-center md:justify-start hover:text-[#766CE2]">
+      <a href="/events" class="w-full md:w-auto text-center md:text-left">Les événements</a>
     </li>
   </ul>
 </nav>
@@ -27,38 +45,81 @@
     --_gap: 1rem;
   }
 
-  .nav-underline li:not(ul li ul li) {
-    @apply relative overflow-visible;
-    min-inline-size: 1.3rem;
+  .mobile-menu {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
   }
 
-  .nav-underline li:not(ul li ul li)::after {
-    @apply absolute bg-[#4C40CF];
-    content: "";
-    inset-inline: 0;
-    bottom: 0;
-    block-size: 5px;
-    translate: var(--_translate, 0);
-    scale: var(--_scale, 0) 1;
-    transition:
-      scale 100ms var(--_scale-delay, 0ms),
-      translate 200ms,
-      color 200ms;
+  .mobile-menu.nav-menu-open {
+    display: flex !important;
+    opacity: 1;
   }
 
-  .nav-underline li:hover ~ li {
-    --_translate: -100%;
-    --_scale-delay: 200ms;
-  }
+  @media (min-width: 768px) {
+    .mobile-menu {
+      opacity: 1;
+    }
 
-  .nav:hover li {
-    --_translate: 100%;
-    --_scale-delay: 200ms;
-  }
+    .nav-underline li:not(ul li ul li) {
+      @apply relative overflow-visible;
+      min-inline-size: 1.3rem;
+    }
 
-  .nav li:hover {
-    --_scale: 1;
-    --_translate: 0;
-    --_scale-delay: 0ms;
+    .nav-underline li:not(ul li ul li)::after {
+      @apply absolute bg-[#4C40CF];
+      content: "";
+      inset-inline: 0;
+      bottom: 0;
+      block-size: 5px;
+      translate: var(--_translate, 0);
+      scale: var(--_scale, 0) 1;
+      transition:
+        scale 100ms var(--_scale-delay, 0ms),
+        translate 200ms,
+        color 200ms;
+    }
+
+    .nav-underline li:hover ~ li {
+      --_translate: -100%;
+      --_scale-delay: 200ms;
+    }
+
+    .nav:hover li {
+      --_translate: 100%;
+      --_scale-delay: 200ms;
+    }
+
+    .nav li:hover {
+      --_scale: 1;
+      --_translate: 0;
+      --_scale-delay: 0ms;
+    }
   }
 </style>
+
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navMenu = document.getElementById('nav-menu');
+  const menuIcon = menuToggle?.querySelector('.menu-icon');
+  const closeIcon = menuToggle?.querySelector('.close-icon');
+
+  menuToggle?.addEventListener('click', () => {
+    const isOpen = navMenu?.classList.toggle('nav-menu-open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    
+    menuIcon?.classList.toggle('hidden');
+    closeIcon?.classList.toggle('hidden');
+  });
+
+  const navLinks = navMenu?.querySelectorAll('a');
+  navLinks?.forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth < 768) {
+        navMenu?.classList.remove('nav-menu-open');
+        menuToggle?.setAttribute('aria-expanded', 'false');
+        menuIcon?.classList.remove('hidden');
+        closeIcon?.classList.add('hidden');
+      }
+    });
+  });
+</script>
