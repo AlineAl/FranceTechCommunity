@@ -7,7 +7,12 @@ interface Props {
 const { title, description } = Astro.props;
 ---
 
-<header role="banner" class="w-full bg-[#1E2938] py-12 px-28">
-  <h2 class="text-white font-bold text-3xl leading-normal" set:html={title} />
-  <p class="text-[#EFEFEF] text-lg leading-5">{description}</p>
+<header role="banner" class="w-full bg-[#1E2938] py-12 md:px-28 px-4">
+  <h2
+    class="text-white font-bold text-3xl md:leading-normal"
+    set:html={title}
+  />
+  <p class="text-[#EFEFEF] mt-2 md:mt-0 text-lg md:leading-5 leading-5.5">
+    {description}
+  </p>
 </header>

@@ -89,7 +89,7 @@ export const CommunitiesList = ({ communities }: ICommunityListComponent) => {
   }, [selectedCity]);
 
   return (
-    <section role="list" className="mx-28 mt-8">
+    <section role="list" className="md:mx-28 mx-4 mt-8">
       <SearchBar
         cities={allCities}
         selectedCity={selectedCity}

@@ -81,7 +81,7 @@ export const SearchBar = ({
       {showEventsButton && (
         <button
           type="button"
-          className="flex items-center justify-center cursor-pointer py-3.5 px-5.5 h-12 text-sm bg-[#4C40CF] text-white rounded-lg whitespace-nowrap"
+          className="flex items-center mt-8 md:mt-0 justify-center cursor-pointer py-3.5 px-5.5 h-12 text-sm bg-[#4C40CF] text-white rounded-lg whitespace-nowrap"
           onClick={handleEventsClick}
         >
           {eventsButtonText === "Voir les événements" ? (

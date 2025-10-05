@@ -61,17 +61,16 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
       className="md:flex justify-between items-start border-b border-b-[#F0F0F0] py-6 gap-6"
     >
       <div className="mb-6 md:mb-0 flex-1">
-        <div className="flex items-start gap-4 mb-4">
+        <div className="md:flex items-start gap-4 mb-4">
           <img
             src={community.image}
             alt={`Logo de ${community.name}`}
-            className="w-16 h-16 object-cover rounded-lg flex-shrink-0"
+            className="w-[100px] h-[100px] object-cover rounded-md flex-shrink-0"
+            loading="lazy"
           />
-          <div className="flex-1">
+
+          <div className="flex-1 mt-4 md:mt-0">
             <h3 className="font-bold text-2xl mb-2">{community.name}</h3>
-            <p className="text-sm text-[#6D6D6D] leading-relaxed mb-3">
-              {community.description}
-            </p>
 
             {community.tags.length > 0 && (
               <div className="flex flex-wrap gap-2 mb-3">
@@ -85,6 +84,10 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
                 ))}
               </div>
             )}
+
+            <p className="text-sm text-[#6D6D6D] leading-relaxed mb-3">
+              {community.description}
+            </p>
 
             <a
               href={community.link}

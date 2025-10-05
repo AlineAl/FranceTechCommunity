@@ -10,6 +10,7 @@ interface IEventsListCalendar {
 }
 
 export const EventsList = ({ communities }: IEventsListCalendar) => {
+  const [isMobile, setIsMobile] = useState(false);
   const [selectedCity, setSelectedCity] = useState(() => {
     if (typeof window !== "undefined") {
       return localStorage.getItem("selectedCity") || "Toutes les villes";
@@ -17,6 +18,13 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
     return "Toutes les villes";
   });
   const [searchValue, setSearchValue] = useState("");
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   const allCities = useMemo(() => {
     return (
@@ -117,7 +125,7 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
   }, [selectedCity]);
 
   return (
-    <section role="list" className="mx-28 mt-8">
+    <section role="list" className="md:mx-28 mx-4 mt-8">
       <SearchBar
         cities={allCities}
         selectedCity={selectedCity}
@@ -138,6 +146,7 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
       <div className="my-8">
         <style>
           {`
+                        /* Styles desktop par défaut */
                         .fc-day-today {
                             background-color: #E9E8FD !important;
                         }
@@ -188,6 +197,7 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                             background-color: #6366f1 !important;
                             border-color: #6366f1 !important;
                             font-size: 14px !important;
+                            padding: 8px 12px !important;
                         }
                         .fc-button-primary:hover {
                             background-color: #4f46e5 !important;
@@ -245,6 +255,62 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
                         .fc-daygrid-event-harness {
                             margin: 1px 0 !important;
                         }
+                        .fc-toolbar {
+                            flex-wrap: wrap !important;
+                            gap: 8px !important;
+                        }
+
+                        /* Styles mobile (< 768px) */
+                        @media (max-width: 767px) {
+                            .fc-toolbar-title {
+                                font-size: 1rem !important;
+                            }
+                            
+                            .fc-button-primary {
+                                font-size: 12px !important;
+                                padding: 6px 8px !important;
+                            }
+                            
+                            .fc-toolbar-chunk {
+                                display: flex !important;
+                                justify-content: center !important;
+                            }
+                            
+                            .fc-event {
+                                font-size: 10px !important;
+                                padding: 0px 6px !important;
+                                height: 20px !important;
+                                border-radius: 6px !important;
+                            }
+                            
+                            .fc-col-header-cell-cushion {
+                                font-size: 11px !important;
+                                padding-left: 4px !important;
+                            }
+                            
+                            .fc-daygrid-day-number {
+                                font-size: 12px !important;
+                            }
+                            
+                            .fc-daygrid-day-top {
+                                padding: 2px !important;
+                            }
+                            
+                            .fc-daygrid-day-frame {
+                                min-height: 70px !important;
+                            }
+                            
+                            .fc-daygrid-event {
+                                margin: 1px 2px !important;
+                            }
+                            
+                            .fc-daygrid-more-link {
+                                font-size: 10px !important;
+                                padding: 0px 6px !important;
+                                height: 20px !important;
+                                border-radius: 6px !important;
+                            }
+                        }
                     `}
         </style>
 
@@ -254,14 +320,14 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
             initialView="dayGridMonth"
             locale={frLocale}
             titleFormat={{ month: "long" }}
-            dayHeaderFormat={{ weekday: "long" }}
+            dayHeaderFormat={{ weekday: isMobile ? "short" : "long" }}
             firstDay={1}
             events={events}
             eventContent={renderEventContent}
             height="auto"
-            dayMaxEvents={2}
+            dayMaxEvents={isMobile ? 1 : 2}
             moreLinkClick="popover"
-            moreLinkText={(num) => `+ ${num} événement${num > 1 ? "s" : ""}`}
+            moreLinkText={(num) => `+ ${num}`}
             eventClick={(info) => {
               if (info.event.url) {
                 window.open(info.event.url, "_blank");
@@ -271,11 +337,16 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
             eventDidMount={(info) => {
               info.el.title = `${info.event.extendedProps.eventTitle}\n${info.event.extendedProps.communityName}\n${info.event.extendedProps.city}\n${info.event.extendedProps.dateFormatted}`;
             }}
+            headerToolbar={{
+              left: isMobile ? "prev" : "title",
+              center: isMobile ? "title" : "",
+              right: isMobile ? "next" : "prev,next today",
+            }}
           />
         ) : (
           <div className="text-center py-12">
-            <div className="text-gray-500 text-lg">Aucun événement trouvé</div>
-            <div className="text-gray-400 text-sm mt-2">
+            <div className="text-[#6D6D6D] text-lg">Aucun événement trouvé</div>
+            <div className="text-[#6D6D6D] text-sm mt-2">
               {selectedCity !== "Toutes les villes" && `pour ${selectedCity}`}
               {searchValue && ` avec la recherche "${searchValue}"`}
             </div>
