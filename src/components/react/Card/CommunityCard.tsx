@@ -73,16 +73,16 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
             <h3 className="font-bold text-2xl mb-2">{community.name}</h3>
 
             {community.tags.length > 0 && (
-              <div className="flex flex-wrap gap-2 mb-3">
+              <ul className="flex flex-wrap gap-2 mb-3">
                 {community.tags.map((tag) => (
-                  <span
+                  <li
                     key={tag.id}
                     className="px-2 py-1 bg-[#4C40CF]/10 text-[#4C40CF] text-xs rounded-full"
                   >
                     # {tag.name}
-                  </span>
+                  </li>
                 ))}
-              </div>
+              </ul>
             )}
 
             <p className="text-sm text-[#6D6D6D] leading-relaxed mb-3">
@@ -90,9 +90,9 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
             </p>
 
             <a
-              href={community.link}
-              target="_blank"
-              rel="noreferrer"
+              href={`/communities/${community.id}`}
+              aria-label={`Voir les détails de la communauté ${community.name}`}
+              role="link"
               className="inline-flex items-center text-sm text-[#4C40CF] underline"
             >
               <span>En savoir plus sur la communauté</span>

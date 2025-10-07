@@ -1,0 +1,30 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/astro/Header.astro";
+import { Community } from "../../components/react/Community";
+import { getCollection } from "astro:content";
+
+export const prerender = false;
+
+const { community: communityId } = Astro.params;
+
+const cities = await getCollection("communities");
+
+const allCommunities = cities.flatMap((city) =>
+  city.data.communities.map((community) => ({
+    ...community,
+    cityName: city.data.city,
+  })),
+);
+
+const communityData = allCommunities.find((c) => c.id === communityId);
+
+if (!communityData) {
+  return Astro.redirect("/404");
+}
+---
+
+<Layout>
+  <Header title={`Communauté: ${communityData.name}`} />
+  <Community client:only="react" community={communityData} />
+</Layout>

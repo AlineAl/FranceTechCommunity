@@ -12,6 +12,27 @@
       { "id": "tech", "name": "Technology" },
       { "id": "programming", "name": "Programming" }
     ],
+    "organizers": [
+      {
+        "id": "sarah-martin-angers",
+        "name": "Sarah Martin",
+        "role": "Lead Organizer",
+        "bio": "Développeuse fullstack passionnée par la communauté tech angevine. Organise les Human Talks depuis 2020 et adore créer des ponts entre les développeurs locaux.",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200",
+        "linkedin": "https://linkedin.com/in/sarah-martin-dev",
+        "twitter": "@sarah_codes",
+        "github": "https://github.com/sarahmartin"
+      },
+      {
+        "id": "julien-dubois-angers",
+        "name": "Julien Dubois",
+        "role": "Co-organizer",
+        "bio": "DevOps engineer et speaker occasionnel. Co-organise les événements et s'occupe de la logistique et des partenariats avec les entreprises locales.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+        "linkedin": "https://linkedin.com/in/julien-dubois-devops",
+        "github": "https://github.com/juliendubois"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-09T19:00:00Z",
@@ -34,6 +55,27 @@
       { "id": "javascript", "name": "JavaScript" },
       { "id": "frontend", "name": "Frontend" },
       { "id": "nodejs", "name": "Node.js" }
+    ],
+    "organizers": [
+      {
+        "id": "marc-durand-bdx",
+        "name": "Marc Durand",
+        "role": "Lead Organizer",
+        "bio": "Lead développeur JavaScript avec 10 ans d'expérience. Passionné par React, Node.js et l'écosystème JS moderne. Fondateur de BordeauxJS en 2018.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+        "linkedin": "https://linkedin.com/in/marc-durand-js",
+        "twitter": "@marc_js_bdx",
+        "github": "https://github.com/marcdurand"
+      },
+      {
+        "id": "julie-lambert-bdx",
+        "name": "Julie Lambert",
+        "role": "Co-organizer",
+        "bio": "Frontend architect spécialisée en React et TypeScript. Anime des workshops et aide à la préparation des meetups mensuels.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200",
+        "linkedin": "https://linkedin.com/in/julie-lambert-frontend",
+        "twitter": "@julie_frontend"
+      }
     ],
     "events": [
       {
@@ -58,6 +100,25 @@
       { "id": "jvm", "name": "JVM" },
       { "id": "spring", "name": "Spring" }
     ],
+    "organizers": [
+      {
+        "id": "pierre-moreau-jug",
+        "name": "Pierre Moreau",
+        "role": "Lead Organizer",
+        "bio": "Architecte Java senior avec 15 ans d'expérience. Champion de la communauté Java à Bordeaux et speaker régulier sur les conférences nationales.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200",
+        "linkedin": "https://linkedin.com/in/pierre-moreau-java",
+        "twitter": "@pierre_java"
+      },
+      {
+        "id": "claire-rousseau-jug",
+        "name": "Claire Rousseau",
+        "role": "Co-organizer",
+        "bio": "Tech lead Java et Kotlin. Passionnée par Spring Boot et les architectures microservices. Organise les workshops pratiques.",
+        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200",
+        "linkedin": "https://linkedin.com/in/claire-rousseau-java"
+      }
+    ],
     "events": [
       {
         "date": "2025-10-15T19:00:00Z",
@@ -80,6 +141,25 @@
       { "id": "humantalks", "name": "Human Talks" },
       { "id": "tech", "name": "Technology" },
       { "id": "innovation", "name": "Innovation" }
+    ],
+    "organizers": [
+      {
+        "id": "thomas-bernard-ht",
+        "name": "Thomas Bernard",
+        "role": "Lead Organizer",
+        "bio": "CTO et entrepreneur tech à Bordeaux. Anime la communauté Human Talks locale depuis 2019 et encourage la diversité des sujets présentés.",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=200",
+        "linkedin": "https://linkedin.com/in/thomas-bernard-cto",
+        "twitter": "@thomas_tech_bdx"
+      },
+      {
+        "id": "emma-petit-ht",
+        "name": "Emma Petit",
+        "role": "Co-organizer",
+        "bio": "Product manager passionnée par l'innovation. Aide à la sélection des talks et coordonne avec les sponsors locaux.",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200",
+        "linkedin": "https://linkedin.com/in/emma-petit-pm"
+      }
     ],
     "events": [
       {
@@ -104,6 +184,33 @@
       { "id": "women", "name": "Women in Tech" },
       { "id": "networking", "name": "Networking" }
     ],
+    "organizers": [
+      {
+        "id": "sophie-martin-wit",
+        "name": "Sophie Martin",
+        "role": "Founder & Lead",
+        "bio": "Software engineer et mentor pour femmes en tech. Fondatrice de Women In Tech Bordeaux en 2017. Milite pour plus de diversité dans l'industrie.",
+        "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200",
+        "linkedin": "https://linkedin.com/in/sophie-martin-wit",
+        "twitter": "@sophie_wit_bdx"
+      },
+      {
+        "id": "lisa-duval-wit",
+        "name": "Lisa Duval",
+        "role": "Community Manager",
+        "bio": "Data scientist et advocate pour l'inclusion. Organise les événements de networking et gère la communication de la communauté.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+        "linkedin": "https://linkedin.com/in/lisa-duval-data"
+      },
+      {
+        "id": "marine-leclerc-wit",
+        "name": "Marine Leclerc",
+        "role": "Event Coordinator",
+        "bio": "Engineering manager passionnée par le leadership féminin. Coordonne les panels et workshops sur le développement de carrière.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200",
+        "linkedin": "https://linkedin.com/in/marine-leclerc-em"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-25T18:30:00Z",
@@ -126,6 +233,25 @@
       { "id": "dev", "name": "Development" },
       { "id": "finistere", "name": "Finistère" },
       { "id": "coding", "name": "Coding" }
+    ],
+    "organizers": [
+      {
+        "id": "yann-le-goff-finistdevs",
+        "name": "Yann Le Goff",
+        "role": "Lead Organizer",
+        "bio": "Développeur fullstack et amoureux du Finistère. A créé FinistDevs pour rassembler la communauté tech locale et promouvoir le développement dans la région.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+        "linkedin": "https://linkedin.com/in/yann-le-goff-dev",
+        "github": "https://github.com/yannlegoff"
+      },
+      {
+        "id": "nolwenn-morvan-finistdevs",
+        "name": "Nolwenn Morvan",
+        "role": "Co-organizer",
+        "bio": "Backend developer spécialisée en Rust et Go. Organise les coding sessions et les ateliers techniques de la communauté.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200",
+        "linkedin": "https://linkedin.com/in/nolwenn-morvan-backend"
+      }
     ],
     "events": [
       {
@@ -150,75 +276,31 @@
       { "id": "tech", "name": "Technology" },
       { "id": "grenoble", "name": "Grenoble" }
     ],
+    "organizers": [
+      {
+        "id": "nicolas-blanc-htg",
+        "name": "Nicolas Blanc",
+        "role": "Lead Organizer",
+        "bio": "Software architect dans l'écosystème grenoblois. Anime Human Talks Grenoble depuis 2016 et favorise les échanges entre tech et innovation.",
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200",
+        "linkedin": "https://linkedin.com/in/nicolas-blanc-architect",
+        "twitter": "@nicolas_ht_gre"
+      },
+      {
+        "id": "amelie-dumont-htg",
+        "name": "Amélie Dumont",
+        "role": "Co-organizer",
+        "bio": "DevOps engineer et speaker. Gère la logistique des événements et aide au coaching des speakers débutants.",
+        "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200",
+        "linkedin": "https://linkedin.com/in/amelie-dumont-devops"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-10T19:00:00Z",
         "title": "Human Talks Grenoble",
         "link": "https://www.meetup.com/humantalks-grenoble/events/309012412/",
         "id": "e1773e58-8681-4ee6-9784-706f3d6753db",
-        "organizationName": "HumanTalks Grenoble"
-      },
-      {
-        "date": "2025-10-08T19:00:00Z",
-        "title": "Human Talks Grenoble",
-        "link": "https://www.meetup.com/humantalks-grenoble/events/309014631/",
-        "id": "e41f0fcd-cf14-493d-9b86-1004702de110",
-        "organizationName": "HumanTalks Grenoble"
-      },
-      {
-        "date": "2025-11-12T19:00:00Z",
-        "title": "Human Talks Grenoble",
-        "link": "https://www.meetup.com/humantalks-grenoble/events/310387558/",
-        "id": "bd6d4d3e-837d-4805-9d0d-fadaeaebcf26",
-        "organizationName": "HumanTalks Grenoble"
-      },
-      {
-        "date": "2025-12-10T19:00:00Z",
-        "title": "Human Talks Grenoble",
-        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyhcqbmb/",
-        "id": "7c4aa484-bef6-465d-92e0-e94b7c9968d1",
-        "organizationName": "HumanTalks Grenoble"
-      },
-      {
-        "date": "2026-01-14T19:00:00Z",
-        "title": "Human Talks Grenoble",
-        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjccbrb/",
-        "id": "5fbfaa7a-b2d0-4e2a-b73d-f070e98b7d95",
-        "organizationName": "HumanTalks Grenoble"
-      },
-      {
-        "date": "2026-02-11T19:00:00Z",
-        "title": "Human Talks Grenoble",
-        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcdbnb/",
-        "id": "4c5e80bc-5a7c-4c26-852f-3901849db633",
-        "organizationName": "HumanTalks Grenoble"
-      },
-      {
-        "date": "2026-03-11T19:00:00Z",
-        "title": "Human Talks Grenoble",
-        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcfbnb/",
-        "id": "2669ef34-2261-4f01-8400-5473e7ad6461",
-        "organizationName": "HumanTalks Grenoble"
-      },
-      {
-        "date": "2026-04-08T19:00:00Z",
-        "title": "Human Talks Grenoble",
-        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcgbsb/",
-        "id": "9e2f3fb2-e206-4bb5-b39e-c0cf7d81a338",
-        "organizationName": "HumanTalks Grenoble"
-      },
-      {
-        "date": "2026-05-13T19:00:00Z",
-        "title": "Human Talks Grenoble",
-        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjchbqb/",
-        "id": "6949b761-b6d5-4a14-a31b-5a188af5049c",
-        "organizationName": "HumanTalks Grenoble"
-      },
-      {
-        "date": "2026-06-10T19:00:00Z",
-        "title": "Human Talks Grenoble",
-        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcjbmb/",
-        "id": "90f79466-61a5-4060-a7be-0046013afa29",
         "organizationName": "HumanTalks Grenoble"
       }
     ]
@@ -235,6 +317,25 @@
       { "id": "humantalks", "name": "Human Talks" },
       { "id": "tech", "name": "Technology" },
       { "id": "nantes", "name": "Nantes" }
+    ],
+    "organizers": [
+      {
+        "id": "maxime-girard-htn",
+        "name": "Maxime Girard",
+        "role": "Lead Organizer",
+        "bio": "Lead developer et passionné de communauté tech nantaise. Organise Human Talks Nantes depuis 2015 et a vu la communauté grandir jusqu'à 500+ membres.",
+        "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200",
+        "linkedin": "https://linkedin.com/in/maxime-girard-dev",
+        "twitter": "@maxime_ht_nantes"
+      },
+      {
+        "id": "camille-roux-htn",
+        "name": "Camille Roux",
+        "role": "Co-organizer",
+        "bio": "Frontend developer et UX enthusiast. Coordonne avec les sponsors et s'occupe de la communication des événements mensuels.",
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200",
+        "linkedin": "https://linkedin.com/in/camille-roux-frontend"
+      }
     ],
     "events": [
       {
@@ -259,6 +360,25 @@
       { "id": "jug", "name": "JUG" },
       { "id": "enterprise", "name": "Enterprise" }
     ],
+    "organizers": [
+      {
+        "id": "vincent-leroy-njug",
+        "name": "Vincent Leroy",
+        "role": "Lead Organizer",
+        "bio": "Architecte Java avec 12 ans d'expérience en entreprise. Lead du Nantes JUG et champion de l'écosystème Java en région nantaise.",
+        "image": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=200",
+        "linkedin": "https://linkedin.com/in/vincent-leroy-java",
+        "twitter": "@vincent_njug"
+      },
+      {
+        "id": "isabelle-martin-njug",
+        "name": "Isabelle Martin",
+        "role": "Co-organizer",
+        "bio": "Senior Java developer spécialisée en Spring et microservices. Organise les workshops pratiques et les coding sessions.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200",
+        "linkedin": "https://linkedin.com/in/isabelle-martin-java"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-26T19:00:00Z",
@@ -282,75 +402,31 @@
       { "id": "scrum", "name": "Scrum" },
       { "id": "management", "name": "Management" }
     ],
+    "organizers": [
+      {
+        "id": "sebastien-duval-agile",
+        "name": "Sébastien Duval",
+        "role": "Lead Organizer",
+        "bio": "Agile coach certifié avec 10 ans d'expérience en transformation agile. Anime la communauté Agile Nantes et accompagne les entreprises locales.",
+        "image": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=200",
+        "linkedin": "https://linkedin.com/in/sebastien-duval-agile",
+        "twitter": "@sebastien_agile"
+      },
+      {
+        "id": "laura-benoit-agile",
+        "name": "Laura Benoit",
+        "role": "Co-organizer",
+        "bio": "Scrum master et facilitatrice. Organise les ateliers pratiques et les sessions de partage d'expériences sur les méthodologies agiles.",
+        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200",
+        "linkedin": "https://linkedin.com/in/laura-benoit-scrum"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-17T19:00:00Z",
         "title": "🚀 L'agilité pour les curieux : initiation sans prise de tête !",
         "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238350/",
         "id": "120459df-7066-424f-a478-bbe05488b70d",
-        "organizationName": "Agile Nantes - Sessions mensuelles"
-      },
-      {
-        "date": "2025-10-15T19:00:00Z",
-        "title": "Session mensuelle de Octobre - Programme à venir",
-        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/276664104/",
-        "id": "ff16086e-b9d4-408f-b6e6-140e843e6690",
-        "organizationName": "Agile Nantes - Sessions mensuelles"
-      },
-      {
-        "date": "2025-11-19T19:00:00Z",
-        "title": "Session mensuelle de Novembre - Programme à venir",
-        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238085/",
-        "id": "3b498a48-e5b0-459e-b375-7296eaaa82fb",
-        "organizationName": "Agile Nantes - Sessions mensuelles"
-      },
-      {
-        "date": "2025-12-17T19:00:00Z",
-        "title": "Session mensuelle de Décembre - Programme à venir",
-        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238135/",
-        "id": "224bb77d-bf09-4748-9cb9-2102037d61ca",
-        "organizationName": "Agile Nantes - Sessions mensuelles"
-      },
-      {
-        "date": "2026-02-18T19:00:00Z",
-        "title": "Session mensuelle de Février - Programme à venir",
-        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238149/",
-        "id": "10b36b45-f2a0-46c5-9b75-74776b1cef9b",
-        "organizationName": "Agile Nantes - Sessions mensuelles"
-      },
-      {
-        "date": "2026-03-17T19:00:00Z",
-        "title": "Session mensuelle de Mars - Programme à venir",
-        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238168/",
-        "id": "d3509aa9-364e-4a28-b69a-351b2f89773a",
-        "organizationName": "Agile Nantes - Sessions mensuelles"
-      },
-      {
-        "date": "2026-04-21T19:00:00Z",
-        "title": "Session mensuelle d'Avril - Programme à venir",
-        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238188/",
-        "id": "1ee25f70-fc03-49df-b2e1-0423c3272009",
-        "organizationName": "Agile Nantes - Sessions mensuelles"
-      },
-      {
-        "date": "2026-05-19T19:00:00Z",
-        "title": "Session mensuelle de mai - Programme à venir",
-        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238212/",
-        "id": "a90d249b-718b-4500-a9b0-1e687f151a67",
-        "organizationName": "Agile Nantes - Sessions mensuelles"
-      },
-      {
-        "date": "2026-06-16T19:00:00Z",
-        "title": "Session mensuelle de juin - Programme à venir",
-        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238223/",
-        "id": "fc655141-97d4-4dfe-956b-09cf63f6a47b",
-        "organizationName": "Agile Nantes - Sessions mensuelles"
-      },
-      {
-        "date": "2026-07-21T19:00:00Z",
-        "title": "Session mensuelle de juillet - Programme à venir",
-        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238239/",
-        "id": "6f62cc40-46f3-4556-aa53-f0044c6416f3",
         "organizationName": "Agile Nantes - Sessions mensuelles"
       }
     ]
@@ -367,6 +443,25 @@
       { "id": "blockchain", "name": "Blockchain" },
       { "id": "crypto", "name": "Cryptocurrency" },
       { "id": "web3", "name": "Web3" }
+    ],
+    "organizers": [
+      {
+        "id": "antoine-rousseau-blockchain",
+        "name": "Antoine Rousseau",
+        "role": "Founder",
+        "bio": "Blockchain developer et crypto enthusiast. Fondateur de Blockchain Societe Nantes pour démocratiser les technologies décentralisées.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+        "linkedin": "https://linkedin.com/in/antoine-rousseau-blockchain",
+        "twitter": "@antoine_web3"
+      },
+      {
+        "id": "mathilde-lefevre-blockchain",
+        "name": "Mathilde Lefèvre",
+        "role": "Co-organizer",
+        "bio": "Smart contracts developer spécialisée en Solidity. Anime les workshops techniques sur Ethereum et les DApps.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200",
+        "linkedin": "https://linkedin.com/in/mathilde-lefevre-solidity"
+      }
     ],
     "events": [
       {
@@ -391,6 +486,25 @@
       { "id": "swift", "name": "Swift" },
       { "id": "apple", "name": "Apple" }
     ],
+    "organizers": [
+      {
+        "id": "romain-petit-cocoa",
+        "name": "Romain Petit",
+        "role": "Lead Organizer",
+        "bio": "iOS developer depuis 8 ans et Apple enthusiast. Lead de Cocoaheads Nantes et speaker régulier sur SwiftUI et les nouveautés Apple.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+        "linkedin": "https://linkedin.com/in/romain-petit-ios",
+        "twitter": "@romain_swift"
+      },
+      {
+        "id": "chloe-mercier-cocoa",
+        "name": "Chloé Mercier",
+        "role": "Co-organizer",
+        "bio": "iOS engineer spécialisée en architecture app. Organise les coding sessions et les reviews de code communautaires.",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200",
+        "linkedin": "https://linkedin.com/in/chloe-mercier-ios"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-24T19:00:00Z",
@@ -413,6 +527,25 @@
       { "id": "devops", "name": "DevOps" },
       { "id": "ci-cd", "name": "CI/CD" },
       { "id": "automation", "name": "Automation" }
+    ],
+    "organizers": [
+      {
+        "id": "kevin-laurent-devops",
+        "name": "Kevin Laurent",
+        "role": "Lead Organizer",
+        "bio": "DevOps engineer avec une expertise en Kubernetes et CI/CD. Fondateur de Nantes DevOps pour partager les bonnes pratiques d'infrastructure.",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=200",
+        "linkedin": "https://linkedin.com/in/kevin-laurent-devops",
+        "github": "https://github.com/kevinlaurent"
+      },
+      {
+        "id": "alice-bernard-devops",
+        "name": "Alice Bernard",
+        "role": "Co-organizer",
+        "bio": "SRE spécialisée en monitoring et observabilité. Anime les workshops sur Prometheus, Grafana et les pratiques SRE.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+        "linkedin": "https://linkedin.com/in/alice-bernard-sre"
+      }
     ],
     "events": [
       {
@@ -437,6 +570,25 @@
       { "id": "ai", "name": "Artificial Intelligence" },
       { "id": "data-science", "name": "Data Science" }
     ],
+    "organizers": [
+      {
+        "id": "david-morel-ml",
+        "name": "David Morel",
+        "role": "Lead Organizer",
+        "bio": "Data scientist et ML engineer. Passionné par l'IA et ses applications. Fondateur du meetup ML Nantes pour partager les avancées du domaine.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200",
+        "linkedin": "https://linkedin.com/in/david-morel-ml",
+        "github": "https://github.com/davidmorel"
+      },
+      {
+        "id": "pauline-garcia-ml",
+        "name": "Pauline Garcia",
+        "role": "Co-organizer",
+        "bio": "AI researcher spécialisée en NLP et LLMs. Anime les discussions sur les dernières avancées en intelligence artificielle générative.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200",
+        "linkedin": "https://linkedin.com/in/pauline-garcia-nlp"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-30T19:00:00Z",
@@ -459,6 +611,25 @@
       { "id": "python", "name": "Python" },
       { "id": "django", "name": "Django" },
       { "id": "flask", "name": "Flask" }
+    ],
+    "organizers": [
+      {
+        "id": "lucas-fontaine-python",
+        "name": "Lucas Fontaine",
+        "role": "Lead Organizer",
+        "bio": "Python developer depuis 10 ans. Expert Django et FastAPI. Fondateur du meetup Python Nantes et contributeur open source actif.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+        "linkedin": "https://linkedin.com/in/lucas-fontaine-python",
+        "github": "https://github.com/lucasfontaine"
+      },
+      {
+        "id": "marion-dubois-python",
+        "name": "Marion Dubois",
+        "role": "Co-organizer",
+        "bio": "Backend engineer spécialisée en Python et data engineering. Organise les workshops sur Pandas, NumPy et l'écosystème data.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200",
+        "linkedin": "https://linkedin.com/in/marion-dubois-python"
+      }
     ],
     "events": [
       {
@@ -483,6 +654,25 @@
       { "id": "android", "name": "Android" },
       { "id": "gdg", "name": "GDG" }
     ],
+    "organizers": [
+      {
+        "id": "benjamin-richard-gdg",
+        "name": "Benjamin Richard",
+        "role": "Lead Organizer",
+        "bio": "GDE Android et lead du GDG Nantes. Organise les DevFest et meetups mensuels autour des technologies Google depuis 2017.",
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200",
+        "linkedin": "https://linkedin.com/in/benjamin-richard-android",
+        "twitter": "@benjamin_gdg"
+      },
+      {
+        "id": "sophie-durand-gdg",
+        "name": "Sophie Durand",
+        "role": "Co-organizer",
+        "bio": "Web developer et Google technologies advocate. Co-organise les événements et anime les workshops sur Angular et Firebase.",
+        "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200",
+        "linkedin": "https://linkedin.com/in/sophie-durand-web"
+      }
+    ],
     "events": [
       {
         "date": "2025-10-10T19:00:00Z",
@@ -505,6 +695,25 @@
       { "id": "gcp", "name": "Google Cloud" },
       { "id": "cloud", "name": "Cloud" },
       { "id": "gdg", "name": "GDG" }
+    ],
+    "organizers": [
+      {
+        "id": "gregory-thomas-gcp",
+        "name": "Grégory Thomas",
+        "role": "Lead Organizer",
+        "bio": "Cloud architect certifié GCP. Lead du GDG Cloud Nantes et expert en architecture serverless et Kubernetes sur GCP.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+        "linkedin": "https://linkedin.com/in/gregory-thomas-gcp",
+        "twitter": "@gregory_cloud"
+      },
+      {
+        "id": "valerie-martin-gcp",
+        "name": "Valérie Martin",
+        "role": "Co-organizer",
+        "bio": "DevOps engineer spécialisée GCP. Organise les workshops sur Cloud Run, App Engine et les services managés Google Cloud.",
+        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200",
+        "linkedin": "https://linkedin.com/in/valerie-martin-gcp"
+      }
     ],
     "events": [
       {
@@ -529,6 +738,25 @@
       { "id": "ux", "name": "UX/UI" },
       { "id": "innovation", "name": "Innovation" }
     ],
+    "organizers": [
+      {
+        "id": "simon-blanc-pm",
+        "name": "Simon Blanc",
+        "role": "Lead Organizer",
+        "bio": "Product manager avec 8 ans d'expérience en startup et scale-up. Lead du chapter Nantes-Bretagne de French Produit.",
+        "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200",
+        "linkedin": "https://linkedin.com/in/simon-blanc-pm",
+        "twitter": "@simon_pm_nantes"
+      },
+      {
+        "id": "melissa-dupont-pm",
+        "name": "Mélissa Dupont",
+        "role": "Co-organizer",
+        "bio": "Senior product manager et UX advocate. Organise les ateliers pratiques sur la discovery et la validation produit.",
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200",
+        "linkedin": "https://linkedin.com/in/melissa-dupont-pm"
+      }
+    ],
     "events": [
       {
         "date": "2025-10-05T18:00:00Z",
@@ -551,6 +779,25 @@
       { "id": "flutter", "name": "Flutter" },
       { "id": "dart", "name": "Dart" },
       { "id": "mobile", "name": "Mobile" }
+    ],
+    "organizers": [
+      {
+        "id": "alexis-moreau-flutter",
+        "name": "Alexis Moreau",
+        "role": "Lead Organizer",
+        "bio": "Mobile developer spécialisé Flutter depuis 5 ans. Fondateur de Flutter Nantes et contributor au framework.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+        "linkedin": "https://linkedin.com/in/alexis-moreau-flutter",
+        "github": "https://github.com/alexismoreau"
+      },
+      {
+        "id": "manon-lefevre-flutter",
+        "name": "Manon Lefèvre",
+        "role": "Co-organizer",
+        "bio": "Flutter developer et UI/UX designer. Organise les workshops sur les animations et le design d'applications Flutter.",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200",
+        "linkedin": "https://linkedin.com/in/manon-lefevre-flutter"
+      }
     ],
     "events": [
       {
@@ -575,6 +822,25 @@
       { "id": "dotnet", "name": ".NET" },
       { "id": "azure", "name": "Azure" }
     ],
+    "organizers": [
+      {
+        "id": "olivier-gautier-mtg",
+        "name": "Olivier Gautier",
+        "role": "Lead Organizer",
+        "bio": "Architecte .NET et MVP Microsoft. Lead du MTG Nantes et expert en architecture Azure et développement .NET moderne.",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=200",
+        "linkedin": "https://linkedin.com/in/olivier-gautier-dotnet",
+        "twitter": "@olivier_mtg"
+      },
+      {
+        "id": "catherine-rey-mtg",
+        "name": "Catherine Rey",
+        "role": "Co-organizer",
+        "bio": "Cloud architect spécialisée Azure. Organise les sessions sur Azure DevOps, Kubernetes sur Azure et les services cloud Microsoft.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+        "linkedin": "https://linkedin.com/in/catherine-rey-azure"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-19T18:30:00Z",
@@ -597,6 +863,25 @@
       { "id": "ruby", "name": "Ruby" },
       { "id": "rails", "name": "Ruby on Rails" },
       { "id": "web", "name": "Web Development" }
+    ],
+    "organizers": [
+      {
+        "id": "florian-simon-ruby",
+        "name": "Florian Simon",
+        "role": "Lead Organizer",
+        "bio": "Ruby developer depuis 12 ans et Rails enthusiast. Lead de Nantes.rb et contributeur à plusieurs gems open source.",
+        "image": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=200",
+        "linkedin": "https://linkedin.com/in/florian-simon-ruby",
+        "github": "https://github.com/floriansimon"
+      },
+      {
+        "id": "aurelie-petit-ruby",
+        "name": "Aurélie Petit",
+        "role": "Co-organizer",
+        "bio": "Fullstack Ruby on Rails developer. Organise les coding dojos et les sessions de pair programming de la communauté.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200",
+        "linkedin": "https://linkedin.com/in/aurelie-petit-rails"
+      }
     ],
     "events": [
       {
@@ -621,6 +906,25 @@
       { "id": "tdd", "name": "TDD" },
       { "id": "clean-code", "name": "Clean Code" }
     ],
+    "organizers": [
+      {
+        "id": "antoine-girard-crafters",
+        "name": "Antoine Girard",
+        "role": "Lead Organizer",
+        "bio": "Software crafter et TDD advocate. Fondateur de Software Crafters Nantes et formateur en pratiques craft et clean architecture.",
+        "image": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=200",
+        "linkedin": "https://linkedin.com/in/antoine-girard-crafter",
+        "twitter": "@antoine_craft"
+      },
+      {
+        "id": "elise-moreau-crafters",
+        "name": "Élise Moreau",
+        "role": "Co-organizer",
+        "bio": "Senior developer et clean code enthusiast. Organise les coding dojos et les sessions de refactoring collaboratif.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200",
+        "linkedin": "https://linkedin.com/in/elise-moreau-craft"
+      }
+    ],
     "events": [
       {
         "date": "2025-10-07T19:00:00Z",
@@ -640,6 +944,25 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [
+      {
+        "id": "thomas-leroy-genai",
+        "name": "Thomas Leroy",
+        "role": "Lead Organizer",
+        "bio": "AI researcher et entrepreneur. Fondateur de Generative AI Nantes pour explorer et démocratiser l'IA générative dans la région.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200",
+        "linkedin": "https://linkedin.com/in/thomas-leroy-ai",
+        "twitter": "@thomas_genai"
+      },
+      {
+        "id": "sarah-dubois-genai",
+        "name": "Sarah Dubois",
+        "role": "Co-organizer",
+        "bio": "ML engineer spécialisée en LLMs. Anime les discussions techniques sur les modèles de langage et leurs applications pratiques.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200",
+        "linkedin": "https://linkedin.com/in/sarah-dubois-llm"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-23T19:00:00Z",
@@ -663,6 +986,25 @@
       { "id": "kotlin", "name": "Kotlin" },
       { "id": "mobile", "name": "Mobile" }
     ],
+    "organizers": [
+      {
+        "id": "hugo-lambert-android",
+        "name": "Hugo Lambert",
+        "role": "Lead Organizer",
+        "bio": "Android developer avec 9 ans d'expérience. Lead du GDG Nantes Android et Kotlin advocate. Speaker sur Jetpack Compose.",
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200",
+        "linkedin": "https://linkedin.com/in/hugo-lambert-android",
+        "twitter": "@hugo_android"
+      },
+      {
+        "id": "julie-marchand-android",
+        "name": "Julie Marchand",
+        "role": "Co-organizer",
+        "bio": "Senior Android engineer. Organise les workshops sur Kotlin Multiplatform et les architectures Android modernes.",
+        "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200",
+        "linkedin": "https://linkedin.com/in/julie-marchand-android"
+      }
+    ],
     "events": [
       {
         "date": "2025-10-12T19:00:00Z",
@@ -685,6 +1027,25 @@
       { "id": "aws", "name": "Amazon Web Services" },
       { "id": "cloud", "name": "Cloud" },
       { "id": "serverless", "name": "Serverless" }
+    ],
+    "organizers": [
+      {
+        "id": "julien-roy-aws",
+        "name": "Julien Roy",
+        "role": "Lead Organizer",
+        "bio": "Solutions architect AWS certifié. Lead de l'AWS User Group Nantes et expert en architectures serverless et cloud native.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+        "linkedin": "https://linkedin.com/in/julien-roy-aws",
+        "twitter": "@julien_aws"
+      },
+      {
+        "id": "claire-vincent-aws",
+        "name": "Claire Vincent",
+        "role": "Co-organizer",
+        "bio": "Cloud engineer spécialisée AWS Lambda et serverless. Organise les hands-on labs et les workshops pratiques sur AWS.",
+        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200",
+        "linkedin": "https://linkedin.com/in/claire-vincent-serverless"
+      }
     ],
     "events": [
       {
@@ -716,6 +1077,25 @@
       { "id": "craftsmanship", "name": "Software Craftsmanship" },
       { "id": "practice", "name": "Practice" }
     ],
+    "organizers": [
+      {
+        "id": "mathieu-arnaud-craft",
+        "name": "Mathieu Arnaud",
+        "role": "Lead Organizer",
+        "bio": "Software crafter et facilitateur de coding dojos. Anime AlpesCraft depuis 2016 pour promouvoir l'excellence technique à Grenoble.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+        "linkedin": "https://linkedin.com/in/mathieu-arnaud-craft",
+        "twitter": "@mathieu_craft"
+      },
+      {
+        "id": "lea-fontaine-craft",
+        "name": "Léa Fontaine",
+        "role": "Co-organizer",
+        "bio": "Developer et TDD practitioner. Co-organise les dojos et aide les participants à progresser dans les pratiques craft.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200",
+        "linkedin": "https://linkedin.com/in/lea-fontaine-tdd"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-26T18:30:00Z",
@@ -738,6 +1118,25 @@
       { "id": "craftsmanship", "name": "Software Craftsmanship" },
       { "id": "clean-code", "name": "Clean Code" },
       { "id": "tdd", "name": "TDD" }
+    ],
+    "organizers": [
+      {
+        "id": "paul-rousseau-craft-gre",
+        "name": "Paul Rousseau",
+        "role": "Lead Organizer",
+        "bio": "Senior developer et clean architecture advocate. Fondateur de Software Craftsmanship Grenoble et formateur en pratiques craft.",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=200",
+        "linkedin": "https://linkedin.com/in/paul-rousseau-craft",
+        "github": "https://github.com/paulrousseau"
+      },
+      {
+        "id": "camille-faure-craft-gre",
+        "name": "Camille Faure",
+        "role": "Co-organizer",
+        "bio": "Tech lead et refactoring expert. Organise les talks et ateliers sur les design patterns et l'architecture logicielle.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+        "linkedin": "https://linkedin.com/in/camille-faure-techlead"
+      }
     ],
     "events": [
       {
@@ -762,6 +1161,25 @@
       { "id": "jug", "name": "JUG" },
       { "id": "jvm", "name": "JVM" }
     ],
+    "organizers": [
+      {
+        "id": "philippe-martin-alpesjug",
+        "name": "Philippe Martin",
+        "role": "Lead Organizer",
+        "bio": "Java architect avec 18 ans d'expérience. Lead de l'AlpesJUG depuis 2012 et champion Java dans les Alpes.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200",
+        "linkedin": "https://linkedin.com/in/philippe-martin-java",
+        "twitter": "@philippe_alpesjug"
+      },
+      {
+        "id": "stephanie-durand-alpesjug",
+        "name": "Stéphanie Durand",
+        "role": "Co-organizer",
+        "bio": "Senior Java developer et Kotlin advocate. Co-organise les événements et anime les workshops sur les nouveautés JVM.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200",
+        "linkedin": "https://linkedin.com/in/stephanie-durand-java"
+      }
+    ],
     "events": [
       {
         "date": "2025-09-25T19:00:00Z",
@@ -784,6 +1202,25 @@
       { "id": "web", "name": "Web Development" },
       { "id": "frontend", "name": "Frontend" },
       { "id": "backend", "name": "Backend" }
+    ],
+    "organizers": [
+      {
+        "id": "damien-henry-webdev",
+        "name": "Damien Henry",
+        "role": "Lead Organizer",
+        "bio": "Fullstack web developer spécialisé en React et Node.js. Fondateur du Grenoble Web Dev meetup pour partager les dernières tendances web.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+        "linkedin": "https://linkedin.com/in/damien-henry-fullstack",
+        "github": "https://github.com/damienhenry"
+      },
+      {
+        "id": "jessica-blanc-webdev",
+        "name": "Jessica Blanc",
+        "role": "Co-organizer",
+        "bio": "Frontend architect spécialisée en performance web. Anime les sessions sur les frameworks modernes et l'optimisation frontend.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200",
+        "linkedin": "https://linkedin.com/in/jessica-blanc-frontend"
+      }
     ],
     "events": [
       {
