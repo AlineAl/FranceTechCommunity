@@ -1,1 +1,1235 @@
-[{"id":"human-talks-angers","image":"","name":"Human Talks Angers","description":"Human Talks Angers est une communauté qui organise des événements pour tous, étudiants, développeurs ou autodidactes. Ces soirées proposent des talks de 10 minutes sur des sujets techniques variés, favorisant la découverte et la veille technologique. C'est l'endroit idéal pour rencontrer des personnes partageant les mêmes intérêts et échanger autour d'un verre après les présentations.","link":"","city":"Angers","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[]},{"id":"bordeauxjs","image":"","name":"Bordeaux JS","description":"BordeauxJS est un groupe d'utilisateurs Web Tech à Bordeaux qui organise des réunions, des discussions et des sessions de live coding. Le groupe se concentre principalement sur JavaScript et le web au sens large.","link":"","city":"Bordeaux","platform":"Meetup","tags":[],"events":[]},{"id":"bordeauxjug","image":"","name":"BordeauxJUG","description":"Le Bordeaux Java User Group (BordeauxJUG) est une communauté dédiée aux acteurs et utilisateurs du langage Java. Il organise des rencontres mensuelles gratuites et ouvertes à tous, sous forme de présentations techniques, démonstrations et tables rondes, afin de favoriser les échanges autour des technologies Java.","link":"","city":"Bordeaux","platform":"Meetup","tags":[],"events":[{"date":"21/03/2025","title":"Karate Connect : votre partenaire de combat dans l’arène des tests API","link":"https://www.meetup.com/bordeauxjug/events/311318217/","id":"693e2c81-6746-4a38-a86c-a6e6b8bbfdc2","organizationName":"BordeauxJUG"}]},{"id":"human-talks-bordeaux","image":"","name":"Human Talks Bordeaux","description":"Human Talks Bordeaux est une communauté de pratique dynamique dédiée à l'apprentissage, au partage d'expérience et au développement personnel. Elle offre un espace pour conjuguer ces trois aspects à travers divers événements. La communauté organise des soirées thématiques avec des experts, comme l'édition spéciale Design, pour discuter de sujets tels que la culture du design, la collaboration d'équipe et l'intégration de la stratégie dans les projets.","link":"","city":"Bordeaux","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[]},{"id":"women-in-tech-bordeaux","image":"","name":"Women In Tech Bordeaux","description":"Women in Tech Bordeaux rassemble les femmes pour leur donner plus de visibilité dans la Tech et leur offrir un espace de discussion bienveillant. L'objectif est de partager expériences et expertises à travers des conférences techniques ou non, et ce, peu importe le niveau de connaissance ou le secteur d'activité des participant(e)s. Ces événements visent à promouvoir l'inclusion et la diversité dans la tech en offrant une plateforme d'échange et de partage de connaissances.","link":"","city":"Bordeaux","platform":"Meetup","tags":[],"events":[]},{"id":"finistdevs","image":"","name":"Finistdevs","description":"FinistDevs est un groupe d'utilisateurs Java (FinistJUG) qui rassemble professionnels, communautés open source, institutions et étudiants pour échanger sur les avancées technologiques de la plateforme Java et du développement logiciel. Le groupe se réunit une fois par mois pour des présentations techniques, démonstrations ou tables rondes, précédées d'un échange informel. Les réunions sont gratuites et ouvertes à tous.","link":"","city":"Brest","platform":"Meetup","tags":[],"events":[{"date":null,"title":"Soirée d'Octobre 2025","link":"https://www.meetup.com/finistdevs/events/311470109/","id":"8582d8af-ad41-4ffc-979e-d8e3ea52b51a","organizationName":"FinistDevs"}]},{"id":"humantalks-grenoble","image":"","name":"Human Talks Grenoble","description":"Human Talks Grenoble est un événement mensuel gratuit pour les développeurs, se tenant chaque deuxième mardi du mois. Quatre intervenants, développeurs ou non, présentent en 10 minutes un sujet de leur choix. L'objectif est de partager des connaissances sur des technologies, des concepts, des méthodes ou des retours d'expérience dans une ambiance conviviale.","link":"","city":"Grenoble","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[{"date":"09/09/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/309014631/","id":"f16284e9-3cc2-4e7a-b28b-7d7b76507920","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/310387558/","id":"d6d2d38e-ece8-4924-a4c4-2e5807e28bf6","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyhcqbmb/","id":"9bdf6d8f-83e0-4f3d-8306-4ca13abef130","organizationName":"HumanTalks Grenoble"},{"date":"14/10/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjccbrb/","id":"4faf58b1-59db-4299-9d34-7ab4ba592ef2","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcdbnb/","id":"f04b8bb3-b37b-4e65-94bc-7bb34f01eb29","organizationName":"HumanTalks Grenoble"},{"date":"14/10/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcfbnb/","id":"4deb78d6-2f4e-4a80-819b-bb7a448542c1","organizationName":"HumanTalks Grenoble"},{"date":"14/10/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcgbsb/","id":"1840e9e1-2f72-44c4-bb93-72b2e854c62e","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjchbqb/","id":"648cfed3-ac89-409a-b182-f498188708dc","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcjbmb/","id":"4cc05ca5-798f-49bd-ba32-7933f58dfa46","organizationName":"HumanTalks Grenoble"},{"date":"14/10/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjckbsb/","id":"781bf40c-e986-4719-9fa7-c2c04f4b7304","organizationName":"HumanTalks Grenoble"}]},{"id":"humantalks-nantes","image":"","name":"Humantalks Nantes","description":"HumanTalks Nantes est un événement mensuel convivial et ouvert à tous·tes, dédié aux développeurs de tous horizons. Tous les 2èmes mardis du mois, plusieurs \"talks\" de 10 minutes sont présentés, couvrant des sujets variés liés de près ou de loin au métier de développeur. L'objectif est la découverte et le partage d'expériences, permettant aux participant·e·s d'explorer de nouvelles technologies et concepts.","link":"","city":"Nantes","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[]},{"id":"nantes-java-user-group","image":"","name":"Nantes Java User Group","description":"Le Nantes Java User Group est une communauté tech conviviale qui aborde tous les sujets liés à la programmation, des données au web, en passant par la sécurité et, bien sûr, Java. Le groupe organise des rencontres mensuelles gratuites, ouvertes à tous, avec des présentations techniques, des démonstrations et des tables rondes. Il vise à rassembler les acteurs et utilisateurs de l'écosystème Java pour échanger des connaissances et expériences.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"agile-nantes-sessions-mensuelles","image":"","name":"Agile Nantes Sessions Mensuelles","description":"Le groupe Agile Nantes - Sessions mensuelles est un moyen de partager la connaissance agile (méthodes, outils, techniques, organisations associées) avec tous ceux qui le souhaitent. Chaque premier mercredi du mois, une session gratuite est proposée, sous forme de conférence, d'atelier ou de retour d'expérience. Un événement est créé trois semaines avant chaque session pour permettre les inscriptions.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"10/09/2025","title":"Session mensuelle de Novembre - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238085/","id":"55478b21-3c23-46d5-a024-7cc98d1bf250","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"10/09/2025","title":"Session mensuelle de Décembre - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238135/","id":"26232b86-99d3-42fc-b9a5-20b29f99cfea","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"10/09/2025","title":"Session mensuelle de Février - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238149/","id":"6ab7d7e1-a9d4-4ef5-98a5-3a2499a34693","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"30/10/2025","title":"Session mensuelle de Mars - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238168/","id":"5d65c94f-b8a5-4ade-8947-85e82604fdcc","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"30/09/2025","title":"Session mensuelle d'Avril - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238188/","id":"991cc03d-4f32-4882-a91e-69c5f2e0ae5b","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"08/10/2025","title":"Session mensuelle de mai - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238212/","id":"d30cb7ef-d75d-40f0-ac7f-2078faef2e89","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"01/10/2025","title":"Session mensuelle de juin - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238223/","id":"ff87ad9f-b846-4fe9-a77c-8266755cdde0","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"01/10/2025","title":"Session mensuelle de juillet - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238239/","id":"f7384084-0019-4626-accd-39566e4e1fb8","organizationName":"Agile Nantes - Sessions mensuelles"}]},{"id":"blockchain-societe","image":"","name":"Blockchain Societe","description":"Bienvenue au groupe Blockchain et Société, un rassemblement dynamique de passionnés et d'experts explorant le pouvoir transformateur de la technologie blockchain. En tant que groupe éducatif WEB3 à but non lucratif, il offre une plateforme pour approfondir la compréhension des concepts et applications de la blockchain. Que vous soyez un débutant curieux ou un investisseur chevronné, le meetup propose des informations et des ressources précieuses pour votre parcours dans l'écosystème blockchain en constante évolution.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"cocoaheads-nantes","image":"","name":"Cocoaheads Nantes","description":"CocoaHeads Nantes est un groupe de développeurs passionnés par les technologies Apple (iPhone, iPad, Mac...). L'accès est gratuit et ouvert à tous. Vous pouvez les rejoindre sur Slack pour discuter ou proposer un talk.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"22/10/2025","title":"CocoaHeads d'Automne","link":"https://www.meetup.com/cocoaheads-nantes/events/311337369/","id":"3c92461c-52cd-4f33-aefe-03ee0ead5809","organizationName":"CocoaHeads Nantes"}]},{"id":"nantes-devops","image":"","name":"Nantes Devops","description":"Nantes DevOps est une communauté locale faisant partie de France DevOps, un groupe proposant des webinars mensuels gratuits et ouverts à tous sur le DevOps. Elle permet aux membres de se connecter avec d'autres passionnés et d'échanger sur des sujets variés, quel que soit leur niveau d'expérience. Vous pouvez rester informé des prochains événements et lives en rejoignant la communauté sur Meetup.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"nantes-machine-learning-meetup","image":"","name":"Nantes Machine Learning Meetup","description":"Nous sommes développeurs et chercheurs intéressés par l'apprentissage automatique, les réseaux de neurones artificiels, les modèles graphiques probabilistes et le traitement automatique du langage naturel. Nous nous réunissons pour discuter de nos projets concrets dans ces domaines. Le meetup se réunit une fois par mois pour une présentation, souvent diffusée sur YouTube.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"nantes-python-meetup","image":"","name":"Nantes Python Meetup","description":"Le Nantes Python Meetup est un rendez-vous pour la communauté de développeurs Python et de ceux qui s'intéressent à cet écosystème. C'est un lieu propice à la présentation de projets et aux échanges conviviaux. Le groupe compte plus de 900 membres et est organisé par l'AFPy et six autres entités.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"gdg-nantes","image":"","name":"Gdg Nantes","description":"Le GDG Nantes est un regroupement de personnes intéressées par les technologies et plateformes de Google (Android, Chrome, Google Apps, GWT, AppEngine, etc.). Il vise à organiser régulièrement des événements tels que des conférences sur les technologies Google, web, cloud et mobile, ainsi que des apéros pour favoriser les rencontres et les échanges. Le GDG Nantes est également l'organisateur du DevFest Nantes, une conférence technique majeure pour les développeurs.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"16/10/2025","title":"DevFest Nantes 2025","link":"https://www.meetup.com/gdg-nantes/events/311149878/","id":"5b8a5a4c-33f6-4685-b6dd-c75e89173847","organizationName":"GDG Nantes"}]},{"id":"gdg-cloud-nantes","image":"","name":"Gdg Cloud Nantes","description":"Le GDG Cloud Nantes est un regroupement de personnes intéressées par Google Cloud Platform et les technologies associées comme Firebase, Kubernetes et BigQuery. Ce GDG organise des événements réguliers et travaille en étroite collaboration avec le GDG Nantes historique.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"frenchproduit-nantesbretagne","image":"","name":"Frenchproduit Nantesbretagne","description":"FrenchProduit Nantes est une communauté dédiée aux passionnés de la création de produits numériques (Product Managers, Owners, Designers, Marketers, Ops, Leaders, etc.). Elle vise à connecter ces professionnels, à favoriser la sensibilisation et l'entraide autour des métiers du Produit et de sa culture. Le groupe organise des rencontres sous différents formats, notamment des déjeuners et afterworks informels, ainsi que des afterworks avec présentations et ateliers sur des thèmes spécifiques.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":null,"title":"IA : Utiliser la GenAI pour la recherche de connaissance","link":"https://www.meetup.com/frenchproduit-nantesbretagne/events/311361674/","id":"fb82d665-b296-4c61-98ce-394b373990e3","organizationName":"FrenchProduit Nantes"}]},{"id":"flutter-nantes","image":"","name":"Flutter Nantes","description":"Voici une description de la communauté Flutter Nantes sur Meetup :\n\nCe groupe s'adresse aux personnes intéressées par Flutter et situées dans la région de Nantes. Il organise tous les deux mois une soirée comprenant une longue conférence (40-50 min) et une plus courte (15-30 min). N'hésitez pas à proposer vos présentations sur Conference Hall !","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"23/10/2025","title":"Meetup Flutter Nantes #19","link":"https://www.meetup.com/flutter-nantes/events/311374990/","id":"411200c8-a003-4fdb-a58a-453fba109f97","organizationName":"Flutter Nantes"}]},{"id":"mtg-nantes","image":"","name":"Mtg Nantes","description":"MTG Nantes, anciennement MUG .Net Nantes, est une communauté pour les passionnés de développement, notamment de .Net et Visual Studio, à Nantes. Le groupe encourage le partage et l'échange autour de ces technologies. Des sessions de présentation et d'échange sont organisées, suivies de moments de convivialité.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"nantes-rb","image":"","name":"Nantes Rb","description":"Nantes.rb est une communauté pour les passionnés de Ruby, de Rails, d'entrepreneuriat et des nouvelles technologies en général. Le groupe accueille tous les niveaux, du débutant à l'expert, incluant développeurs, freelances et recruteurs. Ils se réunissent chaque mois pour échanger autour des technologies, des meilleures pratiques et de l'aspect business, suivi d'un apéro convivial.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"21/10/2025","title":"Ruby Talk!","link":"https://www.meetup.com/nantes-rb/events/311363649/","id":"f2b1744f-1d33-4fe2-adc6-6895580d7367","organizationName":"Nantes.rb"}]},{"id":"nantes-software-crafters-nantes","image":"","name":"Nantes Software Crafters Nantes","description":"Software Crafters Nantes est une communauté qui rassemble les développeu(r|se)s de tous horizons, sans sexisme ni élitisme, quels que soient le langage ou la technologie utilisés. L'objectif est d'améliorer les compétences techniques à travers des Coding Dojos, du pair programming, et l'échange de connaissances. La communauté s'inspire du Manifeste pour l'Artisanat Logiciel, valorisant un logiciel non seulement fonctionnel, mais aussi bien conçu.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"generative-ai-nantes","image":"","name":"Generative Ai Nantes","description":"Generative AI Nantes est un Meetup pour les experts techs, produits, ou toute personne souhaitant utiliser l'IA pour réinventer son industrie. Il se concentre sur les innovations récentes en Intelligence Artificielle et les LLM qui mènent à une adoption massive de l'IA. Le groupe recherche des intervenants partageant leur expertise technique ou des retours d'expérience sur l'utilisation de l'IA, de préférence en production.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"gdg-nantes-android","image":"","name":"Gdg Nantes Android","description":"Le GDG Nantes Android est un rendez-vous mensuel pour les passionné.e.s d'applications Android. Chaque événement débute par les dernières nouveautés de l'écosystème Android, suivi d'une conférence et d'un échange convivial.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"aws-nantes","image":"","name":"Aws Nantes","description":"Le groupe Meetup \"AWS User Group France - Nantes\" est une communauté dédiée à Amazon Web Services et au cloud computing. Il offre une plateforme pour rencontrer, échanger et apprendre comment d'autres acteurs du marché nantais résolvent des problèmes avec les services AWS. C'est un lieu pour le networking et le partage de connaissances.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"alpescraft-coding-dojos","image":"","name":"Alpescraft Coding Dojos","description":"AlpesCraft Coding Dojos est une communauté Meetup qui se réunit pendant la pause déjeuner pour coder ensemble. L'objectif est de partager, apprendre et progresser autour de \"katas\" (exercices de code simples) en \"mob programming\". Tous les niveaux sont les bienvenus, des novices aux experts.","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[]},{"id":"software-craftsmanship-grenoble","image":"","name":"Software Craftsmanship Grenoble","description":"La communauté AlpesCraft Grenoble Meetup rassemble des développeu(r|se)s désireux de progresser, sans élitisme ni langage obligatoire. En tant qu'aspirants Artisans du Logiciel, ils élèvent le niveau du développement professionnel par la pratique et l'entraide. Ils apprécient les logiciels bien conçus, l'ajout constant de valeur, une communauté de professionnels et des partenariats productifs.","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[{"date":"16/10/2025","title":"Kata d’architecture","link":"https://www.meetup.com/alpescraft-grenoble-meetup/events/311402522/","id":"386749f3-70ec-4739-92a2-642813f03904","organizationName":"AlpesCraft Grenoble Meetup"}]},{"id":"alpesjug","image":"","name":"Alpesjug","description":"AlpesJUG est un groupe public basé à Grenoble, France, qui compte 841 membres. Il se concentre sur les événements et discussions liés à ses centres d'intérêt. Ce groupe permet à ses membres de se rencontrer et de partager des expériences.","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[]},{"id":"grenoble-web-development-meetup-group","image":"","name":"Grenoble Web Development Meetup Group","description":"Le Grenoble Web Development Meetup Group rassemble mensuellement les développeurs web de la région grenobloise. Le groupe propose des formats variés comme des conférences, des katas, ou des afterworks informels pour échanger sur le développement web. C'est l'occasion d'apprendre, de partager son expérience et de développer son réseau dans un cadre convivial.","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[]}]
+[
+  {
+    "id": "human-talks-angers",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+    "name": "Human Talks Angers",
+    "description": "Communauté de développeurs et passionnés de tech qui se retrouvent chaque mois pour partager leurs connaissances à travers des talks de 10 minutes dans une ambiance conviviale.",
+    "link": "https://humantalks.com/cities/angers",
+    "city": "Angers",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "humantalks", "name": "Human Talks" },
+      { "id": "tech", "name": "Technology" },
+      { "id": "programming", "name": "Programming" }
+    ],
+    "organizers": [
+      {
+        "id": "sarah-martin-angers",
+        "name": "Sarah Martin",
+        "role": "Lead Organizer",
+        "bio": "Développeuse fullstack passionnée par la communauté tech angevine. Organise les Human Talks depuis 2020 et adore créer des ponts entre les développeurs locaux.",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200",
+        "linkedin": "https://linkedin.com/in/sarah-martin-dev",
+        "twitter": "@sarah_codes",
+        "github": "https://github.com/sarahmartin"
+      },
+      {
+        "id": "julien-dubois-angers",
+        "name": "Julien Dubois",
+        "role": "Co-organizer",
+        "bio": "DevOps engineer et speaker occasionnel. Co-organise les événements et s'occupe de la logistique et des partenariats avec les entreprises locales.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+        "linkedin": "https://linkedin.com/in/julien-dubois-devops",
+        "github": "https://github.com/juliendubois"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-09T19:00:00Z",
+        "title": "Human Talks du 9 septembre 2025",
+        "link": "https://www.meetup.com/human-talks-angers/events/310727296/",
+        "id": "00f200f9-7ab7-4785-8a68-d185e13f4cea",
+        "organizationName": "Human Talks Angers"
+      }
+    ]
+  },
+  {
+    "id": "bordeauxjs",
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400",
+    "name": "Bordeaux JS",
+    "description": "Le meetup JavaScript de Bordeaux. Nous nous retrouvons régulièrement pour discuter de JavaScript, des frameworks modernes, et des dernières tendances du développement web.",
+    "link": "https://bordeauxjs.org",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "javascript", "name": "JavaScript" },
+      { "id": "frontend", "name": "Frontend" },
+      { "id": "nodejs", "name": "Node.js" }
+    ],
+    "organizers": [
+      {
+        "id": "marc-durand-bdx",
+        "name": "Marc Durand",
+        "role": "Lead Organizer",
+        "bio": "Lead développeur JavaScript avec 10 ans d'expérience. Passionné par React, Node.js et l'écosystème JS moderne. Fondateur de BordeauxJS en 2018.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+        "linkedin": "https://linkedin.com/in/marc-durand-js",
+        "twitter": "@marc_js_bdx",
+        "github": "https://github.com/marcdurand"
+      },
+      {
+        "id": "julie-lambert-bdx",
+        "name": "Julie Lambert",
+        "role": "Co-organizer",
+        "bio": "Frontend architect spécialisée en React et TypeScript. Anime des workshops et aide à la préparation des meetups mensuels.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200",
+        "linkedin": "https://linkedin.com/in/julie-lambert-frontend",
+        "twitter": "@julie_frontend"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-18T19:30:00Z",
+        "title": "La clean architecture et les tests unitaires : et si c'était simple ?",
+        "link": "https://www.meetup.com/bordeauxjs/events/310609693/",
+        "id": "ae4bd24a-b7b4-4a81-9abe-9321ee643f82",
+        "organizationName": "BordeauxJS"
+      }
+    ]
+  },
+  {
+    "id": "bordeauxjug",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400",
+    "name": "BordeauxJUG",
+    "description": "Java User Group de Bordeaux. Nous organisons des conférences, des ateliers et des événements autour de l'écosystème Java et JVM.",
+    "link": "https://bordeauxjug.org",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "java", "name": "Java" },
+      { "id": "jvm", "name": "JVM" },
+      { "id": "spring", "name": "Spring" }
+    ],
+    "organizers": [
+      {
+        "id": "pierre-moreau-jug",
+        "name": "Pierre Moreau",
+        "role": "Lead Organizer",
+        "bio": "Architecte Java senior avec 15 ans d'expérience. Champion de la communauté Java à Bordeaux et speaker régulier sur les conférences nationales.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200",
+        "linkedin": "https://linkedin.com/in/pierre-moreau-java",
+        "twitter": "@pierre_java"
+      },
+      {
+        "id": "claire-rousseau-jug",
+        "name": "Claire Rousseau",
+        "role": "Co-organizer",
+        "bio": "Tech lead Java et Kotlin. Passionnée par Spring Boot et les architectures microservices. Organise les workshops pratiques.",
+        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200",
+        "linkedin": "https://linkedin.com/in/claire-rousseau-java"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-15T19:00:00Z",
+        "title": "Java 21 : Les nouveautés qui changent tout",
+        "link": "https://www.meetup.com/bordeauxjug/events/311234567/",
+        "id": "jug-java21-bordeaux",
+        "organizationName": "BordeauxJUG"
+      }
+    ]
+  },
+  {
+    "id": "human-talks-bordeaux",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+    "name": "Human Talks Bordeaux",
+    "description": "Chapter bordelais des Human Talks. Des présentations courtes et variées sur tous les aspects de la tech, dans un format accessible à tous.",
+    "link": "https://humantalks.com/cities/bordeaux",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "humantalks", "name": "Human Talks" },
+      { "id": "tech", "name": "Technology" },
+      { "id": "innovation", "name": "Innovation" }
+    ],
+    "organizers": [
+      {
+        "id": "thomas-bernard-ht",
+        "name": "Thomas Bernard",
+        "role": "Lead Organizer",
+        "bio": "CTO et entrepreneur tech à Bordeaux. Anime la communauté Human Talks locale depuis 2019 et encourage la diversité des sujets présentés.",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=200",
+        "linkedin": "https://linkedin.com/in/thomas-bernard-cto",
+        "twitter": "@thomas_tech_bdx"
+      },
+      {
+        "id": "emma-petit-ht",
+        "name": "Emma Petit",
+        "role": "Co-organizer",
+        "bio": "Product manager passionnée par l'innovation. Aide à la sélection des talks et coordonne avec les sponsors locaux.",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200",
+        "linkedin": "https://linkedin.com/in/emma-petit-pm"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-08T19:00:00Z",
+        "title": "Human Talks Bordeaux - Octobre 2025",
+        "link": "https://www.meetup.com/human-talks-bordeaux/events/311123456/",
+        "id": "ht-bordeaux-oct-2025",
+        "organizationName": "Human Talks Bordeaux"
+      }
+    ]
+  },
+  {
+    "id": "women-in-tech-bordeaux",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400",
+    "name": "Women In Tech Bordeaux",
+    "description": "Communauté dédiée aux femmes dans la tech à Bordeaux. Nous organisons des événements de networking, des conférences et des ateliers pour encourager la diversité dans le secteur technologique.",
+    "link": "https://womenintech-bordeaux.fr",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "diversity", "name": "Diversity" },
+      { "id": "women", "name": "Women in Tech" },
+      { "id": "networking", "name": "Networking" }
+    ],
+    "organizers": [
+      {
+        "id": "sophie-martin-wit",
+        "name": "Sophie Martin",
+        "role": "Founder & Lead",
+        "bio": "Software engineer et mentor pour femmes en tech. Fondatrice de Women In Tech Bordeaux en 2017. Milite pour plus de diversité dans l'industrie.",
+        "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200",
+        "linkedin": "https://linkedin.com/in/sophie-martin-wit",
+        "twitter": "@sophie_wit_bdx"
+      },
+      {
+        "id": "lisa-duval-wit",
+        "name": "Lisa Duval",
+        "role": "Community Manager",
+        "bio": "Data scientist et advocate pour l'inclusion. Organise les événements de networking et gère la communication de la communauté.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+        "linkedin": "https://linkedin.com/in/lisa-duval-data"
+      },
+      {
+        "id": "marine-leclerc-wit",
+        "name": "Marine Leclerc",
+        "role": "Event Coordinator",
+        "bio": "Engineering manager passionnée par le leadership féminin. Coordonne les panels et workshops sur le développement de carrière.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200",
+        "linkedin": "https://linkedin.com/in/marine-leclerc-em"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-25T18:30:00Z",
+        "title": "Panel : Leadership féminin dans la tech",
+        "link": "https://www.meetup.com/women-in-tech-bordeaux/events/310987654/",
+        "id": "wit-leadership-panel",
+        "organizationName": "Women In Tech Bordeaux"
+      }
+    ]
+  },
+  {
+    "id": "finistdevs",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400",
+    "name": "Finistdevs",
+    "description": "La communauté des développeurs du Finistère. Nous nous retrouvons régulièrement pour échanger sur nos pratiques, découvrir de nouvelles technologies et partager notre passion pour le code.",
+    "link": "https://finistdevs.org",
+    "city": "Brest",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "dev", "name": "Development" },
+      { "id": "finistere", "name": "Finistère" },
+      { "id": "coding", "name": "Coding" }
+    ],
+    "organizers": [
+      {
+        "id": "yann-le-goff-finistdevs",
+        "name": "Yann Le Goff",
+        "role": "Lead Organizer",
+        "bio": "Développeur fullstack et amoureux du Finistère. A créé FinistDevs pour rassembler la communauté tech locale et promouvoir le développement dans la région.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+        "linkedin": "https://linkedin.com/in/yann-le-goff-dev",
+        "github": "https://github.com/yannlegoff"
+      },
+      {
+        "id": "nolwenn-morvan-finistdevs",
+        "name": "Nolwenn Morvan",
+        "role": "Co-organizer",
+        "bio": "Backend developer spécialisée en Rust et Go. Organise les coding sessions et les ateliers techniques de la communauté.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200",
+        "linkedin": "https://linkedin.com/in/nolwenn-morvan-backend"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-20T19:00:00Z",
+        "title": "Soirée Rust : Performance et sécurité",
+        "link": "https://www.meetup.com/finistdevs/events/310876543/",
+        "id": "finistdevs-rust-evening",
+        "organizationName": "Finistdevs"
+      }
+    ]
+  },
+  {
+    "id": "humantalks-grenoble",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+    "name": "Human Talks Grenoble",
+    "description": "Le chapter grenoblois des Human Talks. Chaque mois, 4 speakers partagent leur passion en 10 minutes chrono dans une ambiance décontractée avec bières et pizzas.",
+    "link": "https://humantalks.com/cities/grenoble",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "humantalks", "name": "Human Talks" },
+      { "id": "tech", "name": "Technology" },
+      { "id": "grenoble", "name": "Grenoble" }
+    ],
+    "organizers": [
+      {
+        "id": "nicolas-blanc-htg",
+        "name": "Nicolas Blanc",
+        "role": "Lead Organizer",
+        "bio": "Software architect dans l'écosystème grenoblois. Anime Human Talks Grenoble depuis 2016 et favorise les échanges entre tech et innovation.",
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200",
+        "linkedin": "https://linkedin.com/in/nicolas-blanc-architect",
+        "twitter": "@nicolas_ht_gre"
+      },
+      {
+        "id": "amelie-dumont-htg",
+        "name": "Amélie Dumont",
+        "role": "Co-organizer",
+        "bio": "DevOps engineer et speaker. Gère la logistique des événements et aide au coaching des speakers débutants.",
+        "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200",
+        "linkedin": "https://linkedin.com/in/amelie-dumont-devops"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-10T19:00:00Z",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/309012412/",
+        "id": "e1773e58-8681-4ee6-9784-706f3d6753db",
+        "organizationName": "HumanTalks Grenoble"
+      }
+    ]
+  },
+  {
+    "id": "humantalks-nantes",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+    "name": "Humantalks Nantes",
+    "description": "Le meetup tech de référence à Nantes ! Chaque mois, 4 talks de 10 minutes pour découvrir les dernières tendances technologiques dans une ambiance conviviale.",
+    "link": "https://humantalks.com/cities/nantes",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "humantalks", "name": "Human Talks" },
+      { "id": "tech", "name": "Technology" },
+      { "id": "nantes", "name": "Nantes" }
+    ],
+    "organizers": [
+      {
+        "id": "maxime-girard-htn",
+        "name": "Maxime Girard",
+        "role": "Lead Organizer",
+        "bio": "Lead developer et passionné de communauté tech nantaise. Organise Human Talks Nantes depuis 2015 et a vu la communauté grandir jusqu'à 500+ membres.",
+        "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200",
+        "linkedin": "https://linkedin.com/in/maxime-girard-dev",
+        "twitter": "@maxime_ht_nantes"
+      },
+      {
+        "id": "camille-roux-htn",
+        "name": "Camille Roux",
+        "role": "Co-organizer",
+        "bio": "Frontend developer et UX enthusiast. Coordonne avec les sponsors et s'occupe de la communication des événements mensuels.",
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200",
+        "linkedin": "https://linkedin.com/in/camille-roux-frontend"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-10T19:00:00Z",
+        "title": "Human Talks - Septembre 2025",
+        "link": "https://www.meetup.com/humantalks-nantes/events/310501795/",
+        "id": "c06f0ffb-661c-48fc-acac-b04a5dafd57a",
+        "organizationName": "Human Talks Nantes"
+      }
+    ]
+  },
+  {
+    "id": "nantes-java-user-group",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400",
+    "name": "Nantes Java User Group",
+    "description": "Communauté Java de Nantes et sa région. Nous organisons des meetups, conférences et ateliers pour tous les niveaux autour de l'écosystème Java.",
+    "link": "https://nantesjug.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "java", "name": "Java" },
+      { "id": "jug", "name": "JUG" },
+      { "id": "enterprise", "name": "Enterprise" }
+    ],
+    "organizers": [
+      {
+        "id": "vincent-leroy-njug",
+        "name": "Vincent Leroy",
+        "role": "Lead Organizer",
+        "bio": "Architecte Java avec 12 ans d'expérience en entreprise. Lead du Nantes JUG et champion de l'écosystème Java en région nantaise.",
+        "image": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=200",
+        "linkedin": "https://linkedin.com/in/vincent-leroy-java",
+        "twitter": "@vincent_njug"
+      },
+      {
+        "id": "isabelle-martin-njug",
+        "name": "Isabelle Martin",
+        "role": "Co-organizer",
+        "bio": "Senior Java developer spécialisée en Spring et microservices. Organise les workshops pratiques et les coding sessions.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200",
+        "linkedin": "https://linkedin.com/in/isabelle-martin-java"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-26T19:00:00Z",
+        "title": "Microservices avec Quarkus : Performance native",
+        "link": "https://www.meetup.com/nantes-java-user-group/events/311098765/",
+        "id": "njug-quarkus-microservices",
+        "organizationName": "Nantes Java User Group"
+      }
+    ]
+  },
+  {
+    "id": "agile-nantes-sessions-mensuelles",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400",
+    "name": "Agile Nantes Sessions Mensuelles",
+    "description": "Communauté Agile de Nantes. Nous explorons les méthodes agiles, le management moderne et les pratiques qui transforment les organisations.",
+    "link": "https://agile-nantes.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "agile", "name": "Agile" },
+      { "id": "scrum", "name": "Scrum" },
+      { "id": "management", "name": "Management" }
+    ],
+    "organizers": [
+      {
+        "id": "sebastien-duval-agile",
+        "name": "Sébastien Duval",
+        "role": "Lead Organizer",
+        "bio": "Agile coach certifié avec 10 ans d'expérience en transformation agile. Anime la communauté Agile Nantes et accompagne les entreprises locales.",
+        "image": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=200",
+        "linkedin": "https://linkedin.com/in/sebastien-duval-agile",
+        "twitter": "@sebastien_agile"
+      },
+      {
+        "id": "laura-benoit-agile",
+        "name": "Laura Benoit",
+        "role": "Co-organizer",
+        "bio": "Scrum master et facilitatrice. Organise les ateliers pratiques et les sessions de partage d'expériences sur les méthodologies agiles.",
+        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200",
+        "linkedin": "https://linkedin.com/in/laura-benoit-scrum"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-17T19:00:00Z",
+        "title": "🚀 L'agilité pour les curieux : initiation sans prise de tête !",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238350/",
+        "id": "120459df-7066-424f-a478-bbe05488b70d",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      }
+    ]
+  },
+  {
+    "id": "blockchain-societe",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400",
+    "name": "Blockchain Societe",
+    "description": "Communauté blockchain et crypto de Nantes. Nous explorons les technologies décentralisées, les cryptomonnaies et leurs impacts sur la société.",
+    "link": "https://blockchain-societe-nantes.fr",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "blockchain", "name": "Blockchain" },
+      { "id": "crypto", "name": "Cryptocurrency" },
+      { "id": "web3", "name": "Web3" }
+    ],
+    "organizers": [
+      {
+        "id": "antoine-rousseau-blockchain",
+        "name": "Antoine Rousseau",
+        "role": "Founder",
+        "bio": "Blockchain developer et crypto enthusiast. Fondateur de Blockchain Societe Nantes pour démocratiser les technologies décentralisées.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+        "linkedin": "https://linkedin.com/in/antoine-rousseau-blockchain",
+        "twitter": "@antoine_web3"
+      },
+      {
+        "id": "mathilde-lefevre-blockchain",
+        "name": "Mathilde Lefèvre",
+        "role": "Co-organizer",
+        "bio": "Smart contracts developer spécialisée en Solidity. Anime les workshops techniques sur Ethereum et les DApps.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200",
+        "linkedin": "https://linkedin.com/in/mathilde-lefevre-solidity"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-28T18:00:00Z",
+        "title": "DeFi 2.0 : L'évolution de la finance décentralisée",
+        "link": "https://www.meetup.com/blockchain-societe/events/311076543/",
+        "id": "blockchain-defi-evolution",
+        "organizationName": "Blockchain Societe"
+      }
+    ]
+  },
+  {
+    "id": "cocoaheads-nantes",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400",
+    "name": "Cocoaheads Nantes",
+    "description": "Communauté des développeurs iOS et macOS de Nantes. Nous partageons nos expériences sur le développement Apple, Swift et les dernières nouveautés de l'écosystème.",
+    "link": "https://cocoaheads-nantes.fr",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "ios", "name": "iOS" },
+      { "id": "swift", "name": "Swift" },
+      { "id": "apple", "name": "Apple" }
+    ],
+    "organizers": [
+      {
+        "id": "romain-petit-cocoa",
+        "name": "Romain Petit",
+        "role": "Lead Organizer",
+        "bio": "iOS developer depuis 8 ans et Apple enthusiast. Lead de Cocoaheads Nantes et speaker régulier sur SwiftUI et les nouveautés Apple.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+        "linkedin": "https://linkedin.com/in/romain-petit-ios",
+        "twitter": "@romain_swift"
+      },
+      {
+        "id": "chloe-mercier-cocoa",
+        "name": "Chloé Mercier",
+        "role": "Co-organizer",
+        "bio": "iOS engineer spécialisée en architecture app. Organise les coding sessions et les reviews de code communautaires.",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200",
+        "linkedin": "https://linkedin.com/in/chloe-mercier-ios"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-24T19:00:00Z",
+        "title": "SwiftUI 6.0 : Les nouveautés qui révolutionnent le développement",
+        "link": "https://www.meetup.com/cocoaheads-nantes/events/311054321/",
+        "id": "cocoaheads-swiftui6",
+        "organizationName": "Cocoaheads Nantes"
+      }
+    ]
+  },
+  {
+    "id": "nantes-devops",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400",
+    "name": "Nantes Devops",
+    "description": "Communauté DevOps de Nantes. Nous explorons les pratiques d'automatisation, de déploiement continu et de culture DevOps.",
+    "link": "https://nantes-devops.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "devops", "name": "DevOps" },
+      { "id": "ci-cd", "name": "CI/CD" },
+      { "id": "automation", "name": "Automation" }
+    ],
+    "organizers": [
+      {
+        "id": "kevin-laurent-devops",
+        "name": "Kevin Laurent",
+        "role": "Lead Organizer",
+        "bio": "DevOps engineer avec une expertise en Kubernetes et CI/CD. Fondateur de Nantes DevOps pour partager les bonnes pratiques d'infrastructure.",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=200",
+        "linkedin": "https://linkedin.com/in/kevin-laurent-devops",
+        "github": "https://github.com/kevinlaurent"
+      },
+      {
+        "id": "alice-bernard-devops",
+        "name": "Alice Bernard",
+        "role": "Co-organizer",
+        "bio": "SRE spécialisée en monitoring et observabilité. Anime les workshops sur Prometheus, Grafana et les pratiques SRE.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+        "linkedin": "https://linkedin.com/in/alice-bernard-sre"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-03T19:00:00Z",
+        "title": "Kubernetes en production : REX et bonnes pratiques",
+        "link": "https://www.meetup.com/nantes-devops/events/311134567/",
+        "id": "devops-k8s-production",
+        "organizationName": "Nantes Devops"
+      }
+    ]
+  },
+  {
+    "id": "nantes-machine-learning-meetup",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
+    "name": "Nantes Machine Learning Meetup",
+    "description": "Communauté ML/IA de Nantes. Nous explorons l'intelligence artificielle, le machine learning et leurs applications concrètes.",
+    "link": "https://nantes-ml.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "ml", "name": "Machine Learning" },
+      { "id": "ai", "name": "Artificial Intelligence" },
+      { "id": "data-science", "name": "Data Science" }
+    ],
+    "organizers": [
+      {
+        "id": "david-morel-ml",
+        "name": "David Morel",
+        "role": "Lead Organizer",
+        "bio": "Data scientist et ML engineer. Passionné par l'IA et ses applications. Fondateur du meetup ML Nantes pour partager les avancées du domaine.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200",
+        "linkedin": "https://linkedin.com/in/david-morel-ml",
+        "github": "https://github.com/davidmorel"
+      },
+      {
+        "id": "pauline-garcia-ml",
+        "name": "Pauline Garcia",
+        "role": "Co-organizer",
+        "bio": "AI researcher spécialisée en NLP et LLMs. Anime les discussions sur les dernières avancées en intelligence artificielle générative.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200",
+        "linkedin": "https://linkedin.com/in/pauline-garcia-nlp"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-30T19:00:00Z",
+        "title": "LLMs en entreprise : Déploiement et fine-tuning",
+        "link": "https://www.meetup.com/nantes-machine-learning-meetup/events/311087654/",
+        "id": "ml-llms-enterprise",
+        "organizationName": "Nantes Machine Learning Meetup"
+      }
+    ]
+  },
+  {
+    "id": "nantes-python-meetup",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400",
+    "name": "Nantes Python Meetup",
+    "description": "Communauté Python de Nantes. Nous partageons nos connaissances sur Python, ses frameworks et ses applications dans tous les domaines.",
+    "link": "https://nantes-python.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "python", "name": "Python" },
+      { "id": "django", "name": "Django" },
+      { "id": "flask", "name": "Flask" }
+    ],
+    "organizers": [
+      {
+        "id": "lucas-fontaine-python",
+        "name": "Lucas Fontaine",
+        "role": "Lead Organizer",
+        "bio": "Python developer depuis 10 ans. Expert Django et FastAPI. Fondateur du meetup Python Nantes et contributeur open source actif.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+        "linkedin": "https://linkedin.com/in/lucas-fontaine-python",
+        "github": "https://github.com/lucasfontaine"
+      },
+      {
+        "id": "marion-dubois-python",
+        "name": "Marion Dubois",
+        "role": "Co-organizer",
+        "bio": "Backend engineer spécialisée en Python et data engineering. Organise les workshops sur Pandas, NumPy et l'écosystème data.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200",
+        "linkedin": "https://linkedin.com/in/marion-dubois-python"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-01T19:00:00Z",
+        "title": "Python 3.13 : Nouvelles fonctionnalités et performance",
+        "link": "https://www.meetup.com/nantes-python-meetup/events/311112345/",
+        "id": "python-313-features",
+        "organizationName": "Nantes Python Meetup"
+      }
+    ]
+  },
+  {
+    "id": "gdg-nantes",
+    "image": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=400",
+    "name": "Gdg Nantes",
+    "description": "Google Developer Group de Nantes. Nous explorons les technologies Google : Android, Web, Cloud, et toutes les innovations du géant américain.",
+    "link": "https://gdg.community.dev/gdg-nantes/",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "google", "name": "Google" },
+      { "id": "android", "name": "Android" },
+      { "id": "gdg", "name": "GDG" }
+    ],
+    "organizers": [
+      {
+        "id": "benjamin-richard-gdg",
+        "name": "Benjamin Richard",
+        "role": "Lead Organizer",
+        "bio": "GDE Android et lead du GDG Nantes. Organise les DevFest et meetups mensuels autour des technologies Google depuis 2017.",
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200",
+        "linkedin": "https://linkedin.com/in/benjamin-richard-android",
+        "twitter": "@benjamin_gdg"
+      },
+      {
+        "id": "sophie-durand-gdg",
+        "name": "Sophie Durand",
+        "role": "Co-organizer",
+        "bio": "Web developer et Google technologies advocate. Co-organise les événements et anime les workshops sur Angular et Firebase.",
+        "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200",
+        "linkedin": "https://linkedin.com/in/sophie-durand-web"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-10T19:00:00Z",
+        "title": "Android 15 : Nouveautés et migration",
+        "link": "https://www.meetup.com/gdg-nantes/events/311156789/",
+        "id": "gdg-android15",
+        "organizationName": "Gdg Nantes"
+      }
+    ]
+  },
+  {
+    "id": "gdg-cloud-nantes",
+    "image": "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?w=400",
+    "name": "Gdg Cloud Nantes",
+    "description": "Google Developer Group spécialisé Cloud de Nantes. Focus sur Google Cloud Platform, architecture cloud et solutions d'entreprise.",
+    "link": "https://gdg.community.dev/gdg-cloud-nantes/",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "gcp", "name": "Google Cloud" },
+      { "id": "cloud", "name": "Cloud" },
+      { "id": "gdg", "name": "GDG" }
+    ],
+    "organizers": [
+      {
+        "id": "gregory-thomas-gcp",
+        "name": "Grégory Thomas",
+        "role": "Lead Organizer",
+        "bio": "Cloud architect certifié GCP. Lead du GDG Cloud Nantes et expert en architecture serverless et Kubernetes sur GCP.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+        "linkedin": "https://linkedin.com/in/gregory-thomas-gcp",
+        "twitter": "@gregory_cloud"
+      },
+      {
+        "id": "valerie-martin-gcp",
+        "name": "Valérie Martin",
+        "role": "Co-organizer",
+        "bio": "DevOps engineer spécialisée GCP. Organise les workshops sur Cloud Run, App Engine et les services managés Google Cloud.",
+        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200",
+        "linkedin": "https://linkedin.com/in/valerie-martin-gcp"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-19T18:30:00Z",
+        "title": "☁️ \"The Clouds Club\" : 3 talks pour 3 Communautés Cloud",
+        "link": "https://www.meetup.com/gdg-cloud-nantes/events/310808956/",
+        "id": "631d9303-2d22-4a95-ae2f-dfcf020635d6",
+        "organizationName": "GDG Cloud Nantes"
+      }
+    ]
+  },
+  {
+    "id": "frenchproduit-nantesbretagne",
+    "image": "https://images.unsplash.com/photo-1553028826-f4804151e04b?w=400",
+    "name": "Frenchproduit Nantesbretagne",
+    "description": "Communauté Product Management de Nantes et Bretagne. Nous échangeons sur la gestion produit, l'UX/UI et l'innovation produit.",
+    "link": "https://frenchproduit.fr/chapters/nantes-bretagne",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "product", "name": "Product Management" },
+      { "id": "ux", "name": "UX/UI" },
+      { "id": "innovation", "name": "Innovation" }
+    ],
+    "organizers": [
+      {
+        "id": "simon-blanc-pm",
+        "name": "Simon Blanc",
+        "role": "Lead Organizer",
+        "bio": "Product manager avec 8 ans d'expérience en startup et scale-up. Lead du chapter Nantes-Bretagne de French Produit.",
+        "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200",
+        "linkedin": "https://linkedin.com/in/simon-blanc-pm",
+        "twitter": "@simon_pm_nantes"
+      },
+      {
+        "id": "melissa-dupont-pm",
+        "name": "Mélissa Dupont",
+        "role": "Co-organizer",
+        "bio": "Senior product manager et UX advocate. Organise les ateliers pratiques sur la discovery et la validation produit.",
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200",
+        "linkedin": "https://linkedin.com/in/melissa-dupont-pm"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-05T18:00:00Z",
+        "title": "Product Discovery : Comment valider ses hypothèses",
+        "link": "https://www.meetup.com/frenchproduit-nantesbretagne/events/311145678/",
+        "id": "product-discovery-validation",
+        "organizationName": "Frenchproduit Nantesbretagne"
+      }
+    ]
+  },
+  {
+    "id": "flutter-nantes",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400",
+    "name": "Flutter Nantes",
+    "description": "Communauté Flutter de Nantes. Nous explorons le framework de Google pour le développement mobile multiplateforme.",
+    "link": "https://flutter-nantes.dev",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "flutter", "name": "Flutter" },
+      { "id": "dart", "name": "Dart" },
+      { "id": "mobile", "name": "Mobile" }
+    ],
+    "organizers": [
+      {
+        "id": "alexis-moreau-flutter",
+        "name": "Alexis Moreau",
+        "role": "Lead Organizer",
+        "bio": "Mobile developer spécialisé Flutter depuis 5 ans. Fondateur de Flutter Nantes et contributor au framework.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+        "linkedin": "https://linkedin.com/in/alexis-moreau-flutter",
+        "github": "https://github.com/alexismoreau"
+      },
+      {
+        "id": "manon-lefevre-flutter",
+        "name": "Manon Lefèvre",
+        "role": "Co-organizer",
+        "bio": "Flutter developer et UI/UX designer. Organise les workshops sur les animations et le design d'applications Flutter.",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200",
+        "linkedin": "https://linkedin.com/in/manon-lefevre-flutter"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-27T19:00:00Z",
+        "title": "Flutter 3.24 : Performance et nouvelles APIs",
+        "link": "https://www.meetup.com/flutter-nantes/events/311065432/",
+        "id": "flutter-324-performance",
+        "organizationName": "Flutter Nantes"
+      }
+    ]
+  },
+  {
+    "id": "mtg-nantes",
+    "image": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=400",
+    "name": "Mtg Nantes",
+    "description": "Microsoft Technology Group de Nantes. Nous explorons l'écosystème Microsoft : .NET, Azure, Office 365 et toutes les technologies Microsoft.",
+    "link": "https://mtg-nantes.fr",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "microsoft", "name": "Microsoft" },
+      { "id": "dotnet", "name": ".NET" },
+      { "id": "azure", "name": "Azure" }
+    ],
+    "organizers": [
+      {
+        "id": "olivier-gautier-mtg",
+        "name": "Olivier Gautier",
+        "role": "Lead Organizer",
+        "bio": "Architecte .NET et MVP Microsoft. Lead du MTG Nantes et expert en architecture Azure et développement .NET moderne.",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=200",
+        "linkedin": "https://linkedin.com/in/olivier-gautier-dotnet",
+        "twitter": "@olivier_mtg"
+      },
+      {
+        "id": "catherine-rey-mtg",
+        "name": "Catherine Rey",
+        "role": "Co-organizer",
+        "bio": "Cloud architect spécialisée Azure. Organise les sessions sur Azure DevOps, Kubernetes sur Azure et les services cloud Microsoft.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+        "linkedin": "https://linkedin.com/in/catherine-rey-azure"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-19T18:30:00Z",
+        "title": "\"The Clouds Club\" : 3 talks pour 3 Communautés Cloud",
+        "link": "https://www.meetup.com/mtg-nantes/events/310810770/",
+        "id": "17d4b1a3-f6a0-44f8-af1d-ab4ef2cd2a86",
+        "organizationName": "MTG Nantes"
+      }
+    ]
+  },
+  {
+    "id": "nantes-rb",
+    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400",
+    "name": "Nantes Rb",
+    "description": "Communauté Ruby de Nantes. Nous partageons notre passion pour Ruby, Rails et l'écosystème Ruby dans une ambiance conviviale.",
+    "link": "https://nantes.ruby-france.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "ruby", "name": "Ruby" },
+      { "id": "rails", "name": "Ruby on Rails" },
+      { "id": "web", "name": "Web Development" }
+    ],
+    "organizers": [
+      {
+        "id": "florian-simon-ruby",
+        "name": "Florian Simon",
+        "role": "Lead Organizer",
+        "bio": "Ruby developer depuis 12 ans et Rails enthusiast. Lead de Nantes.rb et contributeur à plusieurs gems open source.",
+        "image": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=200",
+        "linkedin": "https://linkedin.com/in/florian-simon-ruby",
+        "github": "https://github.com/floriansimon"
+      },
+      {
+        "id": "aurelie-petit-ruby",
+        "name": "Aurélie Petit",
+        "role": "Co-organizer",
+        "bio": "Fullstack Ruby on Rails developer. Organise les coding dojos et les sessions de pair programming de la communauté.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200",
+        "linkedin": "https://linkedin.com/in/aurelie-petit-rails"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-16T19:00:00Z",
+        "title": "🚀 C'est la rentrée pour les fans de Ruby ! 🚀",
+        "link": "https://www.meetup.com/nantes-rb/events/310813838/",
+        "id": "b23bc7fe-2770-4d2f-b0bc-d44f8e6ee768",
+        "organizationName": "Nantes.rb"
+      }
+    ]
+  },
+  {
+    "id": "nantes-software-crafters-nantes",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=400",
+    "name": "Nantes Software Crafters Nantes",
+    "description": "Communauté Software Craftsmanship de Nantes. Nous pratiquons et partageons les bonnes pratiques du développement logiciel : clean code, TDD, refactoring.",
+    "link": "https://software-crafters-nantes.dev",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "craftsmanship", "name": "Software Craftsmanship" },
+      { "id": "tdd", "name": "TDD" },
+      { "id": "clean-code", "name": "Clean Code" }
+    ],
+    "organizers": [
+      {
+        "id": "antoine-girard-crafters",
+        "name": "Antoine Girard",
+        "role": "Lead Organizer",
+        "bio": "Software crafter et TDD advocate. Fondateur de Software Crafters Nantes et formateur en pratiques craft et clean architecture.",
+        "image": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=200",
+        "linkedin": "https://linkedin.com/in/antoine-girard-crafter",
+        "twitter": "@antoine_craft"
+      },
+      {
+        "id": "elise-moreau-crafters",
+        "name": "Élise Moreau",
+        "role": "Co-organizer",
+        "bio": "Senior developer et clean code enthusiast. Organise les coding dojos et les sessions de refactoring collaboratif.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200",
+        "linkedin": "https://linkedin.com/in/elise-moreau-craft"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-07T19:00:00Z",
+        "title": "Coding Dojo : Refactoring Legacy Code",
+        "link": "https://www.meetup.com/nantes-software-crafters-nantes/events/311123789/",
+        "id": "crafters-legacy-refactoring",
+        "organizationName": "Nantes Software Crafters Nantes"
+      }
+    ]
+  },
+  {
+    "id": "generative-ai-nantes",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400",
+    "name": "Generative Ai Nantes",
+    "description": "Communauté IA générative de Nantes. Nous explorons ChatGPT, Midjourney, les LLMs et toutes les innovations en intelligence artificielle générative.",
+    "link": "https://generative-ai-nantes.org",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "organizers": [
+      {
+        "id": "thomas-leroy-genai",
+        "name": "Thomas Leroy",
+        "role": "Lead Organizer",
+        "bio": "AI researcher et entrepreneur. Fondateur de Generative AI Nantes pour explorer et démocratiser l'IA générative dans la région.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200",
+        "linkedin": "https://linkedin.com/in/thomas-leroy-ai",
+        "twitter": "@thomas_genai"
+      },
+      {
+        "id": "sarah-dubois-genai",
+        "name": "Sarah Dubois",
+        "role": "Co-organizer",
+        "bio": "ML engineer spécialisée en LLMs. Anime les discussions techniques sur les modèles de langage et leurs applications pratiques.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200",
+        "linkedin": "https://linkedin.com/in/sarah-dubois-llm"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-23T19:00:00Z",
+        "title": "S4E01 - Conf' CEA - Biais politiques dans les LLMs",
+        "link": "https://www.meetup.com/generative-ai-nantes/events/310137252/",
+        "id": "cadb609b-98aa-4b8a-bc5b-381812d130fa",
+        "organizationName": "Generative AI Nantes"
+      }
+    ]
+  },
+  {
+    "id": "gdg-nantes-android",
+    "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=400",
+    "name": "Gdg Nantes Android",
+    "description": "Google Developer Group spécialisé Android de Nantes. Focus sur le développement Android, Kotlin et l'écosystème mobile Google.",
+    "link": "https://gdg.community.dev/gdg-nantes-android/",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "android", "name": "Android" },
+      { "id": "kotlin", "name": "Kotlin" },
+      { "id": "mobile", "name": "Mobile" }
+    ],
+    "organizers": [
+      {
+        "id": "hugo-lambert-android",
+        "name": "Hugo Lambert",
+        "role": "Lead Organizer",
+        "bio": "Android developer avec 9 ans d'expérience. Lead du GDG Nantes Android et Kotlin advocate. Speaker sur Jetpack Compose.",
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200",
+        "linkedin": "https://linkedin.com/in/hugo-lambert-android",
+        "twitter": "@hugo_android"
+      },
+      {
+        "id": "julie-marchand-android",
+        "name": "Julie Marchand",
+        "role": "Co-organizer",
+        "bio": "Senior Android engineer. Organise les workshops sur Kotlin Multiplatform et les architectures Android modernes.",
+        "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200",
+        "linkedin": "https://linkedin.com/in/julie-marchand-android"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-12T19:00:00Z",
+        "title": "Jetpack Compose : Animations avancées",
+        "link": "https://www.meetup.com/gdg-nantes-android/events/311167890/",
+        "id": "gdg-compose-animations",
+        "organizationName": "Gdg Nantes Android"
+      }
+    ]
+  },
+  {
+    "id": "aws-nantes",
+    "image": "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=400",
+    "name": "Aws Nantes",
+    "description": "AWS User Group de Nantes. Nous explorons Amazon Web Services, l'architecture cloud et les solutions AWS pour les entreprises.",
+    "link": "https://aws-nantes.fr",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "aws", "name": "Amazon Web Services" },
+      { "id": "cloud", "name": "Cloud" },
+      { "id": "serverless", "name": "Serverless" }
+    ],
+    "organizers": [
+      {
+        "id": "julien-roy-aws",
+        "name": "Julien Roy",
+        "role": "Lead Organizer",
+        "bio": "Solutions architect AWS certifié. Lead de l'AWS User Group Nantes et expert en architectures serverless et cloud native.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+        "linkedin": "https://linkedin.com/in/julien-roy-aws",
+        "twitter": "@julien_aws"
+      },
+      {
+        "id": "claire-vincent-aws",
+        "name": "Claire Vincent",
+        "role": "Co-organizer",
+        "bio": "Cloud engineer spécialisée AWS Lambda et serverless. Organise les hands-on labs et les workshops pratiques sur AWS.",
+        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200",
+        "linkedin": "https://linkedin.com/in/claire-vincent-serverless"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-11-15T18:00:00Z",
+        "title": "AWS Community pre:Invent Warmup",
+        "link": "https://www.meetup.com/aws-nantes/events/310578946/",
+        "id": "82d21d6b-667d-474d-ba3f-a8bf5fe81687",
+        "organizationName": "AWS User Group France - Nantes"
+      },
+      {
+        "date": "2025-09-19T18:30:00Z",
+        "title": "☁️ \"The Clouds Club\" : 3 talks pour 3 Communautés Cloud",
+        "link": "https://www.meetup.com/aws-nantes/events/310808817/",
+        "id": "115fef7f-15e5-4e65-9e60-93278768cd34",
+        "organizationName": "AWS User Group France - Nantes"
+      }
+    ]
+  },
+  {
+    "id": "alpescraft-coding-dojos",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=400",
+    "name": "Alpescraft Coding Dojos",
+    "description": "Coding dojos et pratiques craft à Grenoble. Nous nous retrouvons pour pratiquer le code, apprendre ensemble et améliorer nos compétences techniques.",
+    "link": "https://alpescraft.fr",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "coding-dojo", "name": "Coding Dojo" },
+      { "id": "craftsmanship", "name": "Software Craftsmanship" },
+      { "id": "practice", "name": "Practice" }
+    ],
+    "organizers": [
+      {
+        "id": "mathieu-arnaud-craft",
+        "name": "Mathieu Arnaud",
+        "role": "Lead Organizer",
+        "bio": "Software crafter et facilitateur de coding dojos. Anime AlpesCraft depuis 2016 pour promouvoir l'excellence technique à Grenoble.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+        "linkedin": "https://linkedin.com/in/mathieu-arnaud-craft",
+        "twitter": "@mathieu_craft"
+      },
+      {
+        "id": "lea-fontaine-craft",
+        "name": "Léa Fontaine",
+        "role": "Co-organizer",
+        "bio": "Developer et TDD practitioner. Co-organise les dojos et aide les participants à progresser dans les pratiques craft.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200",
+        "linkedin": "https://linkedin.com/in/lea-fontaine-tdd"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-26T18:30:00Z",
+        "title": "Coding Dojo : Kata FizzBuzz en TDD",
+        "link": "https://www.meetup.com/alpescraft-coding-dojos/events/311065789/",
+        "id": "alpescraft-fizzbuzz-tdd",
+        "organizationName": "Alpescraft Coding Dojos"
+      }
+    ]
+  },
+  {
+    "id": "software-craftsmanship-grenoble",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=400",
+    "name": "Software Craftsmanship Grenoble",
+    "description": "Communauté Software Craftsmanship de Grenoble. Nous prônons l'excellence technique, le clean code et les bonnes pratiques de développement.",
+    "link": "https://software-craftsmanship-grenoble.org",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "craftsmanship", "name": "Software Craftsmanship" },
+      { "id": "clean-code", "name": "Clean Code" },
+      { "id": "tdd", "name": "TDD" }
+    ],
+    "organizers": [
+      {
+        "id": "paul-rousseau-craft-gre",
+        "name": "Paul Rousseau",
+        "role": "Lead Organizer",
+        "bio": "Senior developer et clean architecture advocate. Fondateur de Software Craftsmanship Grenoble et formateur en pratiques craft.",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=200",
+        "linkedin": "https://linkedin.com/in/paul-rousseau-craft",
+        "github": "https://github.com/paulrousseau"
+      },
+      {
+        "id": "camille-faure-craft-gre",
+        "name": "Camille Faure",
+        "role": "Co-organizer",
+        "bio": "Tech lead et refactoring expert. Organise les talks et ateliers sur les design patterns et l'architecture logicielle.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+        "linkedin": "https://linkedin.com/in/camille-faure-techlead"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-09T19:00:00Z",
+        "title": "Clean Architecture : Principes et mise en pratique",
+        "link": "https://www.meetup.com/software-craftsmanship-grenoble/events/311156432/",
+        "id": "craftsmanship-clean-architecture",
+        "organizationName": "Software Craftsmanship Grenoble"
+      }
+    ]
+  },
+  {
+    "id": "alpesjug",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400",
+    "name": "Alpesjug",
+    "description": "Java User Group des Alpes à Grenoble. Nous explorons l'écosystème Java, JVM et les technologies enterprise dans la région grenobloise.",
+    "link": "https://alpesjug.org",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "java", "name": "Java" },
+      { "id": "jug", "name": "JUG" },
+      { "id": "jvm", "name": "JVM" }
+    ],
+    "organizers": [
+      {
+        "id": "philippe-martin-alpesjug",
+        "name": "Philippe Martin",
+        "role": "Lead Organizer",
+        "bio": "Java architect avec 18 ans d'expérience. Lead de l'AlpesJUG depuis 2012 et champion Java dans les Alpes.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200",
+        "linkedin": "https://linkedin.com/in/philippe-martin-java",
+        "twitter": "@philippe_alpesjug"
+      },
+      {
+        "id": "stephanie-durand-alpesjug",
+        "name": "Stéphanie Durand",
+        "role": "Co-organizer",
+        "bio": "Senior Java developer et Kotlin advocate. Co-organise les événements et anime les workshops sur les nouveautés JVM.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200",
+        "linkedin": "https://linkedin.com/in/stephanie-durand-java"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-09-25T19:00:00Z",
+        "title": "SpringBoot 2025 : NullSafety et Optimisations",
+        "link": "https://www.meetup.com/alpesjug/events/310709483/",
+        "id": "0a88cb26-d9cd-4832-81d7-1b46165abb94",
+        "organizationName": "AlpesJUG"
+      }
+    ]
+  },
+  {
+    "id": "grenoble-web-development-meetup-group",
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400",
+    "name": "Grenoble Web Development Meetup Group",
+    "description": "Communauté de développement web de Grenoble. Nous explorons les technologies frontend, backend et full-stack pour créer des applications web modernes.",
+    "link": "https://grenoble-web-dev.org",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      { "id": "web", "name": "Web Development" },
+      { "id": "frontend", "name": "Frontend" },
+      { "id": "backend", "name": "Backend" }
+    ],
+    "organizers": [
+      {
+        "id": "damien-henry-webdev",
+        "name": "Damien Henry",
+        "role": "Lead Organizer",
+        "bio": "Fullstack web developer spécialisé en React et Node.js. Fondateur du Grenoble Web Dev meetup pour partager les dernières tendances web.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+        "linkedin": "https://linkedin.com/in/damien-henry-fullstack",
+        "github": "https://github.com/damienhenry"
+      },
+      {
+        "id": "jessica-blanc-webdev",
+        "name": "Jessica Blanc",
+        "role": "Co-organizer",
+        "bio": "Frontend architect spécialisée en performance web. Anime les sessions sur les frameworks modernes et l'optimisation frontend.",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200",
+        "linkedin": "https://linkedin.com/in/jessica-blanc-frontend"
+      }
+    ],
+    "events": [
+      {
+        "date": "2025-10-11T19:00:00Z",
+        "title": "React 19 : Server Components et nouveautés",
+        "link": "https://www.meetup.com/grenoble-web-development-meetup-group/events/311178901/",
+        "id": "grenoble-web-react19",
+        "organizationName": "Grenoble Web Development Meetup Group"
+      }
+    ]
+  }
+]
