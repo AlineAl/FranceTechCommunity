@@ -46,6 +46,12 @@ const convertDateToISO = (dateStr: string): string | null => {
 };
 
 export const CommunityCard = ({ community }: ICardCommunity) => {
+  const defaultImage = "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=400&fit=crop";
+
+  const communityImage = community.image && community.image.trim() !== "" 
+    ? community.image 
+    : defaultImage;
+
   const sortedEvents = useMemo(() => {
     return [...community.events]
       .filter((event) => {
@@ -91,7 +97,7 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
       <div className="mb-6 md:mb-0 flex-1">
         <div className="md:flex items-start gap-4 mb-4">
           <img
-            src={community.image}
+            src={communityImage}
             alt={`Logo de ${community.name}`}
             className="w-[100px] h-[100px] object-cover rounded-md flex-shrink-0"
             loading="lazy"
