@@ -52,6 +52,13 @@ export const Community = ({ community }: ICommunity) => {
         <p className="text-sm leading-5.5 mb-3">
           {community.description}
         </p>
+
+        <button
+          onClick={() => window.open(community.link, "_blank")}
+          className="px-4 py-2 bg-[#4C40CF] text-white rounded-md text-sm hover:bg-[#3b30a8] transition"
+        >
+          Rejoindre la communauté
+        </button>
       </section>
     </>
   )
