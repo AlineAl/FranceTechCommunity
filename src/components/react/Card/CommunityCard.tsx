@@ -29,16 +29,44 @@ interface ICardCommunity {
   };
 }
 
+const convertDateToISO = (dateStr: string): string | null => {
+  if (!dateStr) return null;
+  
+  if (dateStr.includes('T') || dateStr.match(/^\d{4}-\d{2}-\d{2}/)) {
+    return dateStr;
+  }
+  
+  const parts = dateStr.split('/');
+  if (parts.length === 3) {
+    const [day, month, year] = parts;
+    return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+  }
+  
+  return null;
+};
+
 export const CommunityCard = ({ community }: ICardCommunity) => {
   const sortedEvents = useMemo(() => {
-    return [...community.events].sort(
-      (a, b) => new Date(a.dateTime).getTime() - new Date(b.dateTime).getTime(),
-    );
+    return [...community.events]
+      .filter((event) => {
+        const dateValue = event.dateTime || event.date;
+        return dateValue && dateValue !== null && dateValue !== "";
+      })
+      .map((event) => {
+        const dateValue = event.dateTime || event.date;
+        const isoDate = convertDateToISO(dateValue);
+        return {
+          ...event,
+          isoDate,
+        };
+      })
+      .filter((event) => event.isoDate !== null)
+      .sort((a, b) => new Date(a.isoDate!).getTime() - new Date(b.isoDate!).getTime());
   }, [community.events]);
 
   const futureEvents = useMemo(() => {
     return sortedEvents.filter(
-      (event) => new Date(event.dateTime) > new Date(),
+      (event) => new Date(event.isoDate!) > new Date(),
     );
   }, [sortedEvents]);
 
@@ -123,7 +151,7 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
                     <LuCalendar size={15} color="#4C40CF" />
                     <div className="flex items-center gap-2 ml-2">
                       <span className="leading-5">
-                        {formatDate(firstFutureEvent.dateTime)}
+                        {formatDate(firstFutureEvent.isoDate!)}
                       </span>
                     </div>
                   </div>

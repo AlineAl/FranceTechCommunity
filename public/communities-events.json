@@ -1,1 +1,533 @@
-[{"id":"human-talks-angers","image":"","name":"Human Talks Angers","description":"Human Talks Angers est une communauté qui organise des événements pour tous, étudiants, développeurs ou autodidactes. Ces soirées proposent des talks de 10 minutes sur des sujets techniques variés, favorisant la découverte et la veille technologique. C'est l'endroit idéal pour rencontrer des personnes partageant les mêmes intérêts et échanger autour d'un verre après les présentations.","link":"","city":"Angers","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[]},{"id":"bordeauxjs","image":"","name":"Bordeaux JS","description":"BordeauxJS est un groupe d'utilisateurs Web Tech à Bordeaux qui organise des réunions, des discussions et des sessions de live coding. Le groupe se concentre principalement sur JavaScript et le web au sens large.","link":"","city":"Bordeaux","platform":"Meetup","tags":[],"events":[]},{"id":"bordeauxjug","image":"","name":"BordeauxJUG","description":"Le Bordeaux Java User Group (BordeauxJUG) est une communauté dédiée aux acteurs et utilisateurs du langage Java. Il organise des rencontres mensuelles gratuites et ouvertes à tous, sous forme de présentations techniques, démonstrations et tables rondes, afin de favoriser les échanges autour des technologies Java.","link":"","city":"Bordeaux","platform":"Meetup","tags":[],"events":[{"date":"21/03/2025","title":"Karate Connect : votre partenaire de combat dans l’arène des tests API","link":"https://www.meetup.com/bordeauxjug/events/311318217/","id":"693e2c81-6746-4a38-a86c-a6e6b8bbfdc2","organizationName":"BordeauxJUG"}]},{"id":"human-talks-bordeaux","image":"","name":"Human Talks Bordeaux","description":"Human Talks Bordeaux est une communauté de pratique dynamique dédiée à l'apprentissage, au partage d'expérience et au développement personnel. Elle offre un espace pour conjuguer ces trois aspects à travers divers événements. La communauté organise des soirées thématiques avec des experts, comme l'édition spéciale Design, pour discuter de sujets tels que la culture du design, la collaboration d'équipe et l'intégration de la stratégie dans les projets.","link":"","city":"Bordeaux","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[]},{"id":"women-in-tech-bordeaux","image":"","name":"Women In Tech Bordeaux","description":"Women in Tech Bordeaux rassemble les femmes pour leur donner plus de visibilité dans la Tech et leur offrir un espace de discussion bienveillant. L'objectif est de partager expériences et expertises à travers des conférences techniques ou non, et ce, peu importe le niveau de connaissance ou le secteur d'activité des participant(e)s. Ces événements visent à promouvoir l'inclusion et la diversité dans la tech en offrant une plateforme d'échange et de partage de connaissances.","link":"","city":"Bordeaux","platform":"Meetup","tags":[],"events":[]},{"id":"finistdevs","image":"","name":"Finistdevs","description":"FinistDevs est un groupe d'utilisateurs Java (FinistJUG) qui rassemble professionnels, communautés open source, institutions et étudiants pour échanger sur les avancées technologiques de la plateforme Java et du développement logiciel. Le groupe se réunit une fois par mois pour des présentations techniques, démonstrations ou tables rondes, précédées d'un échange informel. Les réunions sont gratuites et ouvertes à tous.","link":"","city":"Brest","platform":"Meetup","tags":[],"events":[{"date":null,"title":"Soirée d'Octobre 2025","link":"https://www.meetup.com/finistdevs/events/311470109/","id":"8582d8af-ad41-4ffc-979e-d8e3ea52b51a","organizationName":"FinistDevs"}]},{"id":"humantalks-grenoble","image":"","name":"Human Talks Grenoble","description":"Human Talks Grenoble est un événement mensuel gratuit pour les développeurs, se tenant chaque deuxième mardi du mois. Quatre intervenants, développeurs ou non, présentent en 10 minutes un sujet de leur choix. L'objectif est de partager des connaissances sur des technologies, des concepts, des méthodes ou des retours d'expérience dans une ambiance conviviale.","link":"","city":"Grenoble","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[{"date":"09/09/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/309014631/","id":"f16284e9-3cc2-4e7a-b28b-7d7b76507920","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/310387558/","id":"d6d2d38e-ece8-4924-a4c4-2e5807e28bf6","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyhcqbmb/","id":"9bdf6d8f-83e0-4f3d-8306-4ca13abef130","organizationName":"HumanTalks Grenoble"},{"date":"14/10/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjccbrb/","id":"4faf58b1-59db-4299-9d34-7ab4ba592ef2","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcdbnb/","id":"f04b8bb3-b37b-4e65-94bc-7bb34f01eb29","organizationName":"HumanTalks Grenoble"},{"date":"14/10/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcfbnb/","id":"4deb78d6-2f4e-4a80-819b-bb7a448542c1","organizationName":"HumanTalks Grenoble"},{"date":"14/10/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcgbsb/","id":"1840e9e1-2f72-44c4-bb93-72b2e854c62e","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjchbqb/","id":"648cfed3-ac89-409a-b182-f498188708dc","organizationName":"HumanTalks Grenoble"},{"date":"09/12/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcjbmb/","id":"4cc05ca5-798f-49bd-ba32-7933f58dfa46","organizationName":"HumanTalks Grenoble"},{"date":"14/10/2025","title":"Human Talks Grenoble","link":"https://www.meetup.com/humantalks-grenoble/events/ptstrtyjckbsb/","id":"781bf40c-e986-4719-9fa7-c2c04f4b7304","organizationName":"HumanTalks Grenoble"}]},{"id":"humantalks-nantes","image":"","name":"Humantalks Nantes","description":"HumanTalks Nantes est un événement mensuel convivial et ouvert à tous·tes, dédié aux développeurs de tous horizons. Tous les 2èmes mardis du mois, plusieurs \"talks\" de 10 minutes sont présentés, couvrant des sujets variés liés de près ou de loin au métier de développeur. L'objectif est la découverte et le partage d'expériences, permettant aux participant·e·s d'explorer de nouvelles technologies et concepts.","link":"","city":"Nantes","platform":"Meetup","tags":[{"id":"humantalks","name":"Human Talks"}],"events":[]},{"id":"nantes-java-user-group","image":"","name":"Nantes Java User Group","description":"Le Nantes Java User Group est une communauté tech conviviale qui aborde tous les sujets liés à la programmation, des données au web, en passant par la sécurité et, bien sûr, Java. Le groupe organise des rencontres mensuelles gratuites, ouvertes à tous, avec des présentations techniques, des démonstrations et des tables rondes. Il vise à rassembler les acteurs et utilisateurs de l'écosystème Java pour échanger des connaissances et expériences.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"agile-nantes-sessions-mensuelles","image":"","name":"Agile Nantes Sessions Mensuelles","description":"Le groupe Agile Nantes - Sessions mensuelles est un moyen de partager la connaissance agile (méthodes, outils, techniques, organisations associées) avec tous ceux qui le souhaitent. Chaque premier mercredi du mois, une session gratuite est proposée, sous forme de conférence, d'atelier ou de retour d'expérience. Un événement est créé trois semaines avant chaque session pour permettre les inscriptions.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"10/09/2025","title":"Session mensuelle de Novembre - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238085/","id":"55478b21-3c23-46d5-a024-7cc98d1bf250","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"10/09/2025","title":"Session mensuelle de Décembre - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238135/","id":"26232b86-99d3-42fc-b9a5-20b29f99cfea","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"10/09/2025","title":"Session mensuelle de Février - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238149/","id":"6ab7d7e1-a9d4-4ef5-98a5-3a2499a34693","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"30/10/2025","title":"Session mensuelle de Mars - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238168/","id":"5d65c94f-b8a5-4ade-8947-85e82604fdcc","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"30/09/2025","title":"Session mensuelle d'Avril - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238188/","id":"991cc03d-4f32-4882-a91e-69c5f2e0ae5b","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"08/10/2025","title":"Session mensuelle de mai - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238212/","id":"d30cb7ef-d75d-40f0-ac7f-2078faef2e89","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"01/10/2025","title":"Session mensuelle de juin - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238223/","id":"ff87ad9f-b846-4fe9-a77c-8266755cdde0","organizationName":"Agile Nantes - Sessions mensuelles"},{"date":"01/10/2025","title":"Session mensuelle de juillet - Programme à venir","link":"https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238239/","id":"f7384084-0019-4626-accd-39566e4e1fb8","organizationName":"Agile Nantes - Sessions mensuelles"}]},{"id":"blockchain-societe","image":"","name":"Blockchain Societe","description":"Bienvenue au groupe Blockchain et Société, un rassemblement dynamique de passionnés et d'experts explorant le pouvoir transformateur de la technologie blockchain. En tant que groupe éducatif WEB3 à but non lucratif, il offre une plateforme pour approfondir la compréhension des concepts et applications de la blockchain. Que vous soyez un débutant curieux ou un investisseur chevronné, le meetup propose des informations et des ressources précieuses pour votre parcours dans l'écosystème blockchain en constante évolution.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"cocoaheads-nantes","image":"","name":"Cocoaheads Nantes","description":"CocoaHeads Nantes est un groupe de développeurs passionnés par les technologies Apple (iPhone, iPad, Mac...). L'accès est gratuit et ouvert à tous. Vous pouvez les rejoindre sur Slack pour discuter ou proposer un talk.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"22/10/2025","title":"CocoaHeads d'Automne","link":"https://www.meetup.com/cocoaheads-nantes/events/311337369/","id":"3c92461c-52cd-4f33-aefe-03ee0ead5809","organizationName":"CocoaHeads Nantes"}]},{"id":"nantes-devops","image":"","name":"Nantes Devops","description":"Nantes DevOps est une communauté locale faisant partie de France DevOps, un groupe proposant des webinars mensuels gratuits et ouverts à tous sur le DevOps. Elle permet aux membres de se connecter avec d'autres passionnés et d'échanger sur des sujets variés, quel que soit leur niveau d'expérience. Vous pouvez rester informé des prochains événements et lives en rejoignant la communauté sur Meetup.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"nantes-machine-learning-meetup","image":"","name":"Nantes Machine Learning Meetup","description":"Nous sommes développeurs et chercheurs intéressés par l'apprentissage automatique, les réseaux de neurones artificiels, les modèles graphiques probabilistes et le traitement automatique du langage naturel. Nous nous réunissons pour discuter de nos projets concrets dans ces domaines. Le meetup se réunit une fois par mois pour une présentation, souvent diffusée sur YouTube.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"nantes-python-meetup","image":"","name":"Nantes Python Meetup","description":"Le Nantes Python Meetup est un rendez-vous pour la communauté de développeurs Python et de ceux qui s'intéressent à cet écosystème. C'est un lieu propice à la présentation de projets et aux échanges conviviaux. Le groupe compte plus de 900 membres et est organisé par l'AFPy et six autres entités.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"gdg-nantes","image":"","name":"Gdg Nantes","description":"Le GDG Nantes est un regroupement de personnes intéressées par les technologies et plateformes de Google (Android, Chrome, Google Apps, GWT, AppEngine, etc.). Il vise à organiser régulièrement des événements tels que des conférences sur les technologies Google, web, cloud et mobile, ainsi que des apéros pour favoriser les rencontres et les échanges. Le GDG Nantes est également l'organisateur du DevFest Nantes, une conférence technique majeure pour les développeurs.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"16/10/2025","title":"DevFest Nantes 2025","link":"https://www.meetup.com/gdg-nantes/events/311149878/","id":"5b8a5a4c-33f6-4685-b6dd-c75e89173847","organizationName":"GDG Nantes"}]},{"id":"gdg-cloud-nantes","image":"","name":"Gdg Cloud Nantes","description":"Le GDG Cloud Nantes est un regroupement de personnes intéressées par Google Cloud Platform et les technologies associées comme Firebase, Kubernetes et BigQuery. Ce GDG organise des événements réguliers et travaille en étroite collaboration avec le GDG Nantes historique.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"frenchproduit-nantesbretagne","image":"","name":"Frenchproduit Nantesbretagne","description":"FrenchProduit Nantes est une communauté dédiée aux passionnés de la création de produits numériques (Product Managers, Owners, Designers, Marketers, Ops, Leaders, etc.). Elle vise à connecter ces professionnels, à favoriser la sensibilisation et l'entraide autour des métiers du Produit et de sa culture. Le groupe organise des rencontres sous différents formats, notamment des déjeuners et afterworks informels, ainsi que des afterworks avec présentations et ateliers sur des thèmes spécifiques.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":null,"title":"IA : Utiliser la GenAI pour la recherche de connaissance","link":"https://www.meetup.com/frenchproduit-nantesbretagne/events/311361674/","id":"fb82d665-b296-4c61-98ce-394b373990e3","organizationName":"FrenchProduit Nantes"}]},{"id":"flutter-nantes","image":"","name":"Flutter Nantes","description":"Voici une description de la communauté Flutter Nantes sur Meetup :\n\nCe groupe s'adresse aux personnes intéressées par Flutter et situées dans la région de Nantes. Il organise tous les deux mois une soirée comprenant une longue conférence (40-50 min) et une plus courte (15-30 min). N'hésitez pas à proposer vos présentations sur Conference Hall !","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"23/10/2025","title":"Meetup Flutter Nantes #19","link":"https://www.meetup.com/flutter-nantes/events/311374990/","id":"411200c8-a003-4fdb-a58a-453fba109f97","organizationName":"Flutter Nantes"}]},{"id":"mtg-nantes","image":"","name":"Mtg Nantes","description":"MTG Nantes, anciennement MUG .Net Nantes, est une communauté pour les passionnés de développement, notamment de .Net et Visual Studio, à Nantes. Le groupe encourage le partage et l'échange autour de ces technologies. Des sessions de présentation et d'échange sont organisées, suivies de moments de convivialité.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"nantes-rb","image":"","name":"Nantes Rb","description":"Nantes.rb est une communauté pour les passionnés de Ruby, de Rails, d'entrepreneuriat et des nouvelles technologies en général. Le groupe accueille tous les niveaux, du débutant à l'expert, incluant développeurs, freelances et recruteurs. Ils se réunissent chaque mois pour échanger autour des technologies, des meilleures pratiques et de l'aspect business, suivi d'un apéro convivial.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[{"date":"21/10/2025","title":"Ruby Talk!","link":"https://www.meetup.com/nantes-rb/events/311363649/","id":"f2b1744f-1d33-4fe2-adc6-6895580d7367","organizationName":"Nantes.rb"}]},{"id":"nantes-software-crafters-nantes","image":"","name":"Nantes Software Crafters Nantes","description":"Software Crafters Nantes est une communauté qui rassemble les développeu(r|se)s de tous horizons, sans sexisme ni élitisme, quels que soient le langage ou la technologie utilisés. L'objectif est d'améliorer les compétences techniques à travers des Coding Dojos, du pair programming, et l'échange de connaissances. La communauté s'inspire du Manifeste pour l'Artisanat Logiciel, valorisant un logiciel non seulement fonctionnel, mais aussi bien conçu.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"generative-ai-nantes","image":"","name":"Generative Ai Nantes","description":"Generative AI Nantes est un Meetup pour les experts techs, produits, ou toute personne souhaitant utiliser l'IA pour réinventer son industrie. Il se concentre sur les innovations récentes en Intelligence Artificielle et les LLM qui mènent à une adoption massive de l'IA. Le groupe recherche des intervenants partageant leur expertise technique ou des retours d'expérience sur l'utilisation de l'IA, de préférence en production.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"gdg-nantes-android","image":"","name":"Gdg Nantes Android","description":"Le GDG Nantes Android est un rendez-vous mensuel pour les passionné.e.s d'applications Android. Chaque événement débute par les dernières nouveautés de l'écosystème Android, suivi d'une conférence et d'un échange convivial.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"aws-nantes","image":"","name":"Aws Nantes","description":"Le groupe Meetup \"AWS User Group France - Nantes\" est une communauté dédiée à Amazon Web Services et au cloud computing. Il offre une plateforme pour rencontrer, échanger et apprendre comment d'autres acteurs du marché nantais résolvent des problèmes avec les services AWS. C'est un lieu pour le networking et le partage de connaissances.","link":"","city":"Nantes","platform":"Meetup","tags":[],"events":[]},{"id":"alpescraft-coding-dojos","image":"","name":"Alpescraft Coding Dojos","description":"AlpesCraft Coding Dojos est une communauté Meetup qui se réunit pendant la pause déjeuner pour coder ensemble. L'objectif est de partager, apprendre et progresser autour de \"katas\" (exercices de code simples) en \"mob programming\". Tous les niveaux sont les bienvenus, des novices aux experts.","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[]},{"id":"software-craftsmanship-grenoble","image":"","name":"Software Craftsmanship Grenoble","description":"La communauté AlpesCraft Grenoble Meetup rassemble des développeu(r|se)s désireux de progresser, sans élitisme ni langage obligatoire. En tant qu'aspirants Artisans du Logiciel, ils élèvent le niveau du développement professionnel par la pratique et l'entraide. Ils apprécient les logiciels bien conçus, l'ajout constant de valeur, une communauté de professionnels et des partenariats productifs.","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[{"date":"16/10/2025","title":"Kata d’architecture","link":"https://www.meetup.com/alpescraft-grenoble-meetup/events/311402522/","id":"386749f3-70ec-4739-92a2-642813f03904","organizationName":"AlpesCraft Grenoble Meetup"}]},{"id":"alpesjug","image":"","name":"Alpesjug","description":"AlpesJUG est un groupe public basé à Grenoble, France, qui compte 841 membres. Il se concentre sur les événements et discussions liés à ses centres d'intérêt. Ce groupe permet à ses membres de se rencontrer et de partager des expériences.","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[]},{"id":"grenoble-web-development-meetup-group","image":"","name":"Grenoble Web Development Meetup Group","description":"Le Grenoble Web Development Meetup Group rassemble mensuellement les développeurs web de la région grenobloise. Le groupe propose des formats variés comme des conférences, des katas, ou des afterworks informels pour échanger sur le développement web. C'est l'occasion d'apprendre, de partager son expérience et de développer son réseau dans un cadre convivial.","link":"","city":"Grenoble","platform":"Meetup","tags":[],"events":[]}]
+[
+  {
+    "id": "human-talks-angers",
+    "image": "",
+    "name": "Human Talks Angers",
+    "description": "Human Talks Angers est une communauté qui organise des événements pour tous, étudiants, développeurs ou autodidactes. Ces soirées proposent des talks de 10 minutes sur des sujets techniques variés, favorisant la découverte et la veille technologique. C'est l'endroit idéal pour rencontrer des personnes partageant les mêmes intérêts et échanger autour d'un verre après les présentations.",
+    "link": "",
+    "city": "Angers",
+    "platform": "Meetup",
+    "tags": [
+      {
+        "id": "humantalks",
+        "name": "Human Talks"
+      }
+    ],
+    "events": []
+  },
+  {
+    "id": "bordeauxjs",
+    "image": "",
+    "name": "Bordeaux JS",
+    "description": "BordeauxJS est un groupe d'utilisateurs Web Tech à Bordeaux qui organise des réunions, des discussions et des sessions de live coding. Le groupe se concentre principalement sur JavaScript et le web au sens large.",
+    "link": "",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "bordeauxjug",
+    "image": "",
+    "name": "BordeauxJUG",
+    "description": "Le Bordeaux Java User Group (BordeauxJUG) est une communauté dédiée aux acteurs et utilisateurs du langage Java. Il organise des rencontres mensuelles gratuites et ouvertes à tous, sous forme de présentations techniques, démonstrations et tables rondes, afin de favoriser les échanges autour des technologies Java.",
+    "link": "",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [],
+    "events": [
+      {
+        "date": "21/03/2025",
+        "title": "Karate Connect : votre partenaire de combat dans l'arène des tests API",
+        "link": "https://www.meetup.com/bordeauxjug/events/311318217/",
+        "id": "693e2c81-6746-4a38-a86c-a6e6b8bbfdc2",
+        "organizationName": "BordeauxJUG"
+      }
+    ]
+  },
+  {
+    "id": "human-talks-bordeaux",
+    "image": "",
+    "name": "Human Talks Bordeaux",
+    "description": "Human Talks Bordeaux est une communauté de pratique dynamique dédiée à l'apprentissage, au partage d'expérience et au développement personnel. Elle offre un espace pour conjuguer ces trois aspects à travers divers événements. La communauté organise des soirées thématiques avec des experts, comme l'édition spéciale Design, pour discuter de sujets tels que la culture du design, la collaboration d'équipe et l'intégration de la stratégie dans les projets.",
+    "link": "",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [
+      {
+        "id": "humantalks",
+        "name": "Human Talks"
+      }
+    ],
+    "events": []
+  },
+  {
+    "id": "women-in-tech-bordeaux",
+    "image": "",
+    "name": "Women In Tech Bordeaux",
+    "description": "Women in Tech Bordeaux rassemble les femmes pour leur donner plus de visibilité dans la Tech et leur offrir un espace de discussion bienveillant. L'objectif est de partager expériences et expertises à travers des conférences techniques ou non, et ce, peu importe le niveau de connaissance ou le secteur d'activité des participant(e)s. Ces événements visent à promouvoir l'inclusion et la diversité dans la tech en offrant une plateforme d'échange et de partage de connaissances.",
+    "link": "",
+    "city": "Bordeaux",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "finistdevs",
+    "image": "",
+    "name": "Finistdevs",
+    "description": "FinistDevs est un groupe d'utilisateurs Java (FinistJUG) qui rassemble professionnels, communautés open source, institutions et étudiants pour échanger sur les avancées technologiques de la plateforme Java et du développement logiciel. Le groupe se réunit une fois par mois pour des présentations techniques, démonstrations ou tables rondes, précédées d'un échange informel. Les réunions sont gratuites et ouvertes à tous.",
+    "link": "",
+    "city": "Brest",
+    "platform": "Meetup",
+    "tags": [],
+    "events": [
+      {
+        "date": null,
+        "title": "Soirée d'Octobre 2025",
+        "link": "https://www.meetup.com/finistdevs/events/311470109/",
+        "id": "8582d8af-ad41-4ffc-979e-d8e3ea52b51a",
+        "organizationName": "FinistDevs"
+      }
+    ]
+  },
+  {
+    "id": "humantalks-grenoble",
+    "image": "",
+    "name": "Human Talks Grenoble",
+    "description": "Human Talks Grenoble est un événement mensuel gratuit pour les développeurs, se tenant chaque deuxième mardi du mois. Quatre intervenants, développeurs ou non, présentent en 10 minutes un sujet de leur choix. L'objectif est de partager des connaissances sur des technologies, des concepts, des méthodes ou des retours d'expérience dans une ambiance conviviale.",
+    "link": "",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [
+      {
+        "id": "humantalks",
+        "name": "Human Talks"
+      }
+    ],
+    "events": [
+      {
+        "date": "09/09/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/309014631/",
+        "id": "f16284e9-3cc2-4e7a-b28b-7d7b76507920",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "09/12/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/310387558/",
+        "id": "d6d2d38e-ece8-4924-a4c4-2e5807e28bf6",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "09/12/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyhcqbmb/",
+        "id": "9bdf6d8f-83e0-4f3d-8306-4ca13abef130",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "14/10/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjccbrb/",
+        "id": "4faf58b1-59db-4299-9d34-7ab4ba592ef2",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "09/12/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcdbnb/",
+        "id": "f04b8bb3-b37b-4e65-94bc-7bb34f01eb29",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "14/10/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcfbnb/",
+        "id": "4deb78d6-2f4e-4a80-819b-bb7a448542c1",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "14/10/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcgbsb/",
+        "id": "1840e9e1-2f72-44c4-bb93-72b2e854c62e",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "09/12/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjchbqb/",
+        "id": "648cfed3-ac89-409a-b182-f498188708dc",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "09/12/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjcjbmb/",
+        "id": "4cc05ca5-798f-49bd-ba32-7933f58dfa46",
+        "organizationName": "HumanTalks Grenoble"
+      },
+      {
+        "date": "14/10/2025",
+        "title": "Human Talks Grenoble",
+        "link": "https://www.meetup.com/humantalks-grenoble/events/ptstrtyjckbsb/",
+        "id": "781bf40c-e986-4719-9fa7-c2c04f4b7304",
+        "organizationName": "HumanTalks Grenoble"
+      }
+    ]
+  },
+  {
+    "id": "humantalks-nantes",
+    "image": "",
+    "name": "Humantalks Nantes",
+    "description": "HumanTalks Nantes est un événement mensuel convivial et ouvert à tous·tes, dédié aux développeurs de tous horizons. Tous les 2èmes mardis du mois, plusieurs \"talks\" de 10 minutes sont présentés, couvrant des sujets variés liés de près ou de loin au métier de développeur. L'objectif est la découverte et le partage d'expériences, permettant aux participant·e·s d'explorer de nouvelles technologies et concepts.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [
+      {
+        "id": "humantalks",
+        "name": "Human Talks"
+      }
+    ],
+    "events": []
+  },
+  {
+    "id": "nantes-java-user-group",
+    "image": "",
+    "name": "Nantes Java User Group",
+    "description": "Le Nantes Java User Group est une communauté tech conviviale qui aborde tous les sujets liés à la programmation, des données au web, en passant par la sécurité et, bien sûr, Java. Le groupe organise des rencontres mensuelles gratuites, ouvertes à tous, avec des présentations techniques, des démonstrations et des tables rondes. Il vise à rassembler les acteurs et utilisateurs de l'écosystème Java pour échanger des connaissances et expériences.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "agile-nantes-sessions-mensuelles",
+    "image": "",
+    "name": "Agile Nantes Sessions Mensuelles",
+    "description": "Le groupe Agile Nantes - Sessions mensuelles est un moyen de partager la connaissance agile (méthodes, outils, techniques, organisations associées) avec tous ceux qui le souhaitent. Chaque premier mercredi du mois, une session gratuite est proposée, sous forme de conférence, d'atelier ou de retour d'expérience. Un événement est créé trois semaines avant chaque session pour permettre les inscriptions.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": [
+      {
+        "date": "10/09/2025",
+        "title": "Session mensuelle de Novembre - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238085/",
+        "id": "55478b21-3c23-46d5-a024-7cc98d1bf250",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "10/09/2025",
+        "title": "Session mensuelle de Décembre - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238135/",
+        "id": "26232b86-99d3-42fc-b9a5-20b29f99cfea",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "10/09/2025",
+        "title": "Session mensuelle de Février - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238149/",
+        "id": "6ab7d7e1-a9d4-4ef5-98a5-3a2499a34693",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "30/10/2025",
+        "title": "Session mensuelle de Mars - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238168/",
+        "id": "5d65c94f-b8a5-4ade-8947-85e82604fdcc",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "30/09/2025",
+        "title": "Session mensuelle d'Avril - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238188/",
+        "id": "991cc03d-4f32-4882-a91e-69c5f2e0ae5b",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "08/10/2025",
+        "title": "Session mensuelle de mai - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238212/",
+        "id": "d30cb7ef-d75d-40f0-ac7f-2078faef2e89",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "01/10/2025",
+        "title": "Session mensuelle de juin - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238223/",
+        "id": "ff87ad9f-b846-4fe9-a77c-8266755cdde0",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      },
+      {
+        "date": "01/10/2025",
+        "title": "Session mensuelle de juillet - Programme à venir",
+        "link": "https://www.meetup.com/agile-nantes-sessions-mensuelles/events/310238239/",
+        "id": "f7384084-0019-4626-accd-39566e4e1fb8",
+        "organizationName": "Agile Nantes - Sessions mensuelles"
+      }
+    ]
+  },
+  {
+    "id": "blockchain-societe",
+    "image": "",
+    "name": "Blockchain Societe",
+    "description": "Bienvenue au groupe Blockchain et Société, un rassemblement dynamique de passionnés et d'experts explorant le pouvoir transformateur de la technologie blockchain. En tant que groupe éducatif WEB3 à but non lucratif, il offre une plateforme pour approfondir la compréhension des concepts et applications de la blockchain. Que vous soyez un débutant curieux ou un investisseur chevronné, le meetup propose des informations et des ressources précieuses pour votre parcours dans l'écosystème blockchain en constante évolution.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "cocoaheads-nantes",
+    "image": "",
+    "name": "Cocoaheads Nantes",
+    "description": "CocoaHeads Nantes est un groupe de développeurs passionnés par les technologies Apple (iPhone, iPad, Mac...). L'accès est gratuit et ouvert à tous. Vous pouvez les rejoindre sur Slack pour discuter ou proposer un talk.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": [
+      {
+        "date": "22/10/2025",
+        "title": "CocoaHeads d'Automne",
+        "link": "https://www.meetup.com/cocoaheads-nantes/events/311337369/",
+        "id": "3c92461c-52cd-4f33-aefe-03ee0ead5809",
+        "organizationName": "CocoaHeads Nantes"
+      }
+    ]
+  },
+  {
+    "id": "nantes-devops",
+    "image": "",
+    "name": "Nantes Devops",
+    "description": "Nantes DevOps est une communauté locale faisant partie de France DevOps, un groupe proposant des webinars mensuels gratuits et ouverts à tous sur le DevOps. Elle permet aux membres de se connecter avec d'autres passionnés et d'échanger sur des sujets variés, quel que soit leur niveau d'expérience. Vous pouvez rester informé des prochains événements et lives en rejoignant la communauté sur Meetup.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "nantes-machine-learning-meetup",
+    "image": "",
+    "name": "Nantes Machine Learning Meetup",
+    "description": "Nous sommes développeurs et chercheurs intéressés par l'apprentissage automatique, les réseaux de neurones artificiels, les modèles graphiques probabilistes et le traitement automatique du langage naturel. Nous nous réunissons pour discuter de nos projets concrets dans ces domaines. Le meetup se réunit une fois par mois pour une présentation, souvent diffusée sur YouTube.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "nantes-python-meetup",
+    "image": "",
+    "name": "Nantes Python Meetup",
+    "description": "Le Nantes Python Meetup est un rendez-vous pour la communauté de développeurs Python et de ceux qui s'intéressent à cet écosystème. C'est un lieu propice à la présentation de projets et aux échanges conviviaux. Le groupe compte plus de 900 membres et est organisé par l'AFPy et six autres entités.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "gdg-nantes",
+    "image": "",
+    "name": "Gdg Nantes",
+    "description": "Le GDG Nantes est un regroupement de personnes intéressées par les technologies et plateformes de Google (Android, Chrome, Google Apps, GWT, AppEngine, etc.). Il vise à organiser régulièrement des événements tels que des conférences sur les technologies Google, web, cloud et mobile, ainsi que des apéros pour favoriser les rencontres et les échanges. Le GDG Nantes est également l'organisateur du DevFest Nantes, une conférence technique majeure pour les développeurs.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": [
+      {
+        "date": "16/10/2025",
+        "title": "DevFest Nantes 2025",
+        "link": "https://www.meetup.com/gdg-nantes/events/311149878/",
+        "id": "5b8a5a4c-33f6-4685-b6dd-c75e89173847",
+        "organizationName": "GDG Nantes"
+      }
+    ]
+  },
+  {
+    "id": "gdg-cloud-nantes",
+    "image": "",
+    "name": "Gdg Cloud Nantes",
+    "description": "Le GDG Cloud Nantes est un regroupement de personnes intéressées par Google Cloud Platform et les technologies associées comme Firebase, Kubernetes et BigQuery. Ce GDG organise des événements réguliers et travaille en étroite collaboration avec le GDG Nantes historique.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "frenchproduit-nantesbretagne",
+    "image": "",
+    "name": "Frenchproduit Nantesbretagne",
+    "description": "FrenchProduit Nantes est une communauté dédiée aux passionnés de la création de produits numériques (Product Managers, Owners, Designers, Marketers, Ops, Leaders, etc.). Elle vise à connecter ces professionnels, à favoriser la sensibilisation et l'entraide autour des métiers du Produit et de sa culture. Le groupe organise des rencontres sous différents formats, notamment des déjeuners et afterworks informels, ainsi que des afterworks avec présentations et ateliers sur des thèmes spécifiques.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": [
+      {
+        "date": null,
+        "title": "IA : Utiliser la GenAI pour la recherche de connaissance",
+        "link": "https://www.meetup.com/frenchproduit-nantesbretagne/events/311361674/",
+        "id": "fb82d665-b296-4c61-98ce-394b373990e3",
+        "organizationName": "FrenchProduit Nantes"
+      }
+    ]
+  },
+  {
+    "id": "flutter-nantes",
+    "image": "",
+    "name": "Flutter Nantes",
+    "description": "Voici une description de la communauté Flutter Nantes sur Meetup :\n\nCe groupe s'adresse aux personnes intéressées par Flutter et situées dans la région de Nantes. Il organise tous les deux mois une soirée comprenant une longue conférence (40-50 min) et une plus courte (15-30 min). N'hésitez pas à proposer vos présentations sur Conference Hall !",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": [
+      {
+        "date": "23/10/2025",
+        "title": "Meetup Flutter Nantes #19",
+        "link": "https://www.meetup.com/flutter-nantes/events/311374990/",
+        "id": "411200c8-a003-4fdb-a58a-453fba109f97",
+        "organizationName": "Flutter Nantes"
+      }
+    ]
+  },
+  {
+    "id": "mtg-nantes",
+    "image": "",
+    "name": "Mtg Nantes",
+    "description": "MTG Nantes, anciennement MUG .Net Nantes, est une communauté pour les passionnés de développement, notamment de .Net et Visual Studio, à Nantes. Le groupe encourage le partage et l'échange autour de ces technologies. Des sessions de présentation et d'échange sont organisées, suivies de moments de convivialité.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "nantes-rb",
+    "image": "",
+    "name": "Nantes Rb",
+    "description": "Nantes.rb est une communauté pour les passionnés de Ruby, de Rails, d'entrepreneuriat et des nouvelles technologies en général. Le groupe accueille tous les niveaux, du débutant à l'expert, incluant développeurs, freelances et recruteurs. Ils se réunissent chaque mois pour échanger autour des technologies, des meilleures pratiques et de l'aspect business, suivi d'un apéro convivial.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": [
+      {
+        "date": "21/10/2025",
+        "title": "Ruby Talk!",
+        "link": "https://www.meetup.com/nantes-rb/events/311363649/",
+        "id": "f2b1744f-1d33-4fe2-adc6-6895580d7367",
+        "organizationName": "Nantes.rb"
+      }
+    ]
+  },
+  {
+    "id": "nantes-software-crafters-nantes",
+    "image": "",
+    "name": "Nantes Software Crafters Nantes",
+    "description": "Software Crafters Nantes est une communauté qui rassemble les développeu(r|se)s de tous horizons, sans sexisme ni élitisme, quels que soient le langage ou la technologie utilisés. L'objectif est d'améliorer les compétences techniques à travers des Coding Dojos, du pair programming, et l'échange de connaissances. La communauté s'inspire du Manifeste pour l'Artisanat Logiciel, valorisant un logiciel non seulement fonctionnel, mais aussi bien conçu.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "generative-ai-nantes",
+    "image": "",
+    "name": "Generative Ai Nantes",
+    "description": "Generative AI Nantes est un Meetup pour les experts techs, produits, ou toute personne souhaitant utiliser l'IA pour réinventer son industrie. Il se concentre sur les innovations récentes en Intelligence Artificielle et les LLM qui mènent à une adoption massive de l'IA. Le groupe recherche des intervenants partageant leur expertise technique ou des retours d'expérience sur l'utilisation de l'IA, de préférence en production.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "gdg-nantes-android",
+    "image": "",
+    "name": "Gdg Nantes Android",
+    "description": "Le GDG Nantes Android est un rendez-vous mensuel pour les passionné.e.s d'applications Android. Chaque événement débute par les dernières nouveautés de l'écosystème Android, suivi d'une conférence et d'un échange convivial.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "aws-nantes",
+    "image": "",
+    "name": "Aws Nantes",
+    "description": "Le groupe Meetup \"AWS User Group France - Nantes\" est une communauté dédiée à Amazon Web Services et au cloud computing. Il offre une plateforme pour rencontrer, échanger et apprendre comment d'autres acteurs du marché nantais résolvent des problèmes avec les services AWS. C'est un lieu pour le networking et le partage de connaissances.",
+    "link": "",
+    "city": "Nantes",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "alpescraft-coding-dojos",
+    "image": "",
+    "name": "Alpescraft Coding Dojos",
+    "description": "AlpesCraft Coding Dojos est une communauté Meetup qui se réunit pendant la pause déjeuner pour coder ensemble. L'objectif est de partager, apprendre et progresser autour de \"katas\" (exercices de code simples) en \"mob programming\". Tous les niveaux sont les bienvenus, des novices aux experts.",
+    "link": "",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "software-craftsmanship-grenoble",
+    "image": "",
+    "name": "Software Craftsmanship Grenoble",
+    "description": "La communauté AlpesCraft Grenoble Meetup rassemble des développeu(r|se)s désireux de progresser, sans élitisme ni langage obligatoire. En tant qu'aspirants Artisans du Logiciel, ils élèvent le niveau du développement professionnel par la pratique et l'entraide. Ils apprécient les logiciels bien conçus, l'ajout constant de valeur, une communauté de professionnels et des partenariats productifs.",
+    "link": "",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [],
+    "events": [
+      {
+        "date": "16/10/2025",
+        "title": "Kata d'architecture",
+        "link": "https://www.meetup.com/alpescraft-grenoble-meetup/events/311402522/",
+        "id": "386749f3-70ec-4739-92a2-642813f03904",
+        "organizationName": "AlpesCraft Grenoble Meetup"
+      }
+    ]
+  },
+  {
+    "id": "alpesjug",
+    "image": "",
+    "name": "Alpesjug",
+    "description": "AlpesJUG est un groupe public basé à Grenoble, France, qui compte 841 membres. Il se concentre sur les événements et discussions liés à ses centres d'intérêt. Ce groupe permet à ses membres de se rencontrer et de partager des expériences.",
+    "link": "",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  },
+  {
+    "id": "grenoble-web-development-meetup-group",
+    "image": "",
+    "name": "Grenoble Web Development Meetup Group",
+    "description": "Le Grenoble Web Development Meetup Group rassemble mensuellement les développeurs web de la région grenobloise. Le groupe propose des formats variés comme des conférences, des katas, ou des afterworks informels pour échanger sur le développement web. C'est l'occasion d'apprendre, de partager son expérience et de développer son réseau dans un cadre convivial.",
+    "link": "",
+    "city": "Grenoble",
+    "platform": "Meetup",
+    "tags": [],
+    "events": []
+  }
+]
