@@ -11,17 +11,17 @@ interface IEventsListCalendar {
 
 const convertDateToISO = (dateStr: string): string | null => {
   if (!dateStr) return null;
-  
-  if (dateStr.includes('T') || dateStr.match(/^\d{4}-\d{2}-\d{2}/)) {
+
+  if (dateStr.includes("T") || dateStr.match(/^\d{4}-\d{2}-\d{2}/)) {
     return dateStr;
   }
-  
-  const parts = dateStr.split('/');
+
+  const parts = dateStr.split("/");
   if (parts.length === 3) {
     const [day, month, year] = parts;
-    return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+    return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
   }
-  
+
   return null;
 };
 
@@ -73,7 +73,7 @@ export const EventsList = ({ communities }: IEventsListCalendar) => {
           .map((event) => {
             const dateValue = event.dateTime || event.date;
             const isoDate = convertDateToISO(dateValue);
-            
+
             return {
               ...event,
               city: cityData.data.city,

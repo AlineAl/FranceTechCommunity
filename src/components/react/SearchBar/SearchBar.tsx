@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { LuCalendar, LuList } from "react-icons/lu";
 
 interface ISearchBar {
@@ -26,6 +26,10 @@ export const SearchBar = ({
   eventsButtonText = "Voir les événements",
   className = "",
 }: ISearchBar) => {
+  const sortedCities = useMemo(() => {
+    return [...cities].sort((a, b) => a.localeCompare(b, "fr"));
+  }, [cities]);
+
   const handleSelectCity = (e: React.ChangeEvent<HTMLSelectElement>) => {
     onCityChange(e.target.value);
   };
@@ -62,7 +66,7 @@ export const SearchBar = ({
           value={selectedCity}
         >
           <option value="Toutes les villes">Toutes les villes</option>
-          {cities.map((city, index) => (
+          {sortedCities.map((city, index) => (
             <option key={index} value={city}>
               {city}
             </option>

@@ -31,26 +31,28 @@ interface ICardCommunity {
 
 const convertDateToISO = (dateStr: string): string | null => {
   if (!dateStr) return null;
-  
-  if (dateStr.includes('T') || dateStr.match(/^\d{4}-\d{2}-\d{2}/)) {
+
+  if (dateStr.includes("T") || dateStr.match(/^\d{4}-\d{2}-\d{2}/)) {
     return dateStr;
   }
-  
-  const parts = dateStr.split('/');
+
+  const parts = dateStr.split("/");
   if (parts.length === 3) {
     const [day, month, year] = parts;
-    return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+    return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
   }
-  
+
   return null;
 };
 
 export const CommunityCard = ({ community }: ICardCommunity) => {
-  const defaultImage = "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=400&fit=crop";
+  const defaultImage =
+    "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=400&fit=crop";
 
-  const communityImage = community.image && community.image.trim() !== "" 
-    ? community.image 
-    : defaultImage;
+  const communityImage =
+    community.image && community.image.trim() !== ""
+      ? community.image
+      : defaultImage;
 
   const sortedEvents = useMemo(() => {
     return [...community.events]
@@ -67,7 +69,10 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
         };
       })
       .filter((event) => event.isoDate !== null)
-      .sort((a, b) => new Date(a.isoDate!).getTime() - new Date(b.isoDate!).getTime());
+      .sort(
+        (a, b) =>
+          new Date(a.isoDate!).getTime() - new Date(b.isoDate!).getTime(),
+      );
   }, [community.events]);
 
   const futureEvents = useMemo(() => {
@@ -84,8 +89,6 @@ export const CommunityCard = ({ community }: ICardCommunity) => {
       day: "numeric",
       month: "long",
       year: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
     }).format(new Date(dateString));
   };
 

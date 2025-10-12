@@ -49,9 +49,7 @@ export const Community = ({ community }: ICommunity) => {
           </ul>
         )}
 
-        <p className="text-sm leading-5.5 mb-3">
-          {community.description}
-        </p>
+        <p className="text-sm leading-5.5 mb-3">{community.description}</p>
 
         <button
           onClick={() => window.open(community.link, "_blank")}
@@ -61,5 +59,5 @@ export const Community = ({ community }: ICommunity) => {
         </button>
       </section>
     </>
-  )
+  );
 };
