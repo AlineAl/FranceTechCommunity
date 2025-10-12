@@ -18,12 +18,8 @@ const eventSchema = z.object({
 const organizerSchema = z.object({
   id: z.string(),
   name: z.string(),
-  role: z.string(),
   bio: z.string(),
   image: z.string().url(),
-  linkedin: z.string().url().optional(),
-  twitter: z.string().optional(),
-  github: z.string().optional(),
 });
 
 const communitySchema = z.object({
@@ -34,7 +30,7 @@ const communitySchema = z.object({
   link: z.string().url(),
   tags: z.array(tagSchema),
   events: z.array(eventSchema),
-  organizers: z.array(organizerSchema),
+  organizers: z.array(organizerSchema).optional().default([]),
 });
 
 const citySchema = z.object({

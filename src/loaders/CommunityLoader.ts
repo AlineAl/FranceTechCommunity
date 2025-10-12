@@ -2,6 +2,13 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import type { Loader } from "astro/loaders";
 
+interface RawOrganizer {
+  id: string;
+  name: string;
+  bio: string;
+  image: string;
+}
+
 interface RawCommunity {
   id: string;
   image: string;
@@ -14,6 +21,7 @@ interface RawCommunity {
     id: string;
     name: string;
   }>;
+  organizers?: RawOrganizer[];
   events: Array<{
     date: string | null;
     title: string;
@@ -26,6 +34,13 @@ interface RawCommunity {
 interface TransformedTag {
   id: string;
   name: string;
+}
+
+interface TransformedOrganizer {
+  id: string;
+  name: string;
+  bio: string;
+  image: string;
 }
 
 interface TransformedEvent {
@@ -44,6 +59,7 @@ interface TransformedCommunity {
   description: string;
   link: string;
   tags: TransformedTag[];
+  organizers: TransformedOrganizer[];
   events: TransformedEvent[];
 }
 
@@ -86,6 +102,16 @@ export function communityLoader(): Loader {
               .map((tag) => ({
                 id: tag.id,
                 name: tag.name,
+              })),
+            organizers: (community.organizers || [])
+              .filter(
+                (organizer) => organizer && organizer.id && organizer.name,
+              )
+              .map((organizer) => ({
+                id: organizer.id,
+                name: organizer.name,
+                bio: organizer.bio || "",
+                image: organizer.image || "",
               })),
             events: (community.events || []).map((event) => ({
               id: event.id,

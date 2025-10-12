@@ -13,6 +13,7 @@
         "name": "Human Talks"
       }
     ],
+    "organizers": [],
     "events": []
   },
   {
@@ -24,6 +25,7 @@
     "city": "Bordeaux",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -35,6 +37,7 @@
     "city": "Bordeaux",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": [
       {
         "date": "21/03/2025",
@@ -59,6 +62,7 @@
         "name": "Human Talks"
       }
     ],
+    "organizers": [],
     "events": []
   },
   {
@@ -70,6 +74,7 @@
     "city": "Bordeaux",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -81,6 +86,7 @@
     "city": "Brest",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": [
       {
         "date": null,
@@ -105,6 +111,7 @@
         "name": "Human Talks"
       }
     ],
+    "organizers": [],
     "events": [
       {
         "date": "09/09/2025",
@@ -192,6 +199,7 @@
         "name": "Human Talks"
       }
     ],
+    "organizers": [],
     "events": []
   },
   {
@@ -203,6 +211,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -213,7 +222,32 @@
     "link": "",
     "city": "Nantes",
     "platform": "Meetup",
-    "tags": [],
+    "tags": [
+      {
+        "id": "agile-nantes-sessions-mensuelles",
+        "name": "Agile Nantes Sessions Mensuelles"
+      }
+    ],
+    "organizers": [
+      {
+        "id": "damien-henry-webdev",
+        "name": "Damien Henry",
+        "bio": "Fullstack web developer spécialisé en React et Node.js. Fondateur du Grenoble Web Dev meetup pour partager les dernières tendances web.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "laurent-deruelle",
+        "name": "Laurent Deruelle",
+        "bio": "Coach Agile et facilitateur, passionné par l'amélioration continue et la collaboration en équipe.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "jean-baptiste-dupont",
+        "name": "Jean-Baptiste Dupont",
+        "bio": "Scrum Master certifié, expert en gestion de projets agiles et en transformation digitale.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop"
+      }
+    ],
     "events": [
       {
         "date": "10/09/2025",
@@ -282,6 +316,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -293,6 +328,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": [
       {
         "date": "22/10/2025",
@@ -312,6 +348,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -323,6 +360,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -334,6 +372,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -345,6 +384,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": [
       {
         "date": "16/10/2025",
@@ -364,6 +404,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -375,6 +416,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": [
       {
         "date": null,
@@ -394,6 +436,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": [
       {
         "date": "23/10/2025",
@@ -413,6 +456,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -424,6 +468,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": [
       {
         "date": "21/10/2025",
@@ -443,6 +488,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -454,6 +500,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -465,6 +512,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -476,6 +524,7 @@
     "city": "Nantes",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -487,6 +536,7 @@
     "city": "Grenoble",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -498,6 +548,7 @@
     "city": "Grenoble",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": [
       {
         "date": "16/10/2025",
@@ -517,6 +568,7 @@
     "city": "Grenoble",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   },
   {
@@ -528,6 +580,7 @@
     "city": "Grenoble",
     "platform": "Meetup",
     "tags": [],
+    "organizers": [],
     "events": []
   }
 ]
